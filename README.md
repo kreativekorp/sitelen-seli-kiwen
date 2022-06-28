@@ -44,3 +44,5 @@ Some ZWJ sequences of three or more logographs<br>
 or of a single logograph and a non-logograph character<br>
 will produce characters that are not compound words<br>
 (at least not by the usual rules of sitelen pona).
+
+See [the HTML version of this page](https://htmlpreview.github.io/?https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/sitelenselikiwen.html) to actually see all the glyphs.
