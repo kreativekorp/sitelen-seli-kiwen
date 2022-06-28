@@ -1,0 +1,27 @@
+feature rlig {
+
+  lookup CombiningSequences {
+
+    # Latin Letters with Diacritics
+    sub G uni0308 by uFF120;
+    sub g uni0308 by uFF121;
+    sub K tildecomb by uniF700;
+    sub k tildecomb by uniF701;
+    sub L tildecomb by uFF122;
+    sub l tildecomb by uFF123;
+    sub M tildecomb by uniF704;
+    sub m tildecomb by uniF705;
+    sub N uni0308 by uFF126;
+    sub n uni0308 by uFF127;
+    sub P uni0302 by uFF130;
+    sub p uni0302 by uFF131;
+    sub Q uni0302 by uFF138;
+    sub q uni0302 by uFF139;
+    sub R tildecomb by uFF13A;
+    sub r tildecomb by uFF13B;
+    sub X uni0304 by uFF124;
+    sub x uni0304 by uFF125;
+
+  } CombiningSequences;
+
+} rlig;
