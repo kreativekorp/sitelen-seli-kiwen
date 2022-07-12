@@ -12,7 +12,7 @@ The font comes in two versions:<br>
 **sitelen seli kiwen asuki** automatically converts sitelen Lasina (Latin letters) into sitelen pona.<br>
 **sitelen seli kiwen juniko** does not, requiring the use of [the UCSUR assignment for sitelen pona](http://www.kreativekorp.com/ucsur/charts/sitelen.html).
 
-See [the HTML version of this page](https://htmlpreview.github.io/?https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/sitelenselikiwen.html) to actually see the font!
+See [the HTML version of this page](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) to actually see the font.
 
 ### Compounds
 
@@ -45,4 +45,4 @@ or of a single logograph and a non-logograph character<br>
 will produce characters that are not compound words<br>
 (at least not by the usual rules of sitelen pona).
 
-See [the HTML version of this page](https://htmlpreview.github.io/?https://github.com/kreativekorp/sitelen-seli-kiwen/blob/main/sitelenselikiwen.html) to actually see all the glyphs.
+See [the HTML version of this page](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) to actually see all the glyphs.
