@@ -22,6 +22,7 @@ uFFB03	ni-\arrowdown	# ni + down arrow = ni pointing down
 uFFB32	meli-pi-olin-meli	# meli + pi + olin + meli = melome
 uFFB36	mije-pi-olin-mije	# mije + pi + olin + mije = mijomi
 uFFB3B	o-moku-e-kala-pona	# o + moku + e + kala + pona = omekapo
+uFFD84	o-moku-e-kala-ike	# o + moku + e + kala + ike = omekalike
 uFFB62	o-moli-e-mi	# o + moli + e + mi = omem = omen
 uFFB8D	\s-lape	# s + lape = slape
 
@@ -31,7 +32,8 @@ uFFB93	jan-jan-jan	# jan + jan + jan = jan Jan
 
 uFFB95	kulupu-kili-ma	# kulupu + kili + ma = kulupu Kilima
 uFFB96	kulupu-\ampersand	# kulupu + ampersand = The & System
-uFFB97	kulupu-\u1F331	# kulupu + seedling = kulupu kasi
+uFFB97	kulupu-\u1F344	# kulupu + mushroom = kulupu kasi, mushroom
+uFFDE1	kulupu-\u1F331	# kulupu + seedling = kulupu kasi, seedling
 
 uFFB99	kijetesantakalu-\u1F607	# kijetesantakalu + smiling face with halo = jan Wija / Wyub
 
@@ -44,6 +46,8 @@ uFFBEF	\germandbls-kijetesantakalu	# sharp s + kijetesantakalu
 uFFBF0	ma-pona-pi-toki-pona	# ma pona pi toki pona
 uFFBF1	ma-pi-nasin-sitelen	# ma pi nasin sitelen
 uFFBF9	sitelen-seli-kiwen	# sitelen seli kiwen
+
+uFFDE0	ijo-tan-anpa-nanpa	# ijo + tan + anpa + nanpa = jan Itan
 
 # Compounds with randomized jaki.
 # It is easier to add these as special cases here

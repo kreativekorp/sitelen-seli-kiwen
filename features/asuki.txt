@@ -118,6 +118,7 @@ uF195A	sewi1	# sewi, Arabic
 uFFAA4	sewi2	# sewi, secularized
 uF195B	sijelo	# sijelo
 uF195C	sike	# sike
+uF195C	suke	# suke, typo of sike
 uF195D	sin	# sin
 uF195E	sina	# sina, default
 uFFB06	sina1	# sina, straight
@@ -137,6 +138,7 @@ uF196A	telo	# telo
 uF196B	tenpo	# tenpo
 uF196C	toki	# toki
 uF196D	tomo	# tomo
+uF196D	toma	# toma, typo of tomo
 uF196E	tu	# tu
 uF196F	unpa	# unpa
 uF1970	uta	# uta, default
@@ -343,13 +345,22 @@ uFFB7A	lo	# lo, synonym of lu
 uFFB7C	me	# me
 uFFB7D	nele	# nele
 uFFB7F	nuwa	# nuwa
-uFFB80	poni	# poni
+uFFB80	poni	# poni, default
+uFFB80	poni1	# poni, profile
+uFFD85	poni2	# poni, horseshoe
 uFFB81	sipi	# sipi
 uFFB82	wi	# wi, default
 uFFB0E	wi1	# wi, straight
 uFFB0F	wi2	# wi, curved
 uFFB8D	slape	# slape
 uFFB8E	jans	# jans
+
+# single words - nimi Linku 2022
+uFFD80	alente	# alente
+uFFD81	jule	# jule
+uFFD82	nalanja	# nalanja
+uFFD83	ojuta	# ojuta
+uFFD84	omekalike	# omekalike
 
 # single words - linja sike
 uFFB84	oki	# oki
@@ -373,11 +384,14 @@ uFFBAE	tona	# tona
 uFFB90	a+suli	# jan Asuli
 uFFB91	Asuto	# jan waso Asuto
 uFFB92	Eko	# ilo Eko
+uFFDE0	ijo+tan+anpa+nanpa	# jan Itan
 uFFB93	Jan	# jan Jan
 uFFB94	Kapilu	# jan Kapilu
 uFFB95	kili+ma	# kulupu Kilima
 uFFB96	kulupu+en	# The & System
-uFFB97	kulupu+kasi	# kulupu kasi
+uFFDE1	kulupu+kasi	# kulupu kasi, default
+uFFB97	kulupu+kasi1	# kulupu kasi, mushroom
+uFFDE1	kulupu+kasi2	# kulupu kasi, seedling
 uFFABE	lipamanka	# lipamanka
 uFFABE	Lipamanka	# lipamanka
 uFFABF	melinjakulekule	# jan Lepeka
@@ -664,6 +678,7 @@ uFF943	ijo*nena	# ijo nena, scaled
 uFF944	ijo-ni	# ijo ni, scaled
 uFF944	ijo+ni	# ijo ni, scaled
 uFF944	ijo*ni	# ijo ni, scaled
+uFFD00	ijo^ni	# ijo ni, stacked
 uFF945	ijo-nimi	# ijo nimi, scaled
 uFF945	ijo+nimi	# ijo nimi, scaled
 uFF945	ijo*nimi	# ijo nimi, scaled
@@ -955,6 +970,9 @@ uFF995	jan*mute	# jan mute, scaled
 uFF996	jan-nasa	# jan nasa, scaled
 uFF996	jan+nasa	# jan nasa, scaled
 uFF996	jan*nasa	# jan nasa, scaled
+uFFD01	jan-ni	# jan ni, stacked
+uFFD01	jan+ni	# jan ni, stacked
+uFFD01	jan^ni	# jan ni, stacked
 uFF997	jan-olin	# jan olin, default, scaled
 uFF997	jan+olin	# jan olin, default, scaled
 uFF997	jan*olin	# jan olin, default, scaled
@@ -1304,6 +1322,9 @@ uFF9EC	ma^ali	# ma ali, synonym of ma ale, stacked
 uFF9ED	ma-kasi	# ma kasi, stacked
 uFF9ED	ma+kasi	# ma kasi, stacked
 uFF9ED	ma^kasi	# ma kasi, stacked
+uFFD02	ma-ni	# ma ni, stacked
+uFFD02	ma+ni	# ma ni, stacked
+uFFD02	ma^ni	# ma ni, stacked
 uFF9EE	ma-tomo	# ma tomo, stacked
 uFF9EE	ma+tomo	# ma tomo, stacked
 uFF9EE	ma^tomo	# ma tomo, stacked
@@ -1487,6 +1508,7 @@ uFFA02	nena*meli1	# nena meli, head with hair, scaled
 uFFBE4	nena-meli2	# nena meli, female sign, scaled
 uFFBE4	nena+meli2	# nena meli, female sign, scaled
 uFFBE4	nena*meli2	# nena meli, female sign, scaled
+uFFBFA	nimisin	# nimi sin, default
 uFFBFA	nimi-sin	# nimi sin, default
 uFFBFA	nimi+sin	# nimi sin, default
 uFFBFA	nimi^sin	# nimi sin, stacked
@@ -1626,6 +1648,9 @@ uFFA2D	telo*lete	# telo lete, scaled
 uFFA2E	telo-lili	# telo lili, scaled
 uFFA2E	telo+lili	# telo lili, scaled
 uFFA2E	telo*lili	# telo lili, scaled
+uFFD03	tenpo-ni	# tenpo ni, stacked
+uFFD03	tenpo+ni	# tenpo ni, stacked
+uFFD03	tenpo^ni	# tenpo ni, stacked
 uFFA2F	toki-ala	# toki ala, scaled
 uFFA2F	toki+ala	# toki ala, scaled
 uFFA2F	toki*ala	# toki ala, scaled
@@ -1659,6 +1684,9 @@ uFFA38	tomo*monsuta	# tomo monsuta, scaled
 uFFA39	tomo-nasin	# tomo nasin, scaled
 uFFA39	tomo+nasin	# tomo nasin, scaled
 uFFA39	tomo*nasin	# tomo nasin, scaled
+uFFD04	tomo-ni	# tomo ni, stacked
+uFFD04	tomo+ni	# tomo ni, stacked
+uFFD04	tomo^ni	# tomo ni, stacked
 uFFA3A	tomo-pali	# tomo pali, scaled
 uFFA3A	tomo+pali	# tomo pali, scaled
 uFFA3A	tomo*pali	# tomo pali, scaled

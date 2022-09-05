@@ -9,5 +9,6 @@ F1900..F19FF; Sitelen Pona
 FF100..FF1FF; Kreative Software Private Use-FF1
 FF900..FFABF; Sitelen Pona Presentation Forms-A
 FFAC0..FFBFF; Sitelen Pona Presentation Forms-B
+FFD00..FFDFF; Sitelen Pona Presentation Forms-C
 
 # EOF

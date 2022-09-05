@@ -6,6 +6,7 @@ feature liga {
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFBCC;  # luka luka luka wan tu
   sub uF1930 uni200D uF1954 uni200D uF194D uni200D uF196C uni200D uF1954 by uFFBF0;  # ma pona pi toki pona
 
+  sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF190D by uFFD84;  # o + moku + e + kala + ike = omekalike
   sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF1954 by uFFB3B;  # o + moku + e + kala + pona = omekapo
 
   # Sequences of length 4, using zero width joiners
@@ -17,6 +18,7 @@ feature liga {
   sub uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFA4D;  # luka luka wan tu
   sub uF1930 uni200D uF194D uni200D uF193F uni200D uF1960 by uFFBF1;  # ma pi nasin sitelen
 
+  sub uF190C uni200D uF1967 uni200D uF1905 uni200D uF193D by uFFDE0;  # ijo + tan + anpa + nanpa = jan Itan
   sub uF1915 uni200D uF193B uni200D uF1967 uni200D uF1970 by uFFAD0;  # kalama + musi + tan + uta = kmtu = kuntu
   sub uF1916 uni200D uF194D uni200D uF1924 uni200D uF1902 by uFFADA;  # kama + pi + lawa + ala = kamalawala
   sub uF1933 uni200D uF194D uni200D uF1945 uni200D uF1933 by uFFB32;  # meli + pi + olin + meli = melome
@@ -214,6 +216,7 @@ feature liga {
   sub uF1911 uni200D uF1928 by uFF993;  # jan lili, scaled
   sub uF1911 uni200D uF193C by uFF995;  # jan mute, scaled
   sub uF1911 uni200D uF193E by uFF996;  # jan nasa, scaled
+  sub uF1911 uni200D uF1941 by uFFD01;  # jan ni, stacked
   sub uF1911 uni200D uF1945 by uFF997;  # jan olin, default, scaled
   sub uF1911 uni200D uF1948 by uFF998;  # jan pakala, scaled
   sub uF1911 uni200D uF1949 by uFF999;  # jan pali, scaled
@@ -340,6 +343,7 @@ feature liga {
   sub uF192F uni200D uFFAA1 by uFFBCF;  # lupa meli, female sign, scaled
   sub uF1930 uni200D uF1904 by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub uF1930 uni200D uF1917 by uFF9ED;  # ma kasi, stacked
+  sub uF1930 uni200D uF1941 by uFFD02;  # ma ni, stacked
   sub uF1930 uni200D uF196D by uFF9EE;  # ma tomo, stacked
   sub uF1931 uni200D uF1931 by uFF9EF;  # mama mama, scaled
   sub uF1931 uni200D uF1933 by uFF9F0;  # mama meli, default, scaled
@@ -416,6 +420,7 @@ feature liga {
   sub uF1965 uni200D uF1949 by uFFA2C;  # supa pali, stacked
   sub uF196A uni200D uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uni200D uF1928 by uFFA2E;  # telo lili, scaled
+  sub uF196B uni200D uF1941 by uFFD03;  # tenpo ni, stacked
   sub uF196C uni200D uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uni200D uF190D by uFFA30;  # toki ike, scaled
   sub uF196C uni200D uF1954 by uFFA31;  # toki pona, scaled
@@ -426,6 +431,7 @@ feature liga {
   sub uF196D uni200D uF1932 by uFFA36;  # tomo mani, scaled
   sub uF196D uni200D uF1936 by uFFA37;  # tomo moku, scaled
   sub uF196D uni200D uF193F by uFFA39;  # tomo nasin, scaled
+  sub uF196D uni200D uF1941 by uFFD04;  # tomo ni, stacked
   sub uF196D uni200D uF1949 by uFFA3A;  # tomo pali, scaled
   sub uF196D uni200D uF1961 by uFFA3B;  # tomo sona, scaled
   sub uF196D uni200D uF1969 by uFFA3C;  # tomo tawa, scaled
@@ -466,7 +472,8 @@ feature liga {
   sub germandbls uni200D uF1980 by uFFBEF;  # sharp s + kijetesantakalu
   sub s uni200D uF1922 by uFFB8D;  # s + lape = slape
   sub uF191F uni200D ampersand by uFFB96;  # kulupu + ampersand = The & System
-  sub uF191F uni200D u1F331 by uFFB97;  # kulupu + seedling = kulupu kasi
+  sub uF191F uni200D u1F331 by uFFDE1;  # kulupu + seedling = kulupu kasi, seedling
+  sub uF191F uni200D u1F344 by uFFB97;  # kulupu + mushroom = kulupu kasi, mushroom
   sub uF1933 uni200D u1F431 by uFFABF;  # meli + cat face = melinjakulekule
   sub uF1939 uni200D u1F5E7 by uFFAB8;  # mu + three rays right = emitters
   sub uF1941 uni200D arrowdown by uFFB03;  # ni + down arrow = ni pointing down
@@ -482,6 +489,7 @@ feature liga {
 
   # Sequences of length 2, using stacking or scaling joiners
   sub uF1905 uF1995 uF1924 by uFF900;  # anpa lawa, stacked
+  sub uF190C uF1995 uF1941 by uFFD00;  # ijo ni, stacked
   sub uF190C uF1996 uF1901 by uFF901;  # ijo akesi, scaled
   sub uF190C uF1996 uF1902 by uFF902;  # ijo ala, scaled
   sub uF190C uF1996 uF1903 by uFF903;  # ijo alasa, scaled
@@ -643,6 +651,7 @@ feature liga {
   sub uF190E uF1995 uF196C by uFF988;  # ilo toki, stacked
   sub uF190E uF1995 uF197A by uFF985;  # ilo oko, stacked
   sub uF190E uF1995 uF197B by uFF97F;  # ilo kipisi, stacked
+  sub uF1911 uF1995 uF1941 by uFFD01;  # jan ni, stacked
   sub uF1911 uF1996 uF1902 by uFF989;  # jan ala, scaled
   sub uF1911 uF1996 uF1903 by uFF98A;  # jan alasa, scaled
   sub uF1911 uF1996 uF1904 by uFF98B;  # jan ale, synonym of jan ali, scaled
@@ -785,6 +794,7 @@ feature liga {
   sub uF192F uF1996 uFFAA1 by uFFBCF;  # lupa meli, female sign, scaled
   sub uF1930 uF1995 uF1904 by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub uF1930 uF1995 uF1917 by uFF9ED;  # ma kasi, stacked
+  sub uF1930 uF1995 uF1941 by uFFD02;  # ma ni, stacked
   sub uF1930 uF1995 uF196D by uFF9EE;  # ma tomo, stacked
   sub uF1931 uF1996 uF1931 by uFF9EF;  # mama mama, scaled
   sub uF1931 uF1996 uF1933 by uFF9F0;  # mama meli, default, scaled
@@ -862,12 +872,14 @@ feature liga {
   sub uF1965 uF1995 uF1949 by uFFA2C;  # supa pali, stacked
   sub uF196A uF1996 uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uF1996 uF1928 by uFFA2E;  # telo lili, scaled
+  sub uF196B uF1995 uF1941 by uFFD03;  # tenpo ni, stacked
   sub uF196C uF1996 uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uF1996 uF190D by uFFA30;  # toki ike, scaled
   sub uF196C uF1996 uF1954 by uFFA31;  # toki pona, scaled
   sub uF196C uF1996 uF195D by uFFA32;  # toki sin, scaled
   sub uF196C uF1996 uF1961 by uFFA33;  # toki sona, scaled
   sub uF196C uF1996 uF1971 by uFFA34;  # toki utala, scaled
+  sub uF196D uF1995 uF1941 by uFFD04;  # tomo ni, stacked
   sub uF196D uF1996 uF1922 by uFFA35;  # tomo lape, scaled
   sub uF196D uF1996 uF1932 by uFFA36;  # tomo mani, scaled
   sub uF196D uF1996 uF1936 by uFFA37;  # tomo moku, scaled
