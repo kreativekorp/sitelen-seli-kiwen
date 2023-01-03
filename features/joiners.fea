@@ -342,8 +342,10 @@ feature liga {
   sub uF192F uni200D uF196D by uFF9EB;  # lupa tomo, scaled
   sub uF192F uni200D uFFAA1 by uFFBCF;  # lupa meli, female sign, scaled
   sub uF1930 uni200D uF1904 by uFF9EC;  # ma ale, synonym of ma ali, stacked
+  sub uF1930 uni200D uF190D by uFFD05;  # ma ike, stacked
   sub uF1930 uni200D uF1917 by uFF9ED;  # ma kasi, stacked
   sub uF1930 uni200D uF1941 by uFFD02;  # ma ni, stacked
+  sub uF1930 uni200D uF1954 by uFFD06;  # ma pona, stacked
   sub uF1930 uni200D uF196D by uFF9EE;  # ma tomo, stacked
   sub uF1931 uni200D uF1931 by uFF9EF;  # mama mama, scaled
   sub uF1931 uni200D uF1933 by uFF9F0;  # mama meli, default, scaled
@@ -793,8 +795,10 @@ feature liga {
   sub uF192F uF1996 uF196D by uFF9EB;  # lupa tomo, scaled
   sub uF192F uF1996 uFFAA1 by uFFBCF;  # lupa meli, female sign, scaled
   sub uF1930 uF1995 uF1904 by uFF9EC;  # ma ale, synonym of ma ali, stacked
+  sub uF1930 uF1995 uF190D by uFFD05;  # ma ike, stacked
   sub uF1930 uF1995 uF1917 by uFF9ED;  # ma kasi, stacked
   sub uF1930 uF1995 uF1941 by uFFD02;  # ma ni, stacked
+  sub uF1930 uF1995 uF1954 by uFFD06;  # ma pona, stacked
   sub uF1930 uF1995 uF196D by uFF9EE;  # ma tomo, stacked
   sub uF1931 uF1996 uF1931 by uFF9EF;  # mama mama, scaled
   sub uF1931 uF1996 uF1933 by uFF9F0;  # mama meli, default, scaled

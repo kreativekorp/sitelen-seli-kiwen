@@ -2029,6 +2029,8 @@ feature liga {
   sub w a n hyphen l u k a space by uFFA43;  # wan luka, horizontal
   sub w a s o w e l i space by uFFAF7;  # wasoweli
   sub w a w a j e t e space by uFFB71;  # wawajete
+  sub w o w u j i t i space by uFFD86;  # wowujiti/wuwojiti
+  sub w u w o j i t i space by uFFD86;  # wuwojiti/wowujiti
   sub y u p e k o s i space by uFFAFC;  # yupekosi
 
   # Sequences of length 8
@@ -2422,6 +2424,8 @@ feature liga {
   sub w a n hyphen l u k a by uFFA43;  # wan luka, horizontal
   sub w a s o w e l i by uFFAF7;  # wasoweli
   sub w a w a j e t e by uFFB71;  # wawajete
+  sub w o w u j i t i by uFFD86;  # wowujiti/wuwojiti
+  sub w u w o j i t i by uFFD86;  # wuwojiti/wowujiti
   sub y u p e k o s i by uFFAFC;  # yupekosi
 
   # Sequences of length 8 (7 + space)
@@ -2566,10 +2570,13 @@ feature liga {
   sub l u k a hyphen t u space by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u space by uFFBCD;  # luka tu, stacked
   sub m a plus k a s i space by uFF9ED;  # ma kasi, stacked
+  sub m a plus p o n a space by uFFD06;  # ma pona, stacked
   sub m a plus t o m o space by uFF9EE;  # ma tomo, stacked
   sub m a hyphen k a s i space by uFF9ED;  # ma kasi, stacked
+  sub m a hyphen p o n a space by uFFD06;  # ma pona, stacked
   sub m a hyphen t o m o space by uFF9EE;  # ma tomo, stacked
   sub m a asciicircum k a s i space by uFF9ED;  # ma kasi, stacked
+  sub m a asciicircum p o n a space by uFFD06;  # ma pona, stacked
   sub m a asciicircum t o m o space by uFF9EE;  # ma tomo, stacked
   sub m a j u n a one space by uFFAB2;  # majuna, three rays
   sub m a j u n a two space by uFFAB3;  # majuna, five rays
@@ -2733,10 +2740,13 @@ feature liga {
   sub l u k a hyphen t u by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u by uFFBCD;  # luka tu, stacked
   sub m a plus k a s i by uFF9ED;  # ma kasi, stacked
+  sub m a plus p o n a by uFFD06;  # ma pona, stacked
   sub m a plus t o m o by uFF9EE;  # ma tomo, stacked
   sub m a hyphen k a s i by uFF9ED;  # ma kasi, stacked
+  sub m a hyphen p o n a by uFFD06;  # ma pona, stacked
   sub m a hyphen t o m o by uFF9EE;  # ma tomo, stacked
   sub m a asciicircum k a s i by uFF9ED;  # ma kasi, stacked
+  sub m a asciicircum p o n a by uFFD06;  # ma pona, stacked
   sub m a asciicircum t o m o by uFF9EE;  # ma tomo, stacked
   sub m a j u n a one by uFFAB2;  # majuna, three rays
   sub m a j u n a two by uFFAB3;  # majuna, five rays
@@ -2813,10 +2823,13 @@ feature liga {
   sub l i k u j o space by uFFAE2;  # likujo
   sub m a plus a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a plus i k e space by uFFD05;  # ma ike, stacked
   sub m a hyphen a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a hyphen a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a hyphen i k e space by uFFD05;  # ma ike, stacked
   sub m a asciicircum a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a asciicircum a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a asciicircum i k e space by uFFD05;  # ma ike, stacked
   sub m a j u n a space by uF19A2;  # majuna, default
   sub m a m a s i space by uFFBA9;  # mamasi
   sub m e l o m e space by uFFB32;  # melome
@@ -2895,10 +2908,13 @@ feature liga {
   sub l i k u j o by uFFAE2;  # likujo
   sub m a plus a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a plus i k e by uFFD05;  # ma ike, stacked
   sub m a hyphen a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a hyphen a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a hyphen i k e by uFFD05;  # ma ike, stacked
   sub m a asciicircum a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a asciicircum a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
+  sub m a asciicircum i k e by uFFD05;  # ma ike, stacked
   sub m a j u n a by uF19A2;  # majuna, default
   sub m a m a s i by uFFBA9;  # mamasi
   sub m e l o m e by uFFB32;  # melome
