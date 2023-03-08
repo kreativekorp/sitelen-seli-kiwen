@@ -124,7 +124,8 @@ sina1	uFFB06.stacked
 sina2	uFFB07.stacked
 sinpin	uF195F.stacked
 sitelen	uF1960.stacked
-soko	uF1981.stacked
+soko1	uF1981.stacked
+soko2	uFFD66.stacked
 sona	uF1961.stacked
 soweli	uF1962.stacked
 suli	uF1963.stacked

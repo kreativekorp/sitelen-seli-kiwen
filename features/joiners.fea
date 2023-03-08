@@ -190,6 +190,7 @@ feature liga {
   sub uF190C uni200D uFFB07 by uFF961;  # ijo sina, curved, scaled
   sub uF190C uni200D uFFB08 by uFF949;  # ijo ona, straight, scaled
   sub uF190C uni200D uFFB09 by uFF949;  # ijo ona, curved, scaled
+  sub uF190C uni200D uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190D uni200D uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uni200D uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uni200D uF192E by uFF97E;  # ike lukin, stacked
@@ -376,7 +377,7 @@ feature liga {
   sub uF1940 uni200D uF1931 by uFFA01;  # nena mama, scaled
   sub uF1940 uni200D uF1933 by uFFA02;  # nena meli, default, scaled
   sub uF1940 uni200D uFFAA1 by uFFBE4;  # nena meli, female sign, scaled
-  sub uF1942 uni200D uF195D by uFFBFA;  # nimi sin, default
+  sub uF1942 uni200D uF195D by uFFD96;  # nimi sin, default
   sub uF194A uni200D uF1928 by uFFA03;  # palisa lili, scaled
   sub uF194E uni200D uF1902 by uFFA04;  # pilin ala, scaled
   sub uF194E uni200D uF190D by uFFA05;  # pilin ike, scaled
@@ -473,6 +474,9 @@ feature liga {
 
   sub germandbls uni200D uF1980 by uFFBEF;  # sharp s + kijetesantakalu
   sub s uni200D uF1922 by uFFB8D;  # s + lape = slape
+  sub uF1900 uni200D exclamdbl by uFFD60;  # a + double exclamation mark
+  sub uF1900 uni200D uF1957 by uFFD61;  # a + seli (triple exclamation mark)
+  sub uF1900 uni200D uni203D by uFFD62;  # a + interrobang
   sub uF191F uni200D ampersand by uFFB96;  # kulupu + ampersand = The & System
   sub uF191F uni200D u1F331 by uFFDE1;  # kulupu + seedling = kulupu kasi, seedling
   sub uF191F uni200D u1F344 by uFFB97;  # kulupu + mushroom = kulupu kasi, mushroom
@@ -640,6 +644,7 @@ feature liga {
   sub uF190C uF1996 uFFB07 by uFF961;  # ijo sina, curved, scaled
   sub uF190C uF1996 uFFB08 by uFF949;  # ijo ona, straight, scaled
   sub uF190C uF1996 uFFB09 by uFF949;  # ijo ona, curved, scaled
+  sub uF190C uF1996 uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190D uF1995 uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uF1995 uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uF1995 uF192E by uFF97E;  # ike lukin, stacked
