@@ -191,6 +191,7 @@ feature liga {
   sub uF190C uni200D uFFB08 by uFF949;  # ijo ona, straight, scaled
   sub uF190C uni200D uFFB09 by uFF949;  # ijo ona, curved, scaled
   sub uF190C uni200D uFFD63 by uFF901;  # ijo akesi, scaled
+  sub uF190C uni200D uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190D uni200D uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uni200D uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uni200D uF192E by uFF97E;  # ike lukin, stacked
@@ -204,6 +205,7 @@ feature liga {
   sub uF190E uni200D uF196C by uFF988;  # ilo toki, stacked
   sub uF190E uni200D uF197A by uFF985;  # ilo oko, stacked
   sub uF190E uni200D uF197B by uFF97F;  # ilo kipisi, stacked
+  sub uF190E uni200D uFFD68 by uFF982;  # ilo moli, stacked
   sub uF1911 uni200D uF1902 by uFF989;  # jan ala, scaled
   sub uF1911 uni200D uF1903 by uFF98A;  # jan alasa, scaled
   sub uF1911 uni200D uF1904 by uFF98B;  # jan ale, synonym of jan ali, scaled
@@ -645,6 +647,7 @@ feature liga {
   sub uF190C uF1996 uFFB08 by uFF949;  # ijo ona, straight, scaled
   sub uF190C uF1996 uFFB09 by uFF949;  # ijo ona, curved, scaled
   sub uF190C uF1996 uFFD63 by uFF901;  # ijo akesi, scaled
+  sub uF190C uF1996 uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190D uF1995 uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uF1995 uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uF1995 uF192E by uFF97E;  # ike lukin, stacked
@@ -658,6 +661,7 @@ feature liga {
   sub uF190E uF1995 uF196C by uFF988;  # ilo toki, stacked
   sub uF190E uF1995 uF197A by uFF985;  # ilo oko, stacked
   sub uF190E uF1995 uF197B by uFF97F;  # ilo kipisi, stacked
+  sub uF190E uF1995 uFFD68 by uFF982;  # ilo moli, stacked
   sub uF1911 uF1995 uF1941 by uFFD01;  # jan ni, stacked
   sub uF1911 uF1996 uF1902 by uFF989;  # jan ala, scaled
   sub uF1911 uF1996 uF1903 by uFF98A;  # jan alasa, scaled

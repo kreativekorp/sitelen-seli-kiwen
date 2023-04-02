@@ -901,6 +901,8 @@ feature liga {
   sub i j o asterisk m e l i two space by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o asterisk m i j e one space by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o asterisk m i j e two space by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o asterisk m o l i one space by uFF938;  # ijo moli, scaled
+  sub i j o asterisk m o l i two space by uFF938;  # ijo moli, scaled
   sub i j o asterisk m o n s i space by uFF939;  # ijo monsi, scaled
   sub i j o asterisk n a n p a space by uFF940;  # ijo nanpa, scaled
   sub i j o asterisk n a s i n space by uFF942;  # ijo nasin, scaled
@@ -928,6 +930,8 @@ feature liga {
   sub i j o plus m e l i two space by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o plus m i j e one space by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o plus m i j e two space by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o plus m o l i one space by uFF938;  # ijo moli, scaled
+  sub i j o plus m o l i two space by uFF938;  # ijo moli, scaled
   sub i j o plus m o n s i space by uFF939;  # ijo monsi, scaled
   sub i j o plus n a n p a space by uFF940;  # ijo nanpa, scaled
   sub i j o plus n a s i n space by uFF942;  # ijo nasin, scaled
@@ -955,6 +959,8 @@ feature liga {
   sub i j o hyphen m e l i two space by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o hyphen m i j e one space by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o hyphen m i j e two space by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o hyphen m o l i one space by uFF938;  # ijo moli, scaled
+  sub i j o hyphen m o l i two space by uFF938;  # ijo moli, scaled
   sub i j o hyphen m o n s i space by uFF939;  # ijo monsi, scaled
   sub i j o hyphen n a n p a space by uFF940;  # ijo nanpa, scaled
   sub i j o hyphen n a s i n space by uFF942;  # ijo nasin, scaled
@@ -974,10 +980,16 @@ feature liga {
   sub i k e hyphen l u k i n space by uFF97E;  # ike lukin, stacked
   sub i k e asciicircum l u k i n space by uFF97E;  # ike lukin, stacked
   sub i l o plus l u k i n space by uFF981;  # ilo lukin, stacked
+  sub i l o plus m o l i one space by uFF982;  # ilo moli, stacked
+  sub i l o plus m o l i two space by uFF982;  # ilo moli, stacked
   sub i l o plus n a n p a space by uFF984;  # ilo nanpa, stacked
   sub i l o hyphen l u k i n space by uFF981;  # ilo lukin, stacked
+  sub i l o hyphen m o l i one space by uFF982;  # ilo moli, stacked
+  sub i l o hyphen m o l i two space by uFF982;  # ilo moli, stacked
   sub i l o hyphen n a n p a space by uFF984;  # ilo nanpa, stacked
   sub i l o asciicircum l u k i n space by uFF981;  # ilo lukin, stacked
+  sub i l o asciicircum m o l i one space by uFF982;  # ilo moli, stacked
+  sub i l o asciicircum m o l i two space by uFF982;  # ilo moli, stacked
   sub i l o asciicircum n a n p a space by uFF984;  # ilo nanpa, stacked
   sub j a n asterisk a l a s a space by uFF98A;  # jan alasa, scaled
   sub j a n asterisk k a l a one space by uFF98E;  # jan kala, without eyes, scaled
@@ -1286,6 +1298,8 @@ feature liga {
   sub i j o asterisk m e l i two by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o asterisk m i j e one by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o asterisk m i j e two by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o asterisk m o l i one by uFF938;  # ijo moli, scaled
+  sub i j o asterisk m o l i two by uFF938;  # ijo moli, scaled
   sub i j o asterisk m o n s i by uFF939;  # ijo monsi, scaled
   sub i j o asterisk n a n p a by uFF940;  # ijo nanpa, scaled
   sub i j o asterisk n a s i n by uFF942;  # ijo nasin, scaled
@@ -1313,6 +1327,8 @@ feature liga {
   sub i j o plus m e l i two by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o plus m i j e one by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o plus m i j e two by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o plus m o l i one by uFF938;  # ijo moli, scaled
+  sub i j o plus m o l i two by uFF938;  # ijo moli, scaled
   sub i j o plus m o n s i by uFF939;  # ijo monsi, scaled
   sub i j o plus n a n p a by uFF940;  # ijo nanpa, scaled
   sub i j o plus n a s i n by uFF942;  # ijo nasin, scaled
@@ -1340,6 +1356,8 @@ feature liga {
   sub i j o hyphen m e l i two by uFFBB0;  # ijo meli, female sign, scaled
   sub i j o hyphen m i j e one by uFF936;  # ijo mije, head and shoulders, scaled
   sub i j o hyphen m i j e two by uFFBB1;  # ijo mije, male sign, scaled
+  sub i j o hyphen m o l i one by uFF938;  # ijo moli, scaled
+  sub i j o hyphen m o l i two by uFF938;  # ijo moli, scaled
   sub i j o hyphen m o n s i by uFF939;  # ijo monsi, scaled
   sub i j o hyphen n a n p a by uFF940;  # ijo nanpa, scaled
   sub i j o hyphen n a s i n by uFF942;  # ijo nasin, scaled
@@ -1359,10 +1377,16 @@ feature liga {
   sub i k e hyphen l u k i n by uFF97E;  # ike lukin, stacked
   sub i k e asciicircum l u k i n by uFF97E;  # ike lukin, stacked
   sub i l o plus l u k i n by uFF981;  # ilo lukin, stacked
+  sub i l o plus m o l i one by uFF982;  # ilo moli, stacked
+  sub i l o plus m o l i two by uFF982;  # ilo moli, stacked
   sub i l o plus n a n p a by uFF984;  # ilo nanpa, stacked
   sub i l o hyphen l u k i n by uFF981;  # ilo lukin, stacked
+  sub i l o hyphen m o l i one by uFF982;  # ilo moli, stacked
+  sub i l o hyphen m o l i two by uFF982;  # ilo moli, stacked
   sub i l o hyphen n a n p a by uFF984;  # ilo nanpa, stacked
   sub i l o asciicircum l u k i n by uFF981;  # ilo lukin, stacked
+  sub i l o asciicircum m o l i one by uFF982;  # ilo moli, stacked
+  sub i l o asciicircum m o l i two by uFF982;  # ilo moli, stacked
   sub i l o asciicircum n a n p a by uFF984;  # ilo nanpa, stacked
   sub j a n asterisk a l a s a by uFF98A;  # jan alasa, scaled
   sub j a n asterisk k a l a one by uFF98E;  # jan kala, without eyes, scaled
@@ -3046,6 +3070,8 @@ feature liga {
   sub m i s a four space by uFFAD5;  # misa, foot and no ear
   sub m i s a five space by uFFAD6;  # misa, foot and short ear
   sub m i s a six space by uFFAD7;  # misa, foot and long ear
+  sub m o l i one space by uF1937;  # moli, head with X eyes
+  sub m o l i two space by uFFD68;  # moli, X eyes and mouth
   sub m o n s i space by uF1938;  # monsi
   sub n a n p a space by uF193D;  # nanpa
   sub n a s i n space by uF193F;  # nasin
@@ -3066,6 +3092,7 @@ feature liga {
   sub s l a p e space by uFFB8D;  # slape
   sub s o k o one space by uFFD65;  # soko, thick stem
   sub s o k o two space by uFFD66;  # soko, thin stem
+  sub s o k o three space by uFFD67;  # soko, thin stem with annulus
   sub t a k i one space by uFFAED;  # taki, magnet
   sub t a k i two space by uFFAEE;  # taki, yinyang
   sub t a s u n space by uFFDA8;  # tasun
@@ -3124,6 +3151,8 @@ feature liga {
   sub m i s a four by uFFAD5;  # misa, foot and no ear
   sub m i s a five by uFFAD6;  # misa, foot and short ear
   sub m i s a six by uFFAD7;  # misa, foot and long ear
+  sub m o l i one by uF1937;  # moli, head with X eyes
+  sub m o l i two by uFFD68;  # moli, X eyes and mouth
   sub m o n s i by uF1938;  # monsi
   sub n a n p a by uF193D;  # nanpa
   sub n a s i n by uF193F;  # nasin
@@ -3144,6 +3173,7 @@ feature liga {
   sub s l a p e by uFFB8D;  # slape
   sub s o k o one by uFFD65;  # soko, thick stem
   sub s o k o two by uFFD66;  # soko, thin stem
+  sub s o k o three by uFFD67;  # soko, thin stem with annulus
   sub t a k i one by uFFAED;  # taki, magnet
   sub t a k i two by uFFAEE;  # taki, yinyang
   sub t a s u n by uFFDA8;  # tasun
@@ -3218,7 +3248,7 @@ feature liga {
   sub m i j e space by uF1935;  # mije, default
   sub m i s a space by uFFAD2;  # misa, default
   sub m o k u space by uF1936;  # moku
-  sub m o l i space by uF1937;  # moli
+  sub m o l i space by uF1937;  # moli, default
   sub m u s i space by uF193B;  # musi
   sub m u t e space by uF193C;  # mute
   sub n a s a space by uF193E;  # nasa
@@ -3358,7 +3388,7 @@ feature liga {
   sub m i j e by uF1935;  # mije, default
   sub m i s a by uFFAD2;  # misa, default
   sub m o k u by uF1936;  # moku
-  sub m o l i by uF1937;  # moli
+  sub m o l i by uF1937;  # moli, default
   sub m u s i by uF193B;  # musi
   sub m u t e by uF193C;  # mute
   sub n a s a by uF193E;  # nasa
