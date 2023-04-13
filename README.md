@@ -26,10 +26,12 @@ Use U+F1995 or U+F1996 to specify a stacked or scaled compound, respectively.
 ### Extensions
 
 In **asuki**, use `[` and `]` to make a cartouche.<br>
+Use `..` or `::` to insert an interpunct or colon.<br>
 Use `(` and `)` to extend a glyph to the right.<br>
 Use `{` and `}` to extend a glyph to the left.
 
 In **juniko**, use U+F1990 and U+F1991 to make a cartouche.<br>
+Use U+F199C or U+F199D to insert an interpunct or colon.<br>
 Use U+F1997 and U+F1998 to extend a glyph to the right.<br>
 Use U+F199A and U+F199B to extend a glyph to the left.
 
