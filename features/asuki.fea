@@ -179,17 +179,17 @@ feature liga {
   sub t o m o hyphen m o n s u t a by uFFA38;  # tomo monsuta, scaled
 
   # Sequences of length 12 (11 + space)
-  sub i j o asterisk k e p e k e n space by uFF918;  # ijo kepeken, scaled
+  sub i j o asterisk k e p e k e n space by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o asterisk m o n s u t a space by uFF93A;  # ijo monsuta, scaled
   sub i j o asterisk n a m a k o one space by uFF93F;  # ijo namako, four rays, scaled
   sub i j o asterisk n a m a k o two space by uFFBB2;  # ijo namako, pepper with emitters, scaled
   sub i j o asterisk s i t e l e n space by uFF963;  # ijo sitelen, scaled
-  sub i j o plus k e p e k e n space by uFF918;  # ijo kepeken, scaled
+  sub i j o plus k e p e k e n space by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o plus m o n s u t a space by uFF93A;  # ijo monsuta, scaled
   sub i j o plus n a m a k o one space by uFF93F;  # ijo namako, four rays, scaled
   sub i j o plus n a m a k o two space by uFFBB2;  # ijo namako, pepper with emitters, scaled
   sub i j o plus s i t e l e n space by uFF963;  # ijo sitelen, scaled
-  sub i j o hyphen k e p e k e n space by uFF918;  # ijo kepeken, scaled
+  sub i j o hyphen k e p e k e n space by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o hyphen m o n s u t a space by uFF93A;  # ijo monsuta, scaled
   sub i j o hyphen n a m a k o one space by uFF93F;  # ijo namako, four rays, scaled
   sub i j o hyphen n a m a k o two space by uFFBB2;  # ijo namako, pepper with emitters, scaled
@@ -247,17 +247,17 @@ feature liga {
   sub w a s o plus p i m e j a space by uFFB9A;  # waso Atemi / waso pimeja
 
   # Sequences of length 11
-  sub i j o asterisk k e p e k e n by uFF918;  # ijo kepeken, scaled
+  sub i j o asterisk k e p e k e n by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o asterisk m o n s u t a by uFF93A;  # ijo monsuta, scaled
   sub i j o asterisk n a m a k o one by uFF93F;  # ijo namako, four rays, scaled
   sub i j o asterisk n a m a k o two by uFFBB2;  # ijo namako, pepper with emitters, scaled
   sub i j o asterisk s i t e l e n by uFF963;  # ijo sitelen, scaled
-  sub i j o plus k e p e k e n by uFF918;  # ijo kepeken, scaled
+  sub i j o plus k e p e k e n by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o plus m o n s u t a by uFF93A;  # ijo monsuta, scaled
   sub i j o plus n a m a k o one by uFF93F;  # ijo namako, four rays, scaled
   sub i j o plus n a m a k o two by uFFBB2;  # ijo namako, pepper with emitters, scaled
   sub i j o plus s i t e l e n by uFF963;  # ijo sitelen, scaled
-  sub i j o hyphen k e p e k e n by uFF918;  # ijo kepeken, scaled
+  sub i j o hyphen k e p e k e n by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub i j o hyphen m o n s u t a by uFF93A;  # ijo monsuta, scaled
   sub i j o hyphen n a m a k o one by uFF93F;  # ijo namako, four rays, scaled
   sub i j o hyphen n a m a k o two by uFFBB2;  # ijo namako, pepper with emitters, scaled
@@ -537,6 +537,7 @@ feature liga {
   sub m i j e two hyphen s a m a space by uFFBDF;  # mije sama, male sign, scaled
   sub m i j e two hyphen u n p a space by uFFBE2;  # mije unpa, male sign, scaled
   sub m i j e two hyphen w a w a space by uFFBE3;  # mije wawa, male sign, scaled
+  sub n a s i n plus m a n i space by uFFDAE;  # nasin mani (capitalism)
   sub n e n a asterisk m e l i one space by uFFA02;  # nena meli, head with hair, scaled
   sub n e n a asterisk m e l i two space by uFFBE4;  # nena meli, female sign, scaled
   sub n e n a plus m e l i one space by uFFA02;  # nena meli, head with hair, scaled
@@ -822,6 +823,7 @@ feature liga {
   sub m i j e two hyphen s a m a by uFFBDF;  # mije sama, male sign, scaled
   sub m i j e two hyphen u n p a by uFFBE2;  # mije unpa, male sign, scaled
   sub m i j e two hyphen w a w a by uFFBE3;  # mije wawa, male sign, scaled
+  sub n a s i n plus m a n i by uFFDAE;  # nasin mani (capitalism)
   sub n e n a asterisk m e l i one by uFFA02;  # nena meli, head with hair, scaled
   sub n e n a asterisk m e l i two by uFFBE4;  # nena meli, female sign, scaled
   sub n e n a plus m e l i one by uFFA02;  # nena meli, head with hair, scaled
@@ -894,6 +896,7 @@ feature liga {
   sub i j o asterisk a p e j a space by uFF908;  # ijo apeja, scaled
   sub i j o asterisk k a l a one space by uFF913;  # ijo kala, without eyes, scaled
   sub i j o asterisk k a l a two space by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o asterisk k e p e n space by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o asterisk k i w e n space by uFF91D;  # ijo kiwen, scaled
   sub i j o asterisk l i n j a space by uFF92A;  # ijo linja, scaled
   sub i j o asterisk l u k i n space by uFF92F;  # ijo lukin, scaled
@@ -923,6 +926,7 @@ feature liga {
   sub i j o plus a p e j a space by uFF908;  # ijo apeja, scaled
   sub i j o plus k a l a one space by uFF913;  # ijo kala, without eyes, scaled
   sub i j o plus k a l a two space by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o plus k e p e n space by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o plus k i w e n space by uFF91D;  # ijo kiwen, scaled
   sub i j o plus l i n j a space by uFF92A;  # ijo linja, scaled
   sub i j o plus l u k i n space by uFF92F;  # ijo lukin, scaled
@@ -952,6 +956,7 @@ feature liga {
   sub i j o hyphen a p e j a space by uFF908;  # ijo apeja, scaled
   sub i j o hyphen k a l a one space by uFF913;  # ijo kala, without eyes, scaled
   sub i j o hyphen k a l a two space by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o hyphen k e p e n space by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o hyphen k i w e n space by uFF91D;  # ijo kiwen, scaled
   sub i j o hyphen l i n j a space by uFF92A;  # ijo linja, scaled
   sub i j o hyphen l u k i n space by uFF92F;  # ijo lukin, scaled
@@ -1291,6 +1296,7 @@ feature liga {
   sub i j o asterisk a p e j a by uFF908;  # ijo apeja, scaled
   sub i j o asterisk k a l a one by uFF913;  # ijo kala, without eyes, scaled
   sub i j o asterisk k a l a two by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o asterisk k e p e n by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o asterisk k i w e n by uFF91D;  # ijo kiwen, scaled
   sub i j o asterisk l i n j a by uFF92A;  # ijo linja, scaled
   sub i j o asterisk l u k i n by uFF92F;  # ijo lukin, scaled
@@ -1320,6 +1326,7 @@ feature liga {
   sub i j o plus a p e j a by uFF908;  # ijo apeja, scaled
   sub i j o plus k a l a one by uFF913;  # ijo kala, without eyes, scaled
   sub i j o plus k a l a two by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o plus k e p e n by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o plus k i w e n by uFF91D;  # ijo kiwen, scaled
   sub i j o plus l i n j a by uFF92A;  # ijo linja, scaled
   sub i j o plus l u k i n by uFF92F;  # ijo lukin, scaled
@@ -1349,6 +1356,7 @@ feature liga {
   sub i j o hyphen a p e j a by uFF908;  # ijo apeja, scaled
   sub i j o hyphen k a l a one by uFF913;  # ijo kala, without eyes, scaled
   sub i j o hyphen k a l a two by uFF913;  # ijo kala, with eyes, scaled
+  sub i j o hyphen k e p e n by uFF918;  # ijo kepen, synonym of ijo kepeken, scaled
   sub i j o hyphen k i w e n by uFF91D;  # ijo kiwen, scaled
   sub i j o hyphen l i n j a by uFF92A;  # ijo linja, scaled
   sub i j o hyphen l u k i n by uFF92F;  # ijo lukin, scaled
@@ -2568,7 +2576,7 @@ feature liga {
   sub j a n hyphen s i n space by uFF99F;  # jan sin, scaled
   sub k a p e s i one space by uFFAC1;  # kapesi, triangle with ma above
   sub k a p e s i two space by uFFAC2;  # kapesi, triangle with horizontal and vertical
-  sub k e p e k e n space by uF1919;  # kepeken
+  sub k e p e k e n space by uF1919;  # kepeken, synonym of kepen
   sub k i j o s i n space by uFFBA1;  # kijosin
   sub k i l i plus m a space by uFFB95;  # kulupu Kilima
   sub k o asterisk j a k i space by uFF9C4;  # ko jaki, scaled
@@ -2746,7 +2754,7 @@ feature liga {
   sub j a n hyphen s i n by uFF99F;  # jan sin, scaled
   sub k a p e s i one by uFFAC1;  # kapesi, triangle with ma above
   sub k a p e s i two by uFFAC2;  # kapesi, triangle with horizontal and vertical
-  sub k e p e k e n by uF1919;  # kepeken
+  sub k e p e k e n by uF1919;  # kepeken, synonym of kepen
   sub k i j o s i n by uFFBA1;  # kijosin
   sub k i l i plus m a by uFFB95;  # kulupu Kilima
   sub k o asterisk j a k i by uFF9C4;  # ko jaki, scaled
@@ -3037,6 +3045,8 @@ feature liga {
   sub a p e j a space by uF19A1;  # apeja
   sub a p e l o space by uFFD8A;  # apelo
   sub a w a s e space by uFFB41;  # awase
+  sub e l i k i space by uFFDAC;  # eliki
+  sub e n e p i space by uFFDAD;  # enepi
   sub e n k o one space by uFFB43;  # enko, space alien looking thing
   sub e n k o two space by uFFB44;  # enko, arrows
   sub e n k o three space by uFFB45;  # enko, grid
@@ -3047,6 +3057,7 @@ feature liga {
   sub j o n k e space by uFFB4F;  # jonke
   sub k a l a one space by uF1914;  # kala, without eyes
   sub k a l a two space by uFFAA0;  # kala, with eyes
+  sub k e p e n space by uF1919;  # kepen, synonym of kepeken
   sub k i w e n space by uF191B;  # kiwen
   sub k o n s i space by uFFB75;  # konsi
   sub k o n w e space by uFFB58;  # konwe
@@ -3118,6 +3129,8 @@ feature liga {
   sub a p e j a by uF19A1;  # apeja
   sub a p e l o by uFFD8A;  # apelo
   sub a w a s e by uFFB41;  # awase
+  sub e l i k i by uFFDAC;  # eliki
+  sub e n e p i by uFFDAD;  # enepi
   sub e n k o one by uFFB43;  # enko, space alien looking thing
   sub e n k o two by uFFB44;  # enko, arrows
   sub e n k o three by uFFB45;  # enko, grid
@@ -3128,6 +3141,7 @@ feature liga {
   sub j o n k e by uFFB4F;  # jonke
   sub k a l a one by uF1914;  # kala, without eyes
   sub k a l a two by uFFAA0;  # kala, with eyes
+  sub k e p e n by uF1919;  # kepen, synonym of kepeken
   sub k i w e n by uF191B;  # kiwen
   sub k o n s i by uFFB75;  # konsi
   sub k o n w e by uFFB58;  # konwe
@@ -3284,6 +3298,7 @@ feature liga {
   sub p o n i space by uFFB80;  # poni, default
   sub p o w e space by uF19A3;  # powe
   sub p u w a space by uFFB3C;  # puwa
+  sub s a j a space by uFFDB0;  # saja
   sub s a m a space by uF1956;  # sama
   sub s a m u space by uFFAC9;  # samu
   sub s e l i space by uF1957;  # seli
@@ -3323,6 +3338,7 @@ feature liga {
   sub w a s o space by uF1974;  # waso
   sub w a w a space by uF1975;  # wawa
   sub w e k a space by uF1976;  # weka
+  sub w i j u space by uFFDAF;  # wiju
   sub w i k i space by uFFBAC;  # wiki
   sub w i l e space by uF1977;  # wile, default
   sub w i w i space by uFFDAB;  # wiwi
@@ -3424,6 +3440,7 @@ feature liga {
   sub p o n i by uFFB80;  # poni, default
   sub p o w e by uF19A3;  # powe
   sub p u w a by uFFB3C;  # puwa
+  sub s a j a by uFFDB0;  # saja
   sub s a m a by uF1956;  # sama
   sub s a m u by uFFAC9;  # samu
   sub s e l i by uF1957;  # seli
@@ -3463,6 +3480,7 @@ feature liga {
   sub w a s o by uF1974;  # waso
   sub w a w a by uF1975;  # wawa
   sub w e k a by uF1976;  # weka
+  sub w i j u by uFFDAF;  # wiju
   sub w i k i by uFFBAC;  # wiki
   sub w i l e by uF1977;  # wile, default
   sub w i w i by uFFDAB;  # wiwi
@@ -3478,9 +3496,12 @@ feature liga {
   sub a l e space by uF1904;  # ale, synonym of ali
   sub a l i space by uF1904;  # ali, synonym of ale
   sub a l u space by uFFB40;  # alu
+  sub a n a space by uFFDB1;  # ana
   sub a n i space by uFFD88;  # ani
   sub a n u space by uF1907;  # anu
   sub e k i space by uFFB3A;  # eki, synonym of natu and aka
+  sub e n e space by uFFDB2;  # ene, synonym of eni
+  sub e n i space by uFFDB2;  # eni, synonym of ene
   sub e t e space by uFFACC;  # ete, default
   sub e w e space by uFFAD9;  # ewe
   sub i j o space by uF190C;  # ijo
@@ -3547,9 +3568,12 @@ feature liga {
   sub a l e by uF1904;  # ale, synonym of ali
   sub a l i by uF1904;  # ali, synonym of ale
   sub a l u by uFFB40;  # alu
+  sub a n a by uFFDB1;  # ana
   sub a n i by uFFD88;  # ani
   sub a n u by uF1907;  # anu
   sub e k i by uFFB3A;  # eki, synonym of natu and aka
+  sub e n e by uFFDB2;  # ene, synonym of eni
+  sub e n i by uFFDB2;  # eni, synonym of ene
   sub e t e by uFFACC;  # ete, default
   sub e w e by uFFAD9;  # ewe
   sub i j o by uF190C;  # ijo

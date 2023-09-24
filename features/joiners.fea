@@ -74,7 +74,7 @@ feature liga {
   sub uF190C uni200D uF1916 by uFF915;  # ijo kama, scaled
   sub uF190C uni200D uF1917 by uFF916;  # ijo kasi, scaled
   sub uF190C uni200D uF1918 by uFF917;  # ijo ken, scaled
-  sub uF190C uni200D uF1919 by uFF918;  # ijo kepeken, scaled
+  sub uF190C uni200D uF1919 by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub uF190C uni200D uF191A by uFF91A;  # ijo kili, scaled
   sub uF190C uni200D uF191B by uFF91D;  # ijo kiwen, scaled
   sub uF190C uni200D uF191C by uFF91E;  # ijo ko, scaled
@@ -530,7 +530,7 @@ feature liga {
   sub uF190C uF1996 uF1916 by uFF915;  # ijo kama, scaled
   sub uF190C uF1996 uF1917 by uFF916;  # ijo kasi, scaled
   sub uF190C uF1996 uF1918 by uFF917;  # ijo ken, scaled
-  sub uF190C uF1996 uF1919 by uFF918;  # ijo kepeken, scaled
+  sub uF190C uF1996 uF1919 by uFF918;  # ijo kepeken, synonym of ijo kepen, scaled
   sub uF190C uF1996 uF191A by uFF91A;  # ijo kili, scaled
   sub uF190C uF1996 uF191B by uFF91D;  # ijo kiwen, scaled
   sub uF190C uF1996 uF191C by uFF91E;  # ijo ko, scaled
