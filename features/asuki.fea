@@ -2057,6 +2057,7 @@ feature liga {
   sub s e l o plus l e n space by uFFA13;  # selo len, stacked
   sub s e l o hyphen l e n space by uFFA13;  # selo len, stacked
   sub s e l o asciicircum l e n space by uFFA13;  # selo len, stacked
+  sub s i i i l a p a space by uFFDF4;  # silapa, three lines tall
   sub s i j e s u w a space by uFFB9E;  # sijesuwa (CSUR)
   sub s o n a asterisk a l a space by uFFA1D;  # sona ala, scaled
   sub s o n a asterisk i k e space by uFFA1E;  # sona ike, scaled
@@ -2455,6 +2456,7 @@ feature liga {
   sub s e l o plus l e n by uFFA13;  # selo len, stacked
   sub s e l o hyphen l e n by uFFA13;  # selo len, stacked
   sub s e l o asciicircum l e n by uFFA13;  # selo len, stacked
+  sub s i i i l a p a by uFFDF4;  # silapa, three lines tall
   sub s i j e s u w a by uFFB9E;  # sijesuwa (CSUR)
   sub s o n a asterisk a l a by uFFA1D;  # sona ala, scaled
   sub s o n a asterisk i k e by uFFA1E;  # sona ike, scaled
@@ -2646,11 +2648,18 @@ feature liga {
   sub o m e k a p o space by uFFB3B;  # omekapo
   sub p a k o l a one space by uFFD9A;  # pakola, pakala-like with emitters
   sub p a k o l a two space by uFFD9B;  # pakola, H
+  sub s i i l a p a space by uFFDF3;  # silapa, two lines tall
+  sub s i l a p a one space by uFFDF0;  # silapa, top part
+  sub s i l a p a two space by uFFDF1;  # silapa, middle part
+  sub s i l a p a three space by uFFDF2;  # silapa, bottom part
+  sub s i l a p a four space by uFFDF3;  # silapa, two lines tall
+  sub s i l a p a five space by uFFDF4;  # silapa, three lines tall
   sub s i t e l e n space by uF1960;  # sitelen
   sub s n o w e l i space by uFFDA5;  # snoweli
   sub s o n a asterisk m a space by uFFA20;  # sona ma, scaled
   sub s o n a plus m a space by uFFA20;  # sona ma, scaled
   sub s o n a hyphen m a space by uFFA20;  # sona ma, scaled
+  sub t a a a s u n space by uFFDF9;  # tasun, three ideographs wide
   sub t o k a n a one space by uFFB70;  # tokana, magnifying glass
   sub t o k a n a two space by uFFDA9;  # tokana, rotated ante with dot
   sub t o k a n a three space by uFFDAA;  # tokana, four rays with dot
@@ -2824,11 +2833,18 @@ feature liga {
   sub o m e k a p o by uFFB3B;  # omekapo
   sub p a k o l a one by uFFD9A;  # pakola, pakala-like with emitters
   sub p a k o l a two by uFFD9B;  # pakola, H
+  sub s i i l a p a by uFFDF3;  # silapa, two lines tall
+  sub s i l a p a one by uFFDF0;  # silapa, top part
+  sub s i l a p a two by uFFDF1;  # silapa, middle part
+  sub s i l a p a three by uFFDF2;  # silapa, bottom part
+  sub s i l a p a four by uFFDF3;  # silapa, two lines tall
+  sub s i l a p a five by uFFDF4;  # silapa, three lines tall
   sub s i t e l e n by uF1960;  # sitelen
   sub s n o w e l i by uFFDA5;  # snoweli
   sub s o n a asterisk m a by uFFA20;  # sona ma, scaled
   sub s o n a plus m a by uFFA20;  # sona ma, scaled
   sub s o n a hyphen m a by uFFA20;  # sona ma, scaled
+  sub t a a a s u n by uFFDF9;  # tasun, three ideographs wide
   sub t o k a n a one by uFFB70;  # tokana, magnifying glass
   sub t o k a n a two by uFFDA9;  # tokana, rotated ante with dot
   sub t o k a n a three by uFFDAA;  # tokana, four rays with dot
@@ -2928,6 +2944,14 @@ feature liga {
   sub s i w a l a space by uFFDA4;  # siwala
   sub s o w e l i space by uF1962;  # soweli
   sub s o w o l i space by uFFB86;  # sowoli
+  sub t a a s u n space by uFFDF8;  # tasun, two ideographs wide
+  sub t a s u n one space by uFFDF5;  # tasun, left part
+  sub t a s u n two space by uFFDF6;  # tasun, center part
+  sub t a s u n three space by uFFDF7;  # tasun, right part
+  sub t a s u n four space by uFFDF8;  # tasun, two ideographs wide
+  sub t a s u n five space by uFFDF9;  # tasun, three ideographs wide
+  sub t a s u n six space by uFFDFA;  # tasun, left part, two ideographs wide
+  sub t a s u n seven space by uFFDFB;  # tasun, right part, two ideographs wide
   sub t o k a n a space by uFFB70;  # tokana, default
   sub t u plus w a n space by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n space by uFFA40;  # tu wan, horizontal
@@ -3026,6 +3050,14 @@ feature liga {
   sub s i w a l a by uFFDA4;  # siwala
   sub s o w e l i by uF1962;  # soweli
   sub s o w o l i by uFFB86;  # sowoli
+  sub t a a s u n by uFFDF8;  # tasun, two ideographs wide
+  sub t a s u n one by uFFDF5;  # tasun, left part
+  sub t a s u n two by uFFDF6;  # tasun, center part
+  sub t a s u n three by uFFDF7;  # tasun, right part
+  sub t a s u n four by uFFDF8;  # tasun, two ideographs wide
+  sub t a s u n five by uFFDF9;  # tasun, three ideographs wide
+  sub t a s u n six by uFFDFA;  # tasun, left part, two ideographs wide
+  sub t a s u n seven by uFFDFB;  # tasun, right part, two ideographs wide
   sub t o k a n a by uFFB70;  # tokana, default
   sub t u plus w a n by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n by uFFA40;  # tu wan, horizontal
@@ -3040,6 +3072,7 @@ feature liga {
   sub M a n k a space by uFFBFD;  # Manka (Minecraft)
   sub N u t a n space by uFFBFE;  # Nutan (Newton)
   sub P i n g o space by uFFAFD;  # Pingo
+  sub a a s u n space by uFFDFB;  # tasun, right part, two ideographs wide
   sub a k e s i space by uF1901;  # akesi, default, upright
   sub a l a s a space by uF1903;  # alasa
   sub a p e j a space by uF19A1;  # apeja
@@ -3051,6 +3084,7 @@ feature liga {
   sub e n k o two space by uFFB44;  # enko, arrows
   sub e n k o three space by uFFB45;  # enko, grid
   sub e p i k u space by uF1983;  # epiku, default
+  sub i l a p a space by uFFDF2;  # silapa, bottom part
   sub i s e k i space by uFFD8C;  # iseki
   sub i t o m i space by uFFB49;  # itomi
   sub j a l a n space by uFFAD1;  # jalan, synonym of loka
@@ -3124,6 +3158,7 @@ feature liga {
   sub M a n k a by uFFBFD;  # Manka (Minecraft)
   sub N u t a n by uFFBFE;  # Nutan (Newton)
   sub P i n g o by uFFAFD;  # Pingo
+  sub a a s u n by uFFDFB;  # tasun, right part, two ideographs wide
   sub a k e s i by uF1901;  # akesi, default, upright
   sub a l a s a by uF1903;  # alasa
   sub a p e j a by uF19A1;  # apeja
@@ -3135,6 +3170,7 @@ feature liga {
   sub e n k o two by uFFB44;  # enko, arrows
   sub e n k o three by uFFB45;  # enko, grid
   sub e p i k u by uF1983;  # epiku, default
+  sub i l a p a by uFFDF2;  # silapa, bottom part
   sub i s e k i by uFFD8C;  # iseki
   sub i t o m i by uFFB49;  # itomi
   sub j a l a n by uFFAD1;  # jalan, synonym of loka
@@ -3246,6 +3282,7 @@ feature liga {
   sub k u t e space by uF1920;  # kute
   sub l a p e space by uF1922;  # lape
   sub l a s o space by uF1923;  # laso
+  sub l a t o space by uFFDB4;  # lato
   sub l a w a space by uF1924;  # lawa
   sub l e k o space by uF197C;  # leko
   sub l e t e space by uF1926;  # lete
@@ -3257,6 +3294,7 @@ feature liga {
   sub l u p a space by uF192F;  # lupa
   sub m a m a space by uF1931;  # mama
   sub m a n i space by uF1932;  # mani
+  sub m a s u space by uFFDB3;  # masu
   sub m e l i space by uF1933;  # meli, default
   sub m e s o space by uF1982;  # meso, default
   sub m i j e space by uF1935;  # mije, default
@@ -3330,6 +3368,7 @@ feature liga {
   sub t o m a space by uF196D;  # toma, typo of tomo
   sub t o m o space by uF196D;  # tomo
   sub t o n a space by uFFBAE;  # tona
+  sub t o p o space by uFFDB5;  # topo
   sub t u l i space by uFFAEB;  # tuli
   sub u n p a space by uF196F;  # unpa
   sub u t a one space by uF1970;  # uta, dotted
@@ -3388,6 +3427,7 @@ feature liga {
   sub k u t e by uF1920;  # kute
   sub l a p e by uF1922;  # lape
   sub l a s o by uF1923;  # laso
+  sub l a t o by uFFDB4;  # lato
   sub l a w a by uF1924;  # lawa
   sub l e k o by uF197C;  # leko
   sub l e t e by uF1926;  # lete
@@ -3399,6 +3439,7 @@ feature liga {
   sub l u p a by uF192F;  # lupa
   sub m a m a by uF1931;  # mama
   sub m a n i by uF1932;  # mani
+  sub m a s u by uFFDB3;  # masu
   sub m e l i by uF1933;  # meli, default
   sub m e s o by uF1982;  # meso, default
   sub m i j e by uF1935;  # mije, default
@@ -3472,6 +3513,7 @@ feature liga {
   sub t o m a by uF196D;  # toma, typo of tomo
   sub t o m o by uF196D;  # tomo
   sub t o n a by uFFBAE;  # tona
+  sub t o p o by uFFDB5;  # topo
   sub t u l i by uFFAEB;  # tuli
   sub u n p a by uF196F;  # unpa
   sub u t a one by uF1970;  # uta, dotted
@@ -3543,9 +3585,11 @@ feature liga {
   sub o w e space by uFFB65;  # owe
   sub p a n space by uF194B;  # pan
   sub s a n space by uFFAEB;  # san
+  sub s i backslash space by uFFDF0;  # silapa, top part
   sub s i n space by uF195D;  # sin
   sub s u one space by uFFB2F;  # su, reserved word
   sub s u two space by uFFB3D;  # su, question marker
+  sub t a a space by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a n space by uF1967;  # tan
   sub t e n space by uF196B;  # ten, default
   sub t o one space by uFFAF1;  # to, right corner bracket
@@ -3615,9 +3659,11 @@ feature liga {
   sub o w e by uFFB65;  # owe
   sub p a n by uF194B;  # pan
   sub s a n by uFFAEB;  # san
+  sub s i backslash by uFFDF0;  # silapa, top part
   sub s i n by uF195D;  # sin
   sub s u one by uFFB2F;  # su, reserved word
   sub s u two by uFFB3D;  # su, question marker
+  sub t a a by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a n by uF1967;  # tan
   sub t e n by uF196B;  # ten, default
   sub t o one by uFFAF1;  # to, right corner bracket
@@ -3639,6 +3685,7 @@ feature liga {
   sub a four space by uFFD61;  # a, triple exclamation
   sub a five space by uFFD62;  # a, interrobang
   sub e n space by uF190A;  # en
+  sub i backslash space by uFFDF1;  # silapa, middle part
   sub j e space by uFFB4E;  # je, default
   sub j o space by uF1913;  # jo
   sub j u space by uFFB2C;  # ju
@@ -3682,6 +3729,7 @@ feature liga {
   sub a four by uFFD61;  # a, triple exclamation
   sub a five by uFFD62;  # a, interrobang
   sub e n by uF190A;  # en
+  sub i backslash by uFFDF1;  # silapa, middle part
   sub j e by uFFB4E;  # je, default
   sub j o by uF1913;  # jo
   sub j u by uFFB2C;  # ju
