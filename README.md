@@ -14,6 +14,8 @@ The font comes in two versions:<br>
 
 See [the HTML version of this page](https://www.kreativekorp.com/software/fonts/sitelenselikiwen/) to actually see the font.
 
+**Feel completely free to rip this font apart and steal code and ideas for your own sitelen pona fonts! I fully support this!**
+
 ### Compounds
 
 In **asuki**, use `-` or `+` to combine words into compounds.<br>
