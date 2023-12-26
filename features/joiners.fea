@@ -5,6 +5,8 @@ feature liga {
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF196E uni200D uF1973 by uFFBCA;  # luka luka luka tu wan
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFBCC;  # luka luka luka wan tu
   sub uF1930 uni200D uF1954 uni200D uF194D uni200D uF196C uni200D uF1954 by uFFBF0;  # ma pona pi toki pona
+  sub uF1930 uni200D uF196C uni200D uF1954 uni200D uF1977 uni200D uF1911 by uFFDE5;  # Ma Toki Pona VR
+  sub uF1949 uni200D uF1949 uni200D uF1904 uni200D uF1954 uni200D uF1983 by uFFDE6;  # pali Pape (Project Babel)
 
   sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF190D by uFFD84;  # o + moku + e + kala + ike = omekalike
   sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF1954 by uFFB3B;  # o + moku + e + kala + pona = omekapo
@@ -17,6 +19,7 @@ feature liga {
   sub uF192D uni200D uF192D uni200D uF196E uni200D uF1973 by uFFA4C;  # luka luka tu wan
   sub uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFA4D;  # luka luka wan tu
   sub uF1930 uni200D uF194D uni200D uF193F uni200D uF1960 by uFFBF1;  # ma pi nasin sitelen
+  sub uF1964 uni200D uF194D uni200D uF196C uni200D uF1954 by uFFDEA;  # suno pi toki pona
 
   sub uF190C uni200D uF1967 uni200D uF1905 uni200D uF193D by uFFDE0;  # ijo + tan + anpa + nanpa = jan Itan
   sub uF1915 uni200D uF193B uni200D uF1967 uni200D uF1970 by uFFAD0;  # kalama + musi + tan + uta = kmtu = kuntu
@@ -358,6 +361,7 @@ feature liga {
   sub uF1931 uni200D uFFAA2 by uFFBD1;  # mama mije, male sign, scaled
   sub uF1933 uni200D uF190D by uFF9F2;  # meli ike, default, scaled
   sub uF1933 uni200D uF1928 by uFF9F3;  # meli lili, default, scaled
+  sub uF1933 uni200D uF1935 by uFFD07;  # meli mije, head with hair and shoulders, combined
   sub uF1933 uni200D uF1954 by uFF9F4;  # meli pona, default, scaled
   sub uF1933 uni200D uF1956 by uFF9F5;  # meli sama, default, scaled
   sub uF1933 uni200D uF196F by uFF9F6;  # meli unpa, default, scaled
@@ -365,6 +369,7 @@ feature liga {
   sub uF1933 uni200D uF197E by uFFBD7;  # meli tonsi, default, scaled
   sub uF1935 uni200D uF190D by uFF9F7;  # mije ike, default, scaled
   sub uF1935 uni200D uF1928 by uFF9F8;  # mije lili, default, scaled
+  sub uF1935 uni200D uF1933 by uFFD07;  # mije meli, head with hair and shoulders, combined
   sub uF1935 uni200D uF1954 by uFF9F9;  # mije pona, default, scaled
   sub uF1935 uni200D uF1956 by uFF9FA;  # mije sama, default, scaled
   sub uF1935 uni200D uF196F by uFF9FB;  # mije unpa, default, scaled
@@ -387,6 +392,9 @@ feature liga {
   sub uF194E uni200D uF1948 by uFFA07;  # pilin pakala, scaled
   sub uF194E uni200D uF1954 by uFFA08;  # pilin pona, scaled
   sub uF194E uni200D uF1956 by uFFA09;  # pilin sama, scaled
+  sub uF194F uni200D uF1912 by uFFD09;  # pimeja jelo, combined
+  sub uF194F uni200D uF1923 by uFFD0A;  # pimeja laso, combined
+  sub uF194F uni200D uF192B by uFFD0B;  # pimeja loje, combined
   sub uF1953 uni200D uF191D by uFFA0A;  # poki kon, scaled
   sub uF1953 uni200D uF1925 by uFFA0B;  # poki len, scaled
   sub uF1953 uni200D uF1926 by uFFA0C;  # poki lete, scaled
@@ -425,6 +433,7 @@ feature liga {
   sub uF1965 uni200D uF1949 by uFFA2C;  # supa pali, stacked
   sub uF196A uni200D uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uni200D uF1928 by uFFA2E;  # telo lili, scaled
+  sub uF196A uni200D uF1960 by uFFD0C;  # telo sitelen, scaled
   sub uF196B uni200D uF1941 by uFFD03;  # tenpo ni, stacked
   sub uF196C uni200D uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uni200D uF190D by uFFA30;  # toki ike, scaled
@@ -446,6 +455,9 @@ feature liga {
   sub uF196E uni200D uF192D by uFFA45;  # tu luka, horizontal
   sub uF196E uni200D uF196E by uFFA3F;  # tu tu, horizontal
   sub uF196E uni200D uF1973 by uFFA40;  # tu wan, horizontal
+  sub uF1972 uni200D uF1912 by uFFD0D;  # walo jelo, combined
+  sub uF1972 uni200D uF1923 by uFFD0E;  # walo laso, combined
+  sub uF1972 uni200D uF192B by uFFD0F;  # walo loje, combined
   sub uF1972 uni200D uF194F by uFFBEC;  # walo pimeja, scaled
   sub uF1973 uni200D uF192D by uFFA43;  # wan luka, horizontal
   sub uF1973 uni200D uF196E by uFFA41;  # wan tu, horizontal
@@ -466,6 +478,7 @@ feature liga {
   sub uFFAA1 uni200D uF196F by uFFBD9;  # meli unpa, female sign, scaled
   sub uFFAA1 uni200D uF1975 by uFFBDB;  # meli wawa, female sign, scaled
   sub uFFAA1 uni200D uF197E by uFFBD8;  # meli tonsi, female sign, scaled
+  sub uFFAA1 uni200D uFFAA2 by uFFD08;  # meli mije, male and female sign, combined
   sub uFFAA2 uni200D uF190D by uFFBDC;  # mije ike, male sign, scaled
   sub uFFAA2 uni200D uF1928 by uFFBDD;  # mije lili, male sign, scaled
   sub uFFAA2 uni200D uF1954 by uFFBDE;  # mije pona, male sign, scaled
@@ -473,6 +486,7 @@ feature liga {
   sub uFFAA2 uni200D uF196F by uFFBE2;  # mije unpa, male sign, scaled
   sub uFFAA2 uni200D uF1975 by uFFBE3;  # mije wawa, male sign, scaled
   sub uFFAA2 uni200D uF197E by uFFBE1;  # mije tonsi, male sign, scaled
+  sub uFFAA2 uni200D uFFAA1 by uFFD08;  # mije meli, male and female sign, combined
 
   sub germandbls uni200D uF1980 by uFFBEF;  # sharp s + kijetesantakalu
   sub s uni200D uF1922 by uFFB8D;  # s + lape = slape
@@ -488,6 +502,11 @@ feature liga {
   sub uF1941 uni200D arrowleft by uFFB00;  # ni + left arrow = ni pointing left
   sub uF1941 uni200D arrowright by uFFB02;  # ni + right arrow = ni pointing right
   sub uF1941 uni200D arrowup by uFFB01;  # ni + up arrow = ni pointing up
+  sub uF1941 uni200D uni2196 by uFFD70;  # ni + northwest arrow = ni pointing northwest
+  sub uF1941 uni200D uni2197 by uFFD71;  # ni + northeast arrow = ni pointing northeast
+  sub uF1941 uni200D uni2198 by uFFD72;  # ni + southeast arrow = ni pointing southeast
+  sub uF1941 uni200D uni2199 by uFFD73;  # ni + southwest arrow = ni pointing southwest
+  sub uF1974 uni200D u1F380 by uFFDE2;  # waso + ribbon = waso Keli
   sub uF1974 uni200D u1F47D by uFFB91;  # waso + extraterrestrial alien = jan waso Asuto
   sub uF1980 uni200D germandbls by uFFBEF;  # sharp s + kijetesantakalu
   sub uF1980 uni200D u1F607 by uFFB99;  # kijetesantakalu + smiling face with halo = jan Wija / Wyub
@@ -885,6 +904,7 @@ feature liga {
   sub uF1965 uF1995 uF1949 by uFFA2C;  # supa pali, stacked
   sub uF196A uF1996 uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uF1996 uF1928 by uFFA2E;  # telo lili, scaled
+  sub uF196A uF1996 uF1960 by uFFD0C;  # telo sitelen, scaled
   sub uF196B uF1995 uF1941 by uFFD03;  # tenpo ni, stacked
   sub uF196C uF1996 uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uF1996 uF190D by uFFA30;  # toki ike, scaled

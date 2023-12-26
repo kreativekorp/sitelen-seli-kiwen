@@ -167,6 +167,17 @@ Feel completely free to rip this font apart and steal code and
 ideas for your own sitelen pona fonts! I fully support this!
 </b></p>
 
+<h3 id="try">Try It Out</h3>
+
+<p>sitelen seli kiwen juniko:<br><textarea id="juniko" rows="4" spellcheck="false" style="font-family: sitelenselikiwenjuniko; font-size: 28px; width: 500px; height: unset;">jan pi (toki-pona) li jan pi (pona mute)</textarea></p>
+<p>sitelen seli kiwen asuki:<br><textarea id="asuki" rows="4" spellcheck="false" style="font-family: sitelenselikiwenasuki; font-size: 28px; width: 500px; height: unset;">jan pi (toki-pona) li jan pi (pona mute)</textarea></p>
+<script>
+var juniko = document.querySelector('#juniko');
+var asuki = document.querySelector('#asuki');
+juniko.addEventListener('input', function() { asuki.value = juniko.value; });
+asuki.addEventListener('input', function() { juniko.value = asuki.value; });
+</script>
+
 <h3 id="compounds">Compounds</h3>
 
 <p>
@@ -318,12 +329,17 @@ will produce characters that are not compound words<br>(at least not by the usua
 <tr><td class="demo">󱥁↑</td><td class="demo">󱥁&#x200D;↑</td><td>ni ⊕ <small>2191 UPWARDS ARROW</small> = ni pointing up</td></tr>
 <tr><td class="demo">󱥁→</td><td class="demo">󱥁&#x200D;→</td><td>ni ⊕ <small>2192 RIGHTWARDS ARROW</small> = ni pointing right</td></tr>
 <tr><td class="demo">󱥁↓</td><td class="demo">󱥁&#x200D;↓</td><td>ni ⊕ <small>2193 DOWNWARDS ARROW</small> = ni pointing down</td></tr>
+<tr><td class="demo">󱥁↖</td><td class="demo">󱥁&#x200D;↖</td><td>ni ⊕ <small>2196 NORTH WEST ARROW</small> = ni pointing north west</td></tr>
+<tr><td class="demo">󱥁↗</td><td class="demo">󱥁&#x200D;↗</td><td>ni ⊕ <small>2197 NORTH EAST ARROW</small> = ni pointing north east</td></tr>
+<tr><td class="demo">󱥁↘</td><td class="demo">󱥁&#x200D;↘</td><td>ni ⊕ <small>2198 SOUTH EAST ARROW</small> = ni pointing south east</td></tr>
+<tr><td class="demo">󱥁↙</td><td class="demo">󱥁&#x200D;↙</td><td>ni ⊕ <small>2199 SOUTH WEST ARROW</small> = ni pointing south west</td></tr>
 <tr><td class="demo">󱤳󱥍󱥅󱤳</td><td class="demo">󱤳&#x200D;󱥍&#x200D;󱥅&#x200D;󱤳</td><td>meli ⊕ pi ⊕ olin ⊕ meli = melome</td></tr>
 <tr><td class="demo">󱤵󱥍󱥅󱤵</td><td class="demo">󱤵&#x200D;󱥍&#x200D;󱥅&#x200D;󱤵</td><td>mije ⊕ pi ⊕ olin ⊕ mije = mijomi</td></tr>
 <tr><td class="demo">󱥄󱤶󱤉󱤔󱥔</td><td class="demo">󱥄&#x200D;󱤶&#x200D;󱤉&#x200D;󱤔&#x200D;󱥔</td><td>o ⊕ moku ⊕ e ⊕ kala ⊕ pona = omekapo</td></tr>
 <tr><td class="demo">󱥄󱤶󱤉󱤔󱤍</td><td class="demo">󱥄&#x200D;󱤶&#x200D;󱤉&#x200D;󱤔&#x200D;󱤍</td><td>o ⊕ moku ⊕ e ⊕ kala ⊕ ike = omekalike</td></tr>
 <tr><td class="demo">󱥄󱤷󱤉󱤴</td><td class="demo">󱥄&#x200D;󱤷&#x200D;󱤉&#x200D;󱤴</td><td>o ⊕ moli ⊕ e ⊕ mi = omem = omen</td></tr>
 <tr><td class="demo">s󱤢</td><td class="demo">s&#x200D;󱤢</td><td><small>0073 LATIN SMALL LETTER S</small> ⊕ lape = slape</td></tr>
+<tr><td class="demo">󱥴🎀</td><td class="demo">󱥴&#x200D;🎀</td><td>waso ⊕ <small>1F380 RIBBON</small> = waso Keli</td></tr>
 <tr><td class="demo">󱥴👽</td><td class="demo">󱥴&#x200D;👽</td><td>waso ⊕ <small>1F47D EXTRATERRESTRIAL ALIEN</small> = jan waso Asuto</td></tr>
 <tr><td class="demo">󱤌󱥧󱤅󱤽</td><td class="demo">󱤌&#x200D;󱥧&#x200D;󱤅&#x200D;󱤽</td><td>ijo ⊕ tan ⊕ anpa ⊕ nanpa = jan Itan</td></tr>
 <tr><td class="demo">󱤑󱤑󱤑</td><td class="demo">󱤑&#x200D;󱤑&#x200D;󱤑</td><td>jan ⊕ jan ⊕ jan = jan Jan</td></tr>
@@ -428,6 +444,10 @@ specific people, communities, and things</span>.
 --><div class="gs pu core"><div class="gsg">&#xFFB02;</div><div class="gsn">ni2</div><div class="gsc pri">U+FFB02</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xFFB01;</div><div class="gsn">ni3</div><div class="gsc pri">U+FFB01</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xFFB00;</div><div class="gsn">ni4</div><div class="gsc pri">U+FFB00</div></div><!--
+--><div class="gs pu core"><div class="gsg">&#xFFD72;</div><div class="gsn">ni5</div><div class="gsc pri">U+FFD72</div></div><!--
+--><div class="gs pu core"><div class="gsg">&#xFFD71;</div><div class="gsn">ni6</div><div class="gsc pri">U+FFD71</div></div><!--
+--><div class="gs pu core"><div class="gsg">&#xFFD70;</div><div class="gsn">ni7</div><div class="gsc pri">U+FFD70</div></div><!--
+--><div class="gs pu core"><div class="gsg">&#xFFD73;</div><div class="gsn">ni8</div><div class="gsc pri">U+FFD73</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xF1942;</div><div class="gsn">nimi</div><div class="gsc pub">U+F1942</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xF1943;</div><div class="gsn">noka</div><div class="gsc pub">U+F1943</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xF1944;</div><div class="gsn">o</div><div class="gsc pub">U+F1944</div></div><!--
@@ -598,7 +618,8 @@ specific people, communities, and things</span>.
 --><div class="gs kl obsl"><div class="gsg">&#xFFAD0;</div><div class="gsn">kuntu</div><div class="gsc pri">U+FFAD0</div></div><!--
 --><div class="gs kl obsl"><div class="gsg">&#xFFAE2;</div><div class="gsn">likujo</div><div class="gsc pri">U+FFAE2</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB5F;</div><div class="gsn">molusa</div><div class="gsc pri">U+FFB5F</div></div><!--
---><div class="gs ns obsl"><div class="gsg">&#xFFD82;</div><div class="gsn">nalanja</div><div class="gsc pri">U+FFD82</div></div><!--
+--><div class="gs ns obsl"><div class="gsg">&#xFFDB6;</div><div class="gsn">nalanja</div><div class="gsc pri">U+FFDB6</div></div><!--
+--><div class="gs ns obsl"><div class="gsg">&#xFFD82;</div><div class="gsn">nalanja1</div><div class="gsc pri">U+FFD82</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB3A;</div><div class="gsn">natu</div><div class="gsc pri">U+FFB3A</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB7D;</div><div class="gsn">nele</div><div class="gsc pri">U+FFB7D</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB61;</div><div class="gsn">okepuma</div><div class="gsc pri">U+FFB61</div></div><!--
@@ -628,6 +649,7 @@ specific people, communities, and things</span>.
 --><div class="gs kl obsl"><div class="gsg">&#xFFAEB;</div><div class="gsn">tuli</div><div class="gsc pri">U+FFAEB</div></div><!--
 --><div class="gs kl obsl"><div class="gsg">&#xFFAD8;</div><div class="gsn">waleja</div><div class="gsc pri">U+FFAD8</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB71;</div><div class="gsn">wawajete</div><div class="gsc pri">U+FFB71</div></div><!--
+--><div class="gs ns obsl"><div class="gsg">&#xFFDB7;</div><div class="gsn"><div class="long75">we (content word)</div></div><div class="gsc pri">U+FFDB7</div></div><!--
 --><div class="gs ns obsl"><div class="gsg">&#xFFB8C;</div><div class="gsn">yutu</div><div class="gsc pri">U+FFB8C</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFB73;</div><div class="gsn">ako</div><div class="gsc pri">U+FFB73</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFB2B;</div><div class="gsn">ako2</div><div class="gsc pri">U+FFB2B</div></div><!--
@@ -688,7 +710,7 @@ specific people, communities, and things</span>.
 --><div class="gs ns nn"><div class="gsg">&#xFFBAD;</div><div class="gsn">ten2</div><div class="gsc pri">U+FFBAD</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFBAE;</div><div class="gsn">tona</div><div class="gsc pri">U+FFBAE</div></div><!--
 --><div class="gs kl nn"><div class="gsg">&#xFFAF2;</div><div class="gsn">umesu</div><div class="gsc pri">U+FFAF2</div></div><!--
---><div class="gs ns nn"><div class="gsg">&#xFFB72;</div><div class="gsn">we</div><div class="gsc pri">U+FFB72</div></div><!--
+--><div class="gs ns nn"><div class="gsg">&#xFFB72;</div><div class="gsn">we1 (particle)</div><div class="gsc pri">U+FFB72</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFB82;</div><div class="gsn">wi</div><div class="gsc pri">U+FFB82</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFB0F;</div><div class="gsn">wi2</div><div class="gsc pri">U+FFB0F</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFDAB;</div><div class="gsn">wiwi</div><div class="gsc pri">U+FFDAB</div></div><!--
@@ -729,32 +751,89 @@ specific people, communities, and things</span>.
 --><div class="gs ns nn"><div class="gsg">&#xFFDAF;</div><div class="gsn">wiju</div><div class="gsc pri">U+FFDAF</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFBAC;</div><div class="gsn">wiki</div><div class="gsc pri">U+FFBAC</div></div><!--
 --><div class="gs ns nn"><div class="gsg">&#xFFD86;</div><div class="gsn">wowujiti</div><div class="gsc pri">U+FFD86</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD30;</div><div class="gsn">Aja</div><div class="gsc pri">U+FFD30</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD31;</div><div class="gsn">AkesiKon</div><div class="gsc pri">U+FFD31</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD32;</div><div class="gsn">Amelin</div><div class="gsc pri">U+FFD32</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD33;</div><div class="gsn">Ansu</div><div class="gsc pri">U+FFD33</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD34;</div><div class="gsn">Antepan</div><div class="gsc pri">U+FFD34</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD35;</div><div class="gsn">Asiku</div><div class="gsc pri">U+FFD35</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB90;</div><div class="gsn">a+suli</div><div class="gsc pri">U+FFB90</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB91;</div><div class="gsn">Asuto</div><div class="gsc pri">U+FFB91</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD36;</div><div class="gsn">Atu</div><div class="gsc pri">U+FFD36</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB92;</div><div class="gsn">Eko</div><div class="gsc pri">U+FFB92</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD37;</div><div class="gsn">Esile</div><div class="gsc pri">U+FFD37</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD38;</div><div class="gsn">Eweke</div><div class="gsc pri">U+FFD38</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFDE0;</div><div class="gsn"><div class="long65">ijo+tan+anpa+nanpa</div></div><div class="gsc pri">U+FFDE0</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD39;</div><div class="gsn">Ipawi</div><div class="gsc pri">U+FFD39</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3A;</div><div class="gsn">Iseja</div><div class="gsc pri">U+FFD3A</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3B;</div><div class="gsn">Jalepu</div><div class="gsc pri">U+FFD3B</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB93;</div><div class="gsn">Jan</div><div class="gsc pri">U+FFB93</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3C;</div><div class="gsn">Jasun</div><div class="gsc pri">U+FFD3C</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3D;</div><div class="gsn">Jonatan</div><div class="gsc pri">U+FFD3D</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3E;</div><div class="gsn">Jules</div><div class="gsc pri">U+FFD3E</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB94;</div><div class="gsn">Kapilu</div><div class="gsc pri">U+FFB94</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE2;</div><div class="gsn">Keli</div><div class="gsc pri">U+FFDE2</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD3F;</div><div class="gsn">Kemu</div><div class="gsc pri">U+FFD3F</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD40;</div><div class="gsn">Kepi</div><div class="gsc pri">U+FFD40</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE3;</div><div class="gsn">KeTami</div><div class="gsc pri">U+FFDE3</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD41;</div><div class="gsn">Kijan</div><div class="gsc pri">U+FFD41</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB95;</div><div class="gsn">kili+ma</div><div class="gsc pri">U+FFB95</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE4;</div><div class="gsn">Kita</div><div class="gsc pri">U+FFDE4</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD42;</div><div class="gsn">Koko</div><div class="gsc pri">U+FFD42</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB96;</div><div class="gsn">kulupu+en</div><div class="gsc pri">U+FFB96</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFDE1;</div><div class="gsn">kulupu+kasi</div><div class="gsc pri">U+FFDE1</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB97;</div><div class="gsn">kulupu+kasi1</div><div class="gsc pri">U+FFB97</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD43;</div><div class="gsn">Lewi</div><div class="gsc pri">U+FFD43</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFABE;</div><div class="gsn">lipamanka</div><div class="gsc pri">U+FFABE</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD44;</div><div class="gsn">Luke</div><div class="gsc pri">U+FFD44</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD45;</div><div class="gsn">Luna</div><div class="gsc pri">U+FFD45</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD46;</div><div class="gsn">Maki</div><div class="gsc pri">U+FFD46</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD47;</div><div class="gsn">Mako</div><div class="gsc pri">U+FFD47</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD48;</div><div class="gsn">Mekuwi</div><div class="gsc pri">U+FFD48</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFABF;</div><div class="gsn"><div class="long90">melinjakulekule</div></div><div class="gsc pri">U+FFABF</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD49;</div><div class="gsn">Mila</div><div class="gsc pri">U+FFD49</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4A;</div><div class="gsn">Mimuki</div><div class="gsc pri">U+FFD4A</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4B;</div><div class="gsn">motan</div><div class="gsc pri">U+FFD4B</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4C;</div><div class="gsn">Nalasuni</div><div class="gsc pri">U+FFD4C</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4D;</div><div class="gsn">nano</div><div class="gsc pri">U+FFD4D</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFABD;</div><div class="gsn">nata</div><div class="gsc pri">U+FFABD</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4E;</div><div class="gsn">Niko</div><div class="gsc pri">U+FFD4E</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB98;</div><div class="gsn">Nili</div><div class="gsc pri">U+FFB98</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD4F;</div><div class="gsn">Nlsn</div><div class="gsc pri">U+FFD4F</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD50;</div><div class="gsn">Opa</div><div class="gsc pri">U+FFD50</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD51;</div><div class="gsn">Palensi</div><div class="gsc pri">U+FFD51</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD52;</div><div class="gsn">Pami</div><div class="gsc pri">U+FFD52</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD53;</div><div class="gsn">Poman</div><div class="gsc pri">U+FFD53</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD54;</div><div class="gsn">Sijala</div><div class="gsc pri">U+FFD54</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD55;</div><div class="gsn">Silani</div><div class="gsc pri">U+FFD55</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD56;</div><div class="gsn">Siwan</div><div class="gsc pri">U+FFD56</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD57;</div><div class="gsn">Temi</div><div class="gsc pri">U+FFD57</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD58;</div><div class="gsn">Tensi</div><div class="gsc pri">U+FFD58</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB85;</div><div class="gsn">to2</div><div class="gsc pri">U+FFB85</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD59;</div><div class="gsn">Tonyu</div><div class="gsc pri">U+FFD59</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB99;</div><div class="gsn"><div class="long75">unikijetesantakalu</div></div><div class="gsc pri">U+FFB99</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD5A;</div><div class="gsn">Usawi</div><div class="gsc pri">U+FFD5A</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD5B;</div><div class="gsn">Vriska</div><div class="gsc pri">U+FFD5B</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD5C;</div><div class="gsn">Waje</div><div class="gsc pri">U+FFD5C</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9A;</div><div class="gsn">waso+pimeja</div><div class="gsc pri">U+FFB9A</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9B;</div><div class="gsn">Weko</div><div class="gsc pri">U+FFB9B</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFD5D;</div><div class="gsn">Wen</div><div class="gsc pri">U+FFD5D</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBF2;</div><div class="gsn">Linku</div><div class="gsc pri">U+FFBF2</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBF3;</div><div class="gsn"><div class="long55">lipu+Wesi+pi+toki+pona</div></div><div class="gsc pri">U+FFBF3</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBF1;</div><div class="gsn"><div class="long65">ma+pi+nasin+sitelen</div></div><div class="gsc pri">U+FFBF1</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBF0;</div><div class="gsn"><div class="long55">ma+pona+pi+toki+pona</div></div><div class="gsc pri">U+FFBF0</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE5;</div><div class="gsn"><div class="long70">ma+toki+pona+VR</div></div><div class="gsc pri">U+FFDE5</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE6;</div><div class="gsn">pali+Pape</div><div class="gsc pri">U+FFDE6</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE7;</div><div class="gsn">Seka</div><div class="gsc pri">U+FFDE7</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE8;</div><div class="gsn">Losupan</div><div class="gsc pri">U+FFDE8</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDE9;</div><div class="gsn">Towan</div><div class="gsc pri">U+FFDE9</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFF1E0;</div><div class="gsn">Votgil</div><div class="gsc pri">U+FF1E0</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBFC;</div><div class="gsn">Amonka</div><div class="gsc pri">U+FFBFC</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBFD;</div><div class="gsn">Manka</div><div class="gsc pri">U+FFBFD</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9C;</div><div class="gsn">Nasulin</div><div class="gsc pri">U+FFB9C</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBFE;</div><div class="gsn">Nutan</div><div class="gsc pri">U+FFBFE</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDEA;</div><div class="gsn"><div class="long70">suno+pi+toki+pona</div></div><div class="gsc pri">U+FFDEA</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFDEB;</div><div class="gsn">Wakalito</div><div class="gsc pri">U+FFDEB</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9D;</div><div class="gsn">juniko</div><div class="gsc pri">U+FFB9D</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9E;</div><div class="gsn">sijesuwa</div><div class="gsc pri">U+FFB9E</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9F;</div><div class="gsn">jusijesuwa</div><div class="gsc pri">U+FFB9F</div></div><!--
@@ -1072,6 +1151,8 @@ specific people, communities, and things</span>.
 --><div class="gs pu"><div class="gsg">&#xFFBD3;</div><div class="gsn">meli2-ike</div><div class="gsc pri">U+FFBD3</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9F3;</div><div class="gsn">meli-lili</div><div class="gsc pri">U+FF9F3</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBD4;</div><div class="gsn">meli2-lili</div><div class="gsc pri">U+FFBD4</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD07;</div><div class="gsn">meli-mije</div><div class="gsc pri">U+FFD07</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD08;</div><div class="gsn">meli2-mije2</div><div class="gsc pri">U+FFD08</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9F4;</div><div class="gsn">meli-pona</div><div class="gsc pri">U+FF9F4</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBD5;</div><div class="gsn">meli2-pona</div><div class="gsc pri">U+FFBD5</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9F5;</div><div class="gsn">meli-sama</div><div class="gsc pri">U+FF9F5</div></div><!--
@@ -1086,6 +1167,8 @@ specific people, communities, and things</span>.
 --><div class="gs pu"><div class="gsg">&#xFFBDC;</div><div class="gsn">mije2-ike</div><div class="gsc pri">U+FFBDC</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9F8;</div><div class="gsn">mije-lili</div><div class="gsc pri">U+FF9F8</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBDD;</div><div class="gsn">mije2-lili</div><div class="gsc pri">U+FFBDD</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD07;</div><div class="gsn">mije-meli</div><div class="gsc pri">U+FFD07</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD08;</div><div class="gsn">mije2-meli2</div><div class="gsc pri">U+FFD08</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9F9;</div><div class="gsn">mije-pona</div><div class="gsc pri">U+FF9F9</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBDE;</div><div class="gsn">mije2-pona</div><div class="gsc pri">U+FFBDE</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9FA;</div><div class="gsn">mije-sama</div><div class="gsc pri">U+FF9FA</div></div><!--
@@ -1116,6 +1199,9 @@ specific people, communities, and things</span>.
 --><div class="gs pu"><div class="gsg">&#xFFA07;</div><div class="gsn">pilin-pakala</div><div class="gsc pri">U+FFA07</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA08;</div><div class="gsn">pilin-pona</div><div class="gsc pri">U+FFA08</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA09;</div><div class="gsn">pilin-sama</div><div class="gsc pri">U+FFA09</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD09;</div><div class="gsn">pimeja-jelo</div><div class="gsc pri">U+FFD09</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0A;</div><div class="gsn">pimeja-laso</div><div class="gsc pri">U+FFD0A</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0B;</div><div class="gsn">pimeja-loje</div><div class="gsc pri">U+FFD0B</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA0A;</div><div class="gsn">poki-kon</div><div class="gsc pri">U+FFA0A</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA0B;</div><div class="gsn">poki-len</div><div class="gsc pri">U+FFA0B</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA0C;</div><div class="gsn">poki-lete</div><div class="gsc pri">U+FFA0C</div></div><!--
@@ -1154,6 +1240,7 @@ specific people, communities, and things</span>.
 --><div class="gs pu"><div class="gsg">&#xFFA2C;</div><div class="gsn">supa-pali</div><div class="gsc pri">U+FFA2C</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA2D;</div><div class="gsn">telo-lete</div><div class="gsc pri">U+FFA2D</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA2E;</div><div class="gsn">telo-lili</div><div class="gsc pri">U+FFA2E</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0C;</div><div class="gsn">telo-sitelen</div><div class="gsc pri">U+FFD0C</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFD03;</div><div class="gsn">tenpo-ni</div><div class="gsc pri">U+FFD03</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA2F;</div><div class="gsn">toki-ala</div><div class="gsc pri">U+FFA2F</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA30;</div><div class="gsn">toki-ike</div><div class="gsc pri">U+FFA30</div></div><!--
@@ -1182,6 +1269,9 @@ specific people, communities, and things</span>.
 --><div class="gs pu"><div class="gsg">&#xFFA45;</div><div class="gsn">tu-luka</div><div class="gsc pri">U+FFA45</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA3F;</div><div class="gsn">tu-tu</div><div class="gsc pri">U+FFA3F</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA40;</div><div class="gsn">tu-wan</div><div class="gsc pri">U+FFA40</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0D;</div><div class="gsn">walo-jelo</div><div class="gsc pri">U+FFD0D</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0E;</div><div class="gsn">walo-laso</div><div class="gsc pri">U+FFD0E</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD0F;</div><div class="gsn">walo-loje</div><div class="gsc pri">U+FFD0F</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBEC;</div><div class="gsn">walo-pimeja</div><div class="gsc pri">U+FFBEC</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA43;</div><div class="gsn">wan-luka</div><div class="gsc pri">U+FFA43</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA41;</div><div class="gsn">wan-tu</div><div class="gsc pri">U+FFA41</div></div><!--
