@@ -8,11 +8,13 @@ feature liga {
   sub uF1930 uni200D uF196C uni200D uF1954 uni200D uF1977 uni200D uF1911 by uFFDE5;  # Ma Toki Pona VR
   sub uF1949 uni200D uF1949 uni200D uF1904 uni200D uF1954 uni200D uF1983 by uFFDE6;  # pali Pape (Project Babel)
 
+  sub uF1900 uni200D uF1907 uni200D uF1959 uni200D u1F4E7 uni200D u1F004 by uFFDFF;  # a + anu + seme + email + mahjong = aAANUSEMEmailMahjong
   sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF190D by uFFD84;  # o + moku + e + kala + ike = omekalike
   sub uF1944 uni200D uF1936 uni200D uF1909 uni200D uF1914 uni200D uF1954 by uFFB3B;  # o + moku + e + kala + pona = omekapo
 
   # Sequences of length 4, using zero width joiners
   sub uF190C uni200D uF1941 uni200D uF1927 uni200D uF1959 by uFFBFF;  # ijo ni li seme
+  sub uF192D uni200D uF192D uni200D uF192D uni200D uF192D by uFFD69;  # luka luka luka luka
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF196E by uFFBC8;  # luka luka luka tu
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF1973 by uFFBCB;  # luka luka luka wan
   sub uF192D uni200D uF192D uni200D uF196E uni200D uF196E by uFFA4E;  # luka luka tu tu
@@ -195,6 +197,7 @@ feature liga {
   sub uF190C uni200D uFFB09 by uFF949;  # ijo ona, curved, scaled
   sub uF190C uni200D uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190C uni200D uFFD68 by uFF938;  # ijo moli, scaled
+  sub uF190C uni200D uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
   sub uF190D uni200D uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uni200D uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uni200D uF192E by uFF97E;  # ike lukin, stacked
@@ -243,9 +246,11 @@ feature liga {
   sub uF1911 uni200D uFFAA0 by uFF98E;  # jan kala, with eyes, scaled
   sub uF1911 uni200D uFFAA3 by uFFBB7;  # jan olin, pilin with emitters, scaled
   sub uF1911 uni200D uFFAA4 by uFFBB8;  # jan sewi, secularized, scaled
+  sub uF1911 uni200D uFFD75 by uFF997;  # jan olin, doubled pilin, scaled
   sub uF1914 uni200D uF1926 by uFF9A7;  # kala lete, default, default
   sub uF1914 uni200D uF1928 by uFF9A8;  # kala lili, default, default
   sub uF1915 uni200D uF193B by uFF9A9;  # kalama musi, stacked
+  sub uF1916 uni200D uF1961 by uFFDED;  # kama sona
   sub uF1917 uni200D uF1912 by uFF9AA;  # kesi jelo, stacked
   sub uF1917 uni200D uF191E by uFF9AB;  # kasi kule, stacked
   sub uF1917 uni200D uF1923 by uFF9AC;  # kasi laso, stacked
@@ -322,7 +327,9 @@ feature liga {
   sub uF192A uni200D uF1961 by uFF9E1;  # lipu sona, scaled
   sub uF192A uni200D uF196B by uFFBC4;  # lipu tenpo, scaled
   sub uF192A uni200D uF196C by uFF9E2;  # lipu toki, scaled
+  sub uF192A uni200D uF19A2 by uFFD11;  # lipu majuna, default, default
   sub uF192A uni200D uFFAA4 by uFFBC3;  # lipu sewi, secularized, scaled
+  sub uF192A uni200D uFFAB3 by uFFD11;  # lipu majuna, lotus, default
   sub uF192B uni200D uF1912 by uFFBC5;  # loje jelo, stacked
   sub uF192B uni200D uF1972 by uFFBC6;  # loje walo, stacked
   sub uF192D uni200D uF192D by uFFA49;  # luka luka, default
@@ -667,6 +674,7 @@ feature liga {
   sub uF190C uF1996 uFFB09 by uFF949;  # ijo ona, curved, scaled
   sub uF190C uF1996 uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190C uF1996 uFFD68 by uFF938;  # ijo moli, scaled
+  sub uF190C uF1996 uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
   sub uF190D uF1995 uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uF1995 uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uF1995 uF192E by uFF97E;  # ike lukin, stacked
@@ -715,6 +723,7 @@ feature liga {
   sub uF1911 uF1996 uFFAA0 by uFF98E;  # jan kala, with eyes, scaled
   sub uF1911 uF1996 uFFAA3 by uFFBB7;  # jan olin, pilin with emitters, scaled
   sub uF1911 uF1996 uFFAA4 by uFFBB8;  # jan sewi, secularized, scaled
+  sub uF1911 uF1996 uFFD75 by uFF997;  # jan olin, doubled pilin, scaled
   sub uF1914 uF1995 uF1926 by uFFBB9;  # kala lete, default, stacked
   sub uF1914 uF1995 uF1928 by uFFBBB;  # kala lili, default, stacked
   sub uF1914 uF1996 uF1926 by uFF9A7;  # kala lete, default, scaled
@@ -789,6 +798,8 @@ feature liga {
   sub uF1929 uF1995 uF1954 by uFF9DD;  # linja pona, stacked
   sub uF1929 uF1995 uF195C by uFFBF4;  # linja sike, stacked
   sub uF1929 uF1995 uF1966 by uFFBF5;  # linja suwi, stacked
+  sub uF192A uF1995 uF19A2 by uFFD10;  # lipu majuna, default, stacked
+  sub uF192A uF1995 uFFAB3 by uFFD10;  # lipu majuna, lotus, stacked
   sub uF192A uF1996 uF1917 by uFF9DE;  # lipu kasi, scaled
   sub uF192A uF1996 uF193D by uFF9DF;  # lipu nanpa, scaled
   sub uF192A uF1996 uF1942 by uFFBC2;  # lipu nimi, scaled
@@ -796,7 +807,9 @@ feature liga {
   sub uF192A uF1996 uF1961 by uFF9E1;  # lipu sona, scaled
   sub uF192A uF1996 uF196B by uFFBC4;  # lipu tenpo, scaled
   sub uF192A uF1996 uF196C by uFF9E2;  # lipu toki, scaled
+  sub uF192A uF1996 uF19A2 by uFFD11;  # lipu majuna, default, scaled
   sub uF192A uF1996 uFFAA4 by uFFBC3;  # lipu sewi, secularized, scaled
+  sub uF192A uF1996 uFFAB3 by uFFD11;  # lipu majuna, lotus, scaled
   sub uF192B uF1995 uF1912 by uFFBC5;  # loje jelo, stacked
   sub uF192B uF1995 uF1972 by uFFBC6;  # loje walo, stacked
   sub uF192D uF1995 uF192D by uFF9E3;  # luka luka, stacked
