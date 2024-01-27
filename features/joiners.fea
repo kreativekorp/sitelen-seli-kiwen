@@ -321,12 +321,14 @@ feature liga {
   sub uF1929 uni200D uF195C by uFFBF4;  # linja sike, stacked
   sub uF1929 uni200D uF1966 by uFFBF5;  # linja suwi, stacked
   sub uF192A uni200D uF1917 by uFF9DE;  # lipu kasi, scaled
+  sub uF192A uni200D uF191E by uFFD13;  # lipu kule, default
   sub uF192A uni200D uF193D by uFF9DF;  # lipu nanpa, scaled
   sub uF192A uni200D uF1942 by uFFBC2;  # lipu nimi, scaled
   sub uF192A uni200D uF195A by uFF9E0;  # lipu sewi, default, scaled
   sub uF192A uni200D uF1961 by uFF9E1;  # lipu sona, scaled
-  sub uF192A uni200D uF196B by uFFBC4;  # lipu tenpo, scaled
+  sub uF192A uni200D uF196B by uFFBC4;  # lipu tenpo, default
   sub uF192A uni200D uF196C by uFF9E2;  # lipu toki, scaled
+  sub uF192A uni200D uF196F by uFFD17;  # lipu unpa, default
   sub uF192A uni200D uF19A2 by uFFD11;  # lipu majuna, default, default
   sub uF192A uni200D uFFAA4 by uFFBC3;  # lipu sewi, secularized, scaled
   sub uF192A uni200D uFFAB3 by uFFD11;  # lipu majuna, lotus, default
@@ -501,8 +503,6 @@ feature liga {
   sub uF1900 uni200D uF1957 by uFFD61;  # a + seli (triple exclamation mark)
   sub uF1900 uni200D uni203D by uFFD62;  # a + interrobang
   sub uF191F uni200D ampersand by uFFB96;  # kulupu + ampersand = The & System
-  sub uF191F uni200D u1F331 by uFFDE1;  # kulupu + seedling = kulupu kasi, seedling
-  sub uF191F uni200D u1F344 by uFFB97;  # kulupu + mushroom = kulupu kasi, mushroom
   sub uF1933 uni200D u1F431 by uFFABF;  # meli + cat face = melinjakulekule
   sub uF1939 uni200D u1F5E7 by uFFAB8;  # mu + three rays right = emitters
   sub uF1941 uni200D arrowdown by uFFB03;  # ni + down arrow = ni pointing down
@@ -798,15 +798,20 @@ feature liga {
   sub uF1929 uF1995 uF1954 by uFF9DD;  # linja pona, stacked
   sub uF1929 uF1995 uF195C by uFFBF4;  # linja sike, stacked
   sub uF1929 uF1995 uF1966 by uFFBF5;  # linja suwi, stacked
+  sub uF192A uF1995 uF191E by uFFD12;  # lipu kule, stacked
+  sub uF192A uF1995 uF196B by uFFD14;  # lipu tenpo, stacked
+  sub uF192A uF1995 uF196F by uFFD16;  # lipu unpa, stacked
   sub uF192A uF1995 uF19A2 by uFFD10;  # lipu majuna, default, stacked
   sub uF192A uF1995 uFFAB3 by uFFD10;  # lipu majuna, lotus, stacked
   sub uF192A uF1996 uF1917 by uFF9DE;  # lipu kasi, scaled
+  sub uF192A uF1996 uF191E by uFFD13;  # lipu kule, scaled
   sub uF192A uF1996 uF193D by uFF9DF;  # lipu nanpa, scaled
   sub uF192A uF1996 uF1942 by uFFBC2;  # lipu nimi, scaled
   sub uF192A uF1996 uF195A by uFF9E0;  # lipu sewi, default, scaled
   sub uF192A uF1996 uF1961 by uFF9E1;  # lipu sona, scaled
-  sub uF192A uF1996 uF196B by uFFBC4;  # lipu tenpo, scaled
+  sub uF192A uF1996 uF196B by uFFD15;  # lipu tenpo, scaled
   sub uF192A uF1996 uF196C by uFF9E2;  # lipu toki, scaled
+  sub uF192A uF1996 uF196F by uFFD17;  # lipu unpa, scaled
   sub uF192A uF1996 uF19A2 by uFFD11;  # lipu majuna, default, scaled
   sub uF192A uF1996 uFFAA4 by uFFBC3;  # lipu sewi, secularized, scaled
   sub uF192A uF1996 uFFAB3 by uFFD11;  # lipu majuna, lotus, scaled

@@ -150,8 +150,6 @@ feature liga {
   sub k i w e n asterisk p i m e j a space by uFF9C0;  # kiwen pimeja, scaled
   sub k i w e n plus p i m e j a space by uFF9C0;  # kiwen pimeja, scaled
   sub k i w e n hyphen p i m e j a space by uFF9C0;  # kiwen pimeja, scaled
-  sub k u l u p u plus k a s i one space by uFFB97;  # kulupu kasi, mushroom
-  sub k u l u p u plus k a s i two space by uFFDE1;  # kulupu kasi, seedling
   sub l i p u asterisk m a j u n a two space by uFFD11;  # lipu majuna, lotus, scaled
   sub l i p u plus m a j u n a two space by uFFD11;  # lipu majuna, lotus, default
   sub l i p u hyphen m a j u n a two space by uFFD11;  # lipu majuna, lotus, default
@@ -184,8 +182,6 @@ feature liga {
   sub k i w e n asterisk p i m e j a by uFF9C0;  # kiwen pimeja, scaled
   sub k i w e n plus p i m e j a by uFF9C0;  # kiwen pimeja, scaled
   sub k i w e n hyphen p i m e j a by uFF9C0;  # kiwen pimeja, scaled
-  sub k u l u p u plus k a s i one by uFFB97;  # kulupu kasi, mushroom
-  sub k u l u p u plus k a s i two by uFFDE1;  # kulupu kasi, seedling
   sub l i p u asterisk m a j u n a two by uFFD11;  # lipu majuna, lotus, scaled
   sub l i p u plus m a j u n a two by uFFD11;  # lipu majuna, lotus, default
   sub l i p u hyphen m a j u n a two by uFFD11;  # lipu majuna, lotus, default
@@ -243,7 +239,6 @@ feature liga {
   sub k i l i plus p i m e j a space by uFF9B6;  # kili pimeja, scaled
   sub k i l i hyphen p a l i s a space by uFF9B5;  # kili palisa, scaled
   sub k i l i hyphen p i m e j a space by uFF9B6;  # kili pimeja, scaled
-  sub k u l u p u plus k a s i space by uFFDE1;  # kulupu kasi, default
   sub l i p u asterisk m a j u n a space by uFFD11;  # lipu majuna, default, scaled
   sub l i p u plus m a j u n a space by uFFD11;  # lipu majuna, default, default
   sub l i p u hyphen m a j u n a space by uFFD11;  # lipu majuna, default, default
@@ -329,7 +324,6 @@ feature liga {
   sub k i l i plus p i m e j a by uFF9B6;  # kili pimeja, scaled
   sub k i l i hyphen p a l i s a by uFF9B5;  # kili palisa, scaled
   sub k i l i hyphen p i m e j a by uFF9B6;  # kili pimeja, scaled
-  sub k u l u p u plus k a s i by uFFDE1;  # kulupu kasi, default
   sub l i p u asterisk m a j u n a by uFFD11;  # lipu majuna, default, scaled
   sub l i p u plus m a j u n a by uFFD11;  # lipu majuna, default, default
   sub l i p u hyphen m a j u n a by uFFD11;  # lipu majuna, default, default
@@ -503,15 +497,16 @@ feature liga {
   sub l i p u asterisk n a n p a space by uFF9DF;  # lipu nanpa, scaled
   sub l i p u asterisk s e w i one space by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u asterisk s e w i two space by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u asterisk t e n p o space by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u asterisk t e n p o space by uFFD15;  # lipu tenpo, scaled
   sub l i p u plus n a n p a space by uFF9DF;  # lipu nanpa, scaled
   sub l i p u plus s e w i one space by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u plus s e w i two space by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u plus t e n p o space by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u plus t e n p o space by uFFBC4;  # lipu tenpo, magazine logo
   sub l i p u hyphen n a n p a space by uFF9DF;  # lipu nanpa, scaled
   sub l i p u hyphen s e w i one space by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u hyphen s e w i two space by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u hyphen t e n p o space by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u hyphen t e n p o space by uFFBC4;  # lipu tenpo, default
+  sub l i p u asciicircum t e n p o space by uFFD14;  # lipu tenpo, stacked
   sub l u k a plus t u plus t u space by uFFA48;  # luka tu tu
   sub l u k a hyphen t u hyphen t u space by uFFA48;  # luka tu tu
   sub l u p a asterisk k i w e n space by uFF9E5;  # lupa kiwen, scaled
@@ -789,15 +784,16 @@ feature liga {
   sub l i p u asterisk n a n p a by uFF9DF;  # lipu nanpa, scaled
   sub l i p u asterisk s e w i one by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u asterisk s e w i two by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u asterisk t e n p o by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u asterisk t e n p o by uFFD15;  # lipu tenpo, scaled
   sub l i p u plus n a n p a by uFF9DF;  # lipu nanpa, scaled
   sub l i p u plus s e w i one by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u plus s e w i two by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u plus t e n p o by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u plus t e n p o by uFFBC4;  # lipu tenpo, magazine logo
   sub l i p u hyphen n a n p a by uFF9DF;  # lipu nanpa, scaled
   sub l i p u hyphen s e w i one by uFF9E0;  # lipu sewi, Arabic, scaled
   sub l i p u hyphen s e w i two by uFFBC3;  # lipu sewi, secularized, scaled
-  sub l i p u hyphen t e n p o by uFFBC4;  # lipu tenpo, scaled
+  sub l i p u hyphen t e n p o by uFFBC4;  # lipu tenpo, default
+  sub l i p u asciicircum t e n p o by uFFD14;  # lipu tenpo, stacked
   sub l u k a plus t u plus t u by uFFA48;  # luka tu tu
   sub l u k a hyphen t u hyphen t u by uFFA48;  # luka tu tu
   sub l u p a asterisk k i w e n by uFF9E5;  # lupa kiwen, scaled
@@ -1157,20 +1153,28 @@ feature liga {
   sub l i j o k u k u two space by uFFB79;  # lijokuku, pilin sama with musi
   sub l i p a m a n k a space by uFFABE;  # lipamanka
   sub l i p u asterisk k a s i space by uFF9DE;  # lipu kasi, scaled
+  sub l i p u asterisk k u l e space by uFFD13;  # lipu kule, scaled
   sub l i p u asterisk n i m i space by uFFBC2;  # lipu nimi, scaled
   sub l i p u asterisk s e w i space by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u asterisk s o n a space by uFF9E1;  # lipu sona, scaled
   sub l i p u asterisk t o k i space by uFF9E2;  # lipu toki, scaled
+  sub l i p u asterisk u n p a space by uFFD17;  # lipu unpa, scaled
   sub l i p u plus k a s i space by uFF9DE;  # lipu kasi, scaled
+  sub l i p u plus k u l e space by uFFD13;  # lipu kule, default
   sub l i p u plus n i m i space by uFFBC2;  # lipu nimi, scaled
   sub l i p u plus s e w i space by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u plus s o n a space by uFF9E1;  # lipu sona, scaled
   sub l i p u plus t o k i space by uFF9E2;  # lipu toki, scaled
+  sub l i p u plus u n p a space by uFFD17;  # lipu unpa, default
   sub l i p u hyphen k a s i space by uFF9DE;  # lipu kasi, scaled
+  sub l i p u hyphen k u l e space by uFFD13;  # lipu kule, default
   sub l i p u hyphen n i m i space by uFFBC2;  # lipu nimi, scaled
   sub l i p u hyphen s e w i space by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u hyphen s o n a space by uFF9E1;  # lipu sona, scaled
   sub l i p u hyphen t o k i space by uFF9E2;  # lipu toki, scaled
+  sub l i p u hyphen u n p a space by uFFD17;  # lipu unpa, default
+  sub l i p u asciicircum k u l e space by uFFD12;  # lipu kule, stacked
+  sub l i p u asciicircum u n p a space by uFFD16;  # lipu unpa, stacked
   sub l o j e plus j e l o space by uFFBC5;  # loje jelo, stacked
   sub l o j e plus w a l o space by uFFBC6;  # loje walo, stacked
   sub l o j e hyphen j e l o space by uFFBC5;  # loje jelo, stacked
@@ -1571,20 +1575,28 @@ feature liga {
   sub l i j o k u k u two by uFFB79;  # lijokuku, pilin sama with musi
   sub l i p a m a n k a by uFFABE;  # lipamanka
   sub l i p u asterisk k a s i by uFF9DE;  # lipu kasi, scaled
+  sub l i p u asterisk k u l e by uFFD13;  # lipu kule, scaled
   sub l i p u asterisk n i m i by uFFBC2;  # lipu nimi, scaled
   sub l i p u asterisk s e w i by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u asterisk s o n a by uFF9E1;  # lipu sona, scaled
   sub l i p u asterisk t o k i by uFF9E2;  # lipu toki, scaled
+  sub l i p u asterisk u n p a by uFFD17;  # lipu unpa, scaled
   sub l i p u plus k a s i by uFF9DE;  # lipu kasi, scaled
+  sub l i p u plus k u l e by uFFD13;  # lipu kule, default
   sub l i p u plus n i m i by uFFBC2;  # lipu nimi, scaled
   sub l i p u plus s e w i by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u plus s o n a by uFF9E1;  # lipu sona, scaled
   sub l i p u plus t o k i by uFF9E2;  # lipu toki, scaled
+  sub l i p u plus u n p a by uFFD17;  # lipu unpa, default
   sub l i p u hyphen k a s i by uFF9DE;  # lipu kasi, scaled
+  sub l i p u hyphen k u l e by uFFD13;  # lipu kule, default
   sub l i p u hyphen n i m i by uFFBC2;  # lipu nimi, scaled
   sub l i p u hyphen s e w i by uFF9E0;  # lipu sewi, default, scaled
   sub l i p u hyphen s o n a by uFF9E1;  # lipu sona, scaled
   sub l i p u hyphen t o k i by uFF9E2;  # lipu toki, scaled
+  sub l i p u hyphen u n p a by uFFD17;  # lipu unpa, default
+  sub l i p u asciicircum k u l e by uFFD12;  # lipu kule, stacked
+  sub l i p u asciicircum u n p a by uFFD16;  # lipu unpa, stacked
   sub l o j e plus j e l o by uFFBC5;  # loje jelo, stacked
   sub l o j e plus w a l o by uFFBC6;  # loje walo, stacked
   sub l o j e hyphen j e l o by uFFBC5;  # loje jelo, stacked
@@ -2124,10 +2136,10 @@ feature liga {
   sub l e n hyphen n o k a space by uFF9D8;  # len noka, scaled
   sub l e n hyphen w a l o space by uFF9DB;  # len walo, scaled
   sub l i j o k u k u space by uFFB78;  # lijokuku, default
-  sub l i n l u w i one space by uFFAC4;  # linluwi, sitelen-len-linja
-  sub l i n l u w i two space by uFFBA5;  # linluwi, len-linja-en with emitters
-  sub l i n l u w i three space by uFFD6B;  # linluwi, len-linja with emitters
-  sub l i n l u w i four space by uFFD6C;  # linluwi, connected kulupu
+  sub l i n l u w i one space by uFFAC4;  # linluwi, synonym of linuwi, sitelen-len-linja
+  sub l i n l u w i two space by uFFBA5;  # linluwi, synonym of linuwi, len-linja-en with emitters
+  sub l i n l u w i three space by uFFD6B;  # linluwi, synonym of linuwi, len-linja with emitters
+  sub l i n l u w i four space by uFFD6C;  # linluwi, synonym of linuwi, connected kulupu
   sub l u k a plus w a n space by uFFA42;  # luka wan, horizontal
   sub l u k a hyphen w a n space by uFFA42;  # luka wan, default
   sub l u k a asciicircum w a n space by uFFBCE;  # luka wan, stacked
@@ -2531,10 +2543,10 @@ feature liga {
   sub l e n hyphen n o k a by uFF9D8;  # len noka, scaled
   sub l e n hyphen w a l o by uFF9DB;  # len walo, scaled
   sub l i j o k u k u by uFFB78;  # lijokuku, default
-  sub l i n l u w i one by uFFAC4;  # linluwi, sitelen-len-linja
-  sub l i n l u w i two by uFFBA5;  # linluwi, len-linja-en with emitters
-  sub l i n l u w i three by uFFD6B;  # linluwi, len-linja with emitters
-  sub l i n l u w i four by uFFD6C;  # linluwi, connected kulupu
+  sub l i n l u w i one by uFFAC4;  # linluwi, synonym of linuwi, sitelen-len-linja
+  sub l i n l u w i two by uFFBA5;  # linluwi, synonym of linuwi, len-linja-en with emitters
+  sub l i n l u w i three by uFFD6B;  # linluwi, synonym of linuwi, len-linja with emitters
+  sub l i n l u w i four by uFFD6C;  # linluwi, synonym of linuwi, connected kulupu
   sub l u k a plus w a n by uFFA42;  # luka wan, horizontal
   sub l u k a hyphen w a n by uFFA42;  # luka wan, default
   sub l u k a asciicircum w a n by uFFBCE;  # luka wan, stacked
@@ -2742,6 +2754,10 @@ feature liga {
   sub l e n hyphen j a n space by uFF9D1;  # len jan, scaled
   sub l e n hyphen s i n space by uFF9DA;  # len sin, scaled
   sub l i n l u w i space by uFFAC4;  # linluwi, default
+  sub l i n u w i one space by uFFAC4;  # linuwi, synonym of linluwi, sitelen-len-linja
+  sub l i n u w i two space by uFFBA5;  # linuwi, synonym of linluwi, len-linja-en with emitters
+  sub l i n u w i three space by uFFD6B;  # linuwi, synonym of linluwi, len-linja with emitters
+  sub l i n u w i four space by uFFD6C;  # linuwi, synonym of linluwi, connected kulupu
   sub l u k a plus t u space by uFFA44;  # luka tu, horizontal
   sub l u k a hyphen t u space by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u space by uFFBCD;  # luka tu, stacked
@@ -2931,6 +2947,10 @@ feature liga {
   sub l e n hyphen j a n by uFF9D1;  # len jan, scaled
   sub l e n hyphen s i n by uFF9DA;  # len sin, scaled
   sub l i n l u w i by uFFAC4;  # linluwi, default
+  sub l i n u w i one by uFFAC4;  # linuwi, synonym of linluwi, sitelen-len-linja
+  sub l i n u w i two by uFFBA5;  # linuwi, synonym of linluwi, len-linja-en with emitters
+  sub l i n u w i three by uFFD6B;  # linuwi, synonym of linluwi, len-linja with emitters
+  sub l i n u w i four by uFFD6C;  # linuwi, synonym of linluwi, connected kulupu
   sub l u k a plus t u by uFFA44;  # luka tu, horizontal
   sub l u k a hyphen t u by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u by uFFBCD;  # luka tu, stacked
@@ -3044,6 +3064,7 @@ feature liga {
   sub l a n p a n space by uF1985;  # lanpan, default
   sub l a n s a n space by uFFBAB;  # lansan
   sub l i k u j o space by uFFAE2;  # likujo
+  sub l i n u w i space by uFFAC4;  # linuwi, synonym of linluwi, default
   sub m a plus a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e space by uFFD05;  # ma ike, stacked
@@ -3163,6 +3184,7 @@ feature liga {
   sub l a n p a n by uF1985;  # lanpan, default
   sub l a n s a n by uFFBAB;  # lansan
   sub l i k u j o by uFFAE2;  # likujo
+  sub l i n u w i by uFFAC4;  # linuwi, synonym of linluwi, default
   sub m a plus a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e by uFFD05;  # ma ike, stacked
@@ -3520,6 +3542,7 @@ feature liga {
   sub m i s a space by uFFAD2;  # misa, default
   sub m o k u space by uF1936;  # moku
   sub m o l i space by uF1937;  # moli, default
+  sub m o n o space by uFFB97;  # mono
   sub m u s i space by uF193B;  # musi
   sub m u t e space by uF193C;  # mute, default
   sub n a n o space by uFFD4D;  # nano
@@ -3685,6 +3708,7 @@ feature liga {
   sub m i s a by uFFAD2;  # misa, default
   sub m o k u by uF1936;  # moku
   sub m o l i by uF1937;  # moli, default
+  sub m o n o by uFFB97;  # mono
   sub m u s i by uF193B;  # musi
   sub m u t e by uF193C;  # mute, default
   sub n a n o by uFFD4D;  # nano

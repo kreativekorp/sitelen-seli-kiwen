@@ -1,0 +1,131 @@
+feature liga {
+
+  # Sequences of length 8 (7 + space)
+  sub s i t e l e n space by uF1960;  # sitelen
+
+  # Sequences of length 7
+  sub s i t e l e n by uF1960;  # sitelen
+
+  # Sequences of length 6 (5 + space)
+  sub k i w e n space by uF191B;  # kiwen
+
+  # Sequences of length 5
+  sub k i w e n by uF191B;  # kiwen
+
+  # Sequences of length 5 (4 + space)
+  sub k a t i space by uF1C46;  # kati
+  sub k i k u space by uF1C48;  # kiku
+  sub l a p i space by uF1C4B;  # lapi
+  sub l i k a space by uF1C4D;  # lika
+  sub l i l i space by uF1C4E;  # lili
+  sub l u p a space by uF1C50;  # lupa
+  sub m e s o space by uF1982;  # meso
+  sub m o n o space by uFFB97;  # mono
+  sub m u k u space by uF1C52;  # muku
+  sub m u t i space by uF1C53;  # muti
+  sub p a k a space by uF1C54;  # paka
+  sub p a l i space by uF1C55;  # pali
+  sub p u k a space by uF1C56;  # puka
+  sub p u l a space by uF1C57;  # pula
+  sub s e l i space by uF1957;  # seli
+  sub t a k a space by uF1C58;  # taka
+  sub t a m a space by uF1C59;  # tama
+  sub t i k i space by uF1C5A;  # tiki
+  sub t i k u space by uF1C5B;  # tiku
+  sub t i l a space by uF1C5C;  # tila
+  sub t i l u space by uF1C5D;  # tilu
+  sub t i m i space by uF1C5E;  # timi
+  sub t i p i space by uF1C5F;  # tipi
+  sub t i t i space by uF1C60;  # titi
+  sub t u k i space by uF1C62;  # tuki
+  sub t u l a space by uF1C63;  # tula
+  sub t u l u space by uF1C64;  # tulu
+
+  # Sequences of length 4
+  sub k a t i by uF1C46;  # kati
+  sub k i k u by uF1C48;  # kiku
+  sub l a p i by uF1C4B;  # lapi
+  sub l i k a by uF1C4D;  # lika
+  sub l i l i by uF1C4E;  # lili
+  sub l u p a by uF1C50;  # lupa
+  sub m e s o by uF1982;  # meso
+  sub m o n o by uFFB97;  # mono
+  sub m u k u by uF1C52;  # muku
+  sub m u t i by uF1C53;  # muti
+  sub p a k a by uF1C54;  # paka
+  sub p a l i by uF1C55;  # pali
+  sub p u k a by uF1C56;  # puka
+  sub p u l a by uF1C57;  # pula
+  sub s e l i by uF1957;  # seli
+  sub t a k a by uF1C58;  # taka
+  sub t a m a by uF1C59;  # tama
+  sub t i k i by uF1C5A;  # tiki
+  sub t i k u by uF1C5B;  # tiku
+  sub t i l a by uF1C5C;  # tila
+  sub t i l u by uF1C5D;  # tilu
+  sub t i m i by uF1C5E;  # timi
+  sub t i p i by uF1C5F;  # tipi
+  sub t i t i by uF1C60;  # titi
+  sub t u k i by uF1C62;  # tuki
+  sub t u l a by uF1C63;  # tula
+  sub t u l u by uF1C64;  # tulu
+
+  # Sequences of length 4 (3 + space)
+  sub a l a space by uF1C41;  # ala
+  sub i k u space by uF1C43;  # iku
+  sub i l u space by uF1C44;  # ilu
+  sub u l i space by uF1C65;  # uli
+  sub u p i space by uF1C66;  # upi
+
+  # Sequences of length 3
+  sub a l a by uF1C41;  # ala
+  sub i k u by uF1C43;  # iku
+  sub i l u by uF1C44;  # ilu
+  sub u l i by uF1C65;  # uli
+  sub u p i by uF1C66;  # upi
+
+  # Sequences of length 3 (2 + space)
+  sub period period space by uF199C;  # interpunct
+  sub colon colon space by uF199D;  # colon
+  sub k a space by uF1C45;  # ka
+  sub k i space by uF1C47;  # ki
+  sub k u space by uF1C49;  # ku
+  sub l a space by uF1C4A;  # la
+  sub l i space by uF1C4C;  # li
+  sub l u space by uF1C4F;  # lu
+  sub m i space by uF1C51;  # mi
+  sub t u space by uF1C61;  # tu
+
+  # Sequences of length 2
+  sub period period by uF199C;  # interpunct
+  sub colon colon by uF199D;  # colon
+  sub k a by uF1C45;  # ka
+  sub k i by uF1C47;  # ki
+  sub k u by uF1C49;  # ku
+  sub l a by uF1C4A;  # la
+  sub l i by uF1C4C;  # li
+  sub l u by uF1C4F;  # lu
+  sub m i by uF1C51;  # mi
+  sub t u by uF1C61;  # tu
+
+  # Sequences of length 2 (1 + space)
+  sub parenleft space by uF1997;  # start of extended glyph
+  sub parenright space by uF1998;  # end of extended glyph
+  sub bracketleft space by uF1990;  # start of cartouche
+  sub bracketright space by uF1991;  # end of cartouche
+  sub a space by uF1C40;  # a
+  sub i space by uF1C42;  # i
+  sub braceleft space by uF199A;  # start of reverse extended glyph
+  sub braceright space by uF199B;  # end of reverse extended glyph
+
+  # Sequences of length 1
+  sub parenleft by uF1997;  # start of extended glyph
+  sub parenright by uF1998;  # end of extended glyph
+  sub bracketleft by uF1990;  # start of cartouche
+  sub bracketright by uF1991;  # end of cartouche
+  sub a by uF1C40;  # a
+  sub i by uF1C42;  # i
+  sub braceleft by uF199A;  # start of reverse extended glyph
+  sub braceright by uF199B;  # end of reverse extended glyph
+
+} liga;

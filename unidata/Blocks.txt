@@ -6,6 +6,7 @@
 F700..F7FF; Kreative Software Private Use-F7
 F800..F89F; Kreative Software Private Use-F8
 F1900..F19FF; Sitelen Pona
+F1C40..F1C7F; Titi Pula
 FF100..FF1FF; Kreative Software Private Use-FF1
 FF900..FFABF; Sitelen Pona Presentation Forms-A
 FFAC0..FFBFF; Sitelen Pona Presentation Forms-B

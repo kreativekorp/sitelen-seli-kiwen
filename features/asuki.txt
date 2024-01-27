@@ -229,10 +229,15 @@ uFFD6D	kiki2	# kiki, hyperbolic squarrel
 uFFD6E	kiki3	# kiki, deltoid
 uFFD6F	kiki4	# kiki, hazard sign
 uFFAC4	linluwi	# linluwi, default
-uFFAC4	linluwi1	# linluwi, sitelen-len-linja
-uFFBA5	linluwi2	# linluwi, len-linja-en with emitters
-uFFD6B	linluwi3	# linluwi, len-linja with emitters
-uFFD6C	linluwi4	# linluwi, connected kulupu
+uFFAC4	linluwi1	# linluwi, synonym of linuwi, sitelen-len-linja
+uFFBA5	linluwi2	# linluwi, synonym of linuwi, len-linja-en with emitters
+uFFD6B	linluwi3	# linluwi, synonym of linuwi, len-linja with emitters
+uFFD6C	linluwi4	# linluwi, synonym of linuwi, connected kulupu
+uFFAC4	linuwi	# linuwi, synonym of linluwi, default
+uFFAC4	linuwi1	# linuwi, synonym of linluwi, sitelen-len-linja
+uFFBA5	linuwi2	# linuwi, synonym of linluwi, len-linja-en with emitters
+uFFD6B	linuwi3	# linuwi, synonym of linluwi, len-linja with emitters
+uFFD6C	linuwi4	# linuwi, synonym of linluwi, connected kulupu
 uF19A2	majuna	# majuna, default
 uFFAB2	majuna1	# majuna, three rays
 uFFAB3	majuna2	# majuna, five rays
@@ -514,9 +519,6 @@ uFFDE3	KeTami	# jan Ke Tami
 uFFB95	kili+ma	# kulupu Kilima
 uFFDE4	Kita	# jan Kita
 uFFB96	kulupu+en	# The & System
-uFFDE1	kulupu+kasi	# kulupu kasi, default
-uFFB97	kulupu+kasi1	# kulupu kasi, mushroom
-uFFDE1	kulupu+kasi2	# kulupu kasi, seedling
 uFFABE	lipamanka	# lipamanka
 uFFABE	Lipamanka	# lipamanka
 uFFABF	Lepeka	# jan Lepeka
@@ -599,6 +601,7 @@ uFFDEA	suno+pi+toki+pona	# suno pi toki pona
 uFFDEB	Wakalito	# Wakalito
 uFFDEC	asuki	# asuki (ASCII) (simplified form of ASCII chart from MIL-STD-188-100)
 uFFDEC	Asuki	# Asuki (ASCII) (simplified form of ASCII chart from MIL-STD-188-100)
+uFFB97	mono	# mono
 uFFB9D	juniko	# juniko (Unicode)
 uFFB9D	Juniko	# Juniko (Unicode)
 uFFB9F	jusijesuwa	# jusijesuwa (UCSUR)
@@ -1457,6 +1460,10 @@ uFFBF5	linja^suwi	# linja suwi, stacked
 uFF9DE	lipu-kasi	# lipu kasi, scaled
 uFF9DE	lipu+kasi	# lipu kasi, scaled
 uFF9DE	lipu*kasi	# lipu kasi, scaled
+uFFD13	lipu-kule	# lipu kule, default
+uFFD13	lipu+kule	# lipu kule, default
+uFFD13	lipu*kule	# lipu kule, scaled
+uFFD12	lipu^kule	# lipu kule, stacked
 uFFD11	lipu-majuna	# lipu majuna, default, default
 uFFD11	lipu+majuna	# lipu majuna, default, default
 uFFD11	lipu*majuna	# lipu majuna, default, scaled
@@ -1483,12 +1490,17 @@ uFFBC3	lipu*sewi2	# lipu sewi, secularized, scaled
 uFF9E1	lipu-sona	# lipu sona, scaled
 uFF9E1	lipu+sona	# lipu sona, scaled
 uFF9E1	lipu*sona	# lipu sona, scaled
-uFFBC4	lipu-tenpo	# lipu tenpo, scaled
-uFFBC4	lipu+tenpo	# lipu tenpo, scaled
-uFFBC4	lipu*tenpo	# lipu tenpo, scaled
+uFFBC4	lipu-tenpo	# lipu tenpo, default
+uFFBC4	lipu+tenpo	# lipu tenpo, magazine logo
+uFFD15	lipu*tenpo	# lipu tenpo, scaled
+uFFD14	lipu^tenpo	# lipu tenpo, stacked
 uFF9E2	lipu-toki	# lipu toki, scaled
 uFF9E2	lipu+toki	# lipu toki, scaled
 uFF9E2	lipu*toki	# lipu toki, scaled
+uFFD17	lipu-unpa	# lipu unpa, default
+uFFD17	lipu+unpa	# lipu unpa, default
+uFFD17	lipu*unpa	# lipu unpa, scaled
+uFFD16	lipu^unpa	# lipu unpa, stacked
 uFFBC5	loje-jelo	# loje jelo, stacked
 uFFBC5	loje+jelo	# loje jelo, stacked
 uFFBC5	loje^jelo	# loje jelo, stacked

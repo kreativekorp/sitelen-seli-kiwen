@@ -899,6 +899,8 @@ def writeJoinerFeatures(filename, joiners, nimi):
 def main():
 	asuki = readAsukiSource('asuki.txt')
 	writeAsukiFeatures('asuki.fea', asuki)
+	atuki = readAsukiSource('atuki.txt')
+	writeAsukiFeatures('atuki.fea', atuki)
 	glyphNames = readSFDGlyphNames('../sitelenselikiwen.sfd')
 	extendable = readExtendableSource('extendable.txt')
 	writeExtendableFeatures('extendable.fea', glyphNames, extendable)

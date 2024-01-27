@@ -8,6 +8,11 @@
 	src: url(sitelenselikiwenasuki.ttf) format("truetype");
 }
 @font-face {
+	font-family: "sitelenselikiwenatuki";
+	src: url(sitelenselikiwenatuki.eot);
+	src: url(sitelenselikiwenatuki.ttf) format("truetype");
+}
+@font-face {
 	font-family: "sitelenselikiwenjuniko";
 	src: url(sitelenselikiwenjuniko.eot);
 	src: url(sitelenselikiwenjuniko.ttf) format("truetype");
@@ -47,7 +52,11 @@ td, th {
 	font-family: sitelenselikiwenasuki;
 	font-size: 28px;
 }
-.demoa:hover {
+.demob {
+	font-family: sitelenselikiwenatuki;
+	font-size: 28px;
+}
+.demoa:hover, .demob:hover {
 	font-family: sitelenselikiwenjuniko;
 }
 .demo {
@@ -77,6 +86,7 @@ td, th {
 	height: 96px;
 	margin: 2px;
 	text-align: center;
+	background: #f5f5f5;
 }
 .gs.core { background: #ffffee; }
 .gs.wide { background: #f7ffee; }
@@ -145,8 +155,8 @@ td, th {
 <body>
 
 <h1>sitelen seli kiwen</h1>
-<h2>handwritten sitelen pona font</h2>
-<h3>jan Lepeka</h3>
+<h2>handwritten sitelen pona + titi pula font</h2>
+<h3>tan jan Lepeka</h3>
 
 <p>
 Years ago I created a handwritten font called Fluorine.<br>
@@ -156,16 +166,17 @@ They translated fluorine as “seli kiwen.”<br>
 I became inspired to make a handwritten sitelen pona font.
 </p>
 
-<p>
-The font comes in two versions:<br>
-<b>sitelen seli kiwen asuki</b> automatically converts sitelen Lasina (Latin letters) into sitelen pona.<br>
-<b>sitelen seli kiwen juniko</b> does not, requiring the use of <a href="http://www.kreativekorp.com/ucsur/charts/sitelen.html" target="_blank">the UCSUR assignment for sitelen pona</a>.
-</p>
+<p>The font comes in six versions:</p>
+<p><a href="sitelenselikiwen.html"><b>sitelen seli kiwen (asuki/atuki/juniko)</b></a> is proportional and<br><a href="sitelenselikiwenmono.html"><b>sitelen seli kiwen mono (asuki/atuki/juniko)</b></a> is monospaced.</p>
+<p><b>sitelen seli kiwen (mono) asuki</b> automatically converts<br><i>toki pona</i> text in <i>sitelen Lasina</i> (Latin letters) into <i>sitelen pona</i>.</p>
+<p><b>sitelen seli kiwen (mono) atuki</b> automatically converts<br><i>tuki tiki</i> text in <i>titi Latila</i> (Latin letters) into <a href="#titipula"><i>titi pula</i></a>.</p>
+<p><b>sitelen seli kiwen (mono) juniko</b> does not perform conversion,<br>requiring the use of <a href="http://www.kreativekorp.com/ucsur/charts/sitelen.html" target="_blank">the UCSUR assignment for sitelen pona</a>.</p>
 
-<p><b>
-Feel completely free to rip this font apart and steal code and
-ideas for your own sitelen pona fonts! I fully support this!
-</b></p>
+<p>
+These fonts are licensed under the SIL Open Font License.<br>
+You are completely free to rip them apart and steal code and<br>
+ideas for your own sitelen pona or titi pula fonts.
+</p>
 
 <h3 id="try">Try It Out</h3>
 
@@ -345,8 +356,6 @@ will produce characters that are not compound words<br>(at least not by the usua
 <tr><td class="demo">󱤑󱤑󱤑</td><td class="demo">󱤑&#x200D;󱤑&#x200D;󱤑</td><td>jan ⊕ jan ⊕ jan = jan Jan</td></tr>
 <tr><td class="demo">󱤟󱤚󱤰</td><td class="demo">󱤟&#x200D;󱤚&#x200D;󱤰</td><td>kulupu ⊕ kili ⊕ ma = kulupu Kilima</td></tr>
 <tr><td class="demo">󱤟&</td><td class="demo">󱤟&#x200D;&</td><td>kulupu ⊕ <small>0026 AMPERSAND</small> = The & System</td></tr>
-<tr><td class="demo">󱤟🍄</td><td class="demo">󱤟&#x200D;🍄</td><td>kulupu ⊕ <small>1F344 MUSHROOM</small> = kulupu kasi</td></tr>
-<tr><td class="demo">󱤟🌱</td><td class="demo">󱤟&#x200D;🌱</td><td>kulupu ⊕ <small>1F331 SEEDLING</small> = kulupu kasi</td></tr>
 <tr><td class="demo">󱦀😇</td><td class="demo">󱦀&#x200D;😇</td><td>kijetesantakalu ⊕ <small>1F607 SMILING FACE WITH HALO</small> = jan Wija / Wyub</td></tr>
 <tr><td class="demo">ẞ󱦀</td><td class="demo">ẞ&#x200D;󱦀</td><td><small>1E9E LATIN CAPITAL LETTER SHARP S</small> ⊕ kijetesantakalu</td></tr>
 <tr><td class="demo">ß󱦀</td><td class="demo">ß&#x200D;󱦀</td><td><small>00DF LATIN SMALL LETTER SHARP S</small> ⊕ kijetesantakalu</td></tr>
@@ -452,7 +461,7 @@ This list is now sorted using the <i>lipu Linku</i> categories of
 --><div class="gs pu core"><div class="gsg">&#xF1944;</div><div class="gsn">o</div><div class="gsc pub">U+F1944</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xFFB13;</div><div class="gsn">o2</div><div class="gsc pri">U+FFB13</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xF1945;</div><div class="gsn">olin</div><div class="gsc pub">U+F1945</div></div><!--
---><div class="gs pu core"><div class="gsg">&#xFFD74;</div><div class="gsn">olin0</div><div class="gsc pri">U+FFD74</div></div><!--
+--><div class="gs pu core"><div class="gsg">&#xFFD75;</div><div class="gsn">olin1</div><div class="gsc pri">U+FFD75</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xFFAA3;</div><div class="gsn">olin2</div><div class="gsc pri">U+FFAA3</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xF1946;</div><div class="gsn">ona</div><div class="gsc pub">U+F1946</div></div><!--
 --><div class="gs pu core"><div class="gsg">&#xFFB09;</div><div class="gsn">ona2</div><div class="gsc pri">U+FFB09</div></div><!--
@@ -773,7 +782,10 @@ This list is now sorted using the <i>lipu Linku</i> categories of
 <h3 id="nameglyphs">Name Glyphs</h3>
 <p>
 These are glyphs for names of specific people, communities, and things.<br>
-(There is no criteria for notability here.)
+(There is no criteria for notability here.<br>
+Anyone or anything can have a name glyph.<br>
+You don't have to be a notable tokiponist to get one,<br>
+and many notable tokiponists don't have or even want one.)
 </p>
 
 <div class="glyphs"><!--
@@ -810,8 +822,6 @@ These are glyphs for names of specific people, communities, and things.<br>
 --><div class="gs nj"><div class="gsg">&#xFFDE4;</div><div class="gsn">Kita</div><div class="gsc pri">U+FFDE4</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFD42;</div><div class="gsn">Koko</div><div class="gsc pri">U+FFD42</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB96;</div><div class="gsn">kulupu+en</div><div class="gsc pri">U+FFB96</div></div><!--
---><div class="gs nj"><div class="gsg">&#xFFDE1;</div><div class="gsn">kulupu+kasi</div><div class="gsc pri">U+FFDE1</div></div><!--
---><div class="gs nj"><div class="gsg">&#xFFB97;</div><div class="gsn">kulupu+kasi1</div><div class="gsc pri">U+FFB97</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFD43;</div><div class="gsn">Lewi</div><div class="gsc pri">U+FFD43</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFABE;</div><div class="gsn">lipamanka</div><div class="gsc pri">U+FFABE</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFD44;</div><div class="gsn">Luke</div><div class="gsc pri">U+FFD44</div></div><!--
@@ -869,6 +879,7 @@ These are glyphs for names of specific people, communities, and things.<br>
 --><div class="gs nj"><div class="gsg">&#xFFB9D;</div><div class="gsn">juniko</div><div class="gsc pri">U+FFB9D</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9E;</div><div class="gsn">sijesuwa</div><div class="gsc pri">U+FFB9E</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFB9F;</div><div class="gsn">jusijesuwa</div><div class="gsc pri">U+FFB9F</div></div><!--
+--><div class="gs nj"><div class="gsg">&#xFFB97;</div><div class="gsn">mono</div><div class="gsc pri">U+FFB97</div></div><!--
 --><div class="gs nj"><div class="gsg">&#xFFBF9;</div><div class="gsn"><div class="long70">sitelen+seli+kiwen</div></div><div class="gsc pri">U+FFBF9</div></div><!--
 --></div>
 
@@ -1124,6 +1135,8 @@ These are glyphs for names of specific people, communities, and things.<br>
 --><div class="gs pu"><div class="gsg">&#xFFBF4;</div><div class="gsn">linja-sike</div><div class="gsc pri">U+FFBF4</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBF5;</div><div class="gsn">linja-suwi</div><div class="gsc pri">U+FFBF5</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9DE;</div><div class="gsn">lipu-kasi</div><div class="gsc pri">U+FF9DE</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD13;</div><div class="gsn">lipu-kule</div><div class="gsc pri">U+FFD13</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD12;</div><div class="gsn">lipu^kule</div><div class="gsc pri">U+FFD12</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFD11;</div><div class="gsn">lipu-majuna</div><div class="gsc pri">U+FFD11</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFD10;</div><div class="gsn">lipu^majuna</div><div class="gsc pri">U+FFD10</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9DF;</div><div class="gsn">lipu-nanpa</div><div class="gsc pri">U+FF9DF</div></div><!--
@@ -1132,7 +1145,11 @@ These are glyphs for names of specific people, communities, and things.<br>
 --><div class="gs pu"><div class="gsg">&#xFFBC3;</div><div class="gsn">lipu-sewi2</div><div class="gsc pri">U+FFBC3</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9E1;</div><div class="gsn">lipu-sona</div><div class="gsc pri">U+FF9E1</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBC4;</div><div class="gsn">lipu-tenpo</div><div class="gsc pri">U+FFBC4</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD15;</div><div class="gsn">lipu*tenpo</div><div class="gsc pri">U+FFD15</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD14;</div><div class="gsn">lipu^tenpo</div><div class="gsc pri">U+FFD14</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFF9E2;</div><div class="gsn">lipu-toki</div><div class="gsc pri">U+FF9E2</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD17;</div><div class="gsn">lipu-unpa</div><div class="gsc pri">U+FFD17</div></div><!--
+--><div class="gs pu"><div class="gsg">&#xFFD16;</div><div class="gsn">lipu^unpa</div><div class="gsc pri">U+FFD16</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBC5;</div><div class="gsn">loje-jelo</div><div class="gsc pri">U+FFBC5</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBC6;</div><div class="gsn">loje-walo</div><div class="gsc pri">U+FFBC6</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA49;</div><div class="gsn">luka-luka</div><div class="gsc pri">U+FFA49</div></div><!--
@@ -1308,6 +1325,61 @@ These are glyphs for names of specific people, communities, and things.<br>
 --><div class="gs pu"><div class="gsg">&#xFFA43;</div><div class="gsn">wan-luka</div><div class="gsc pri">U+FFA43</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFA41;</div><div class="gsn">wan-tu</div><div class="gsc pri">U+FFA41</div></div><!--
 --><div class="gs pu"><div class="gsg">&#xFFBED;</div><div class="gsn">wawa-tenpo</div><div class="gsc pri">U+FFBED</div></div><!--
+--></div>
+
+<h3 id="titipula">Titi Pula</h3>
+
+<p>sitelen seli kiwen juniko:<br><textarea id="uliku" rows="4" spellcheck="false" style="font-family: sitelenselikiwenjuniko; font-size: 28px; width: 500px; height: unset;">tuki tiki titi pula</textarea></p>
+<p>sitelen seli kiwen atuki:<br><textarea id="atuki" rows="4" spellcheck="false" style="font-family: sitelenselikiwenatuki; font-size: 28px; width: 500px; height: unset;">tuki tiki titi pula</textarea></p>
+<script>
+var uliku = document.querySelector('#uliku');
+var atuki = document.querySelector('#atuki');
+uliku.addEventListener('input', function() { atuki.value = uliku.value; });
+atuki.addEventListener('input', function() { uliku.value = atuki.value; });
+</script>
+
+<h3>Titi Pula Glyphs</h3>
+
+<div class="glyphs"><!--
+--><div class="gs"><div class="gsg">&#xF1C40;</div><div class="gsn">a</div><div class="gsc pub">U+F1C40</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C41;</div><div class="gsn">ala</div><div class="gsc pub">U+F1C41</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C42;</div><div class="gsn">i</div><div class="gsc pub">U+F1C42</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C43;</div><div class="gsn">iku</div><div class="gsc pub">U+F1C43</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C44;</div><div class="gsn">ilu</div><div class="gsc pub">U+F1C44</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C45;</div><div class="gsn">ka</div><div class="gsc pub">U+F1C45</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C46;</div><div class="gsn">kati</div><div class="gsc pub">U+F1C46</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C47;</div><div class="gsn">ki</div><div class="gsc pub">U+F1C47</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C48;</div><div class="gsn">kiku</div><div class="gsc pub">U+F1C48</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C49;</div><div class="gsn">ku</div><div class="gsc pub">U+F1C49</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4A;</div><div class="gsn">la</div><div class="gsc pub">U+F1C4A</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4B;</div><div class="gsn">lapi</div><div class="gsc pub">U+F1C4B</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4C;</div><div class="gsn">li</div><div class="gsc pub">U+F1C4C</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4D;</div><div class="gsn">lika</div><div class="gsc pub">U+F1C4D</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4E;</div><div class="gsn">lili</div><div class="gsc pub">U+F1C4E</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C4F;</div><div class="gsn">lu</div><div class="gsc pub">U+F1C4F</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C50;</div><div class="gsn">lupa</div><div class="gsc pub">U+F1C50</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C51;</div><div class="gsn">mi</div><div class="gsc pub">U+F1C51</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C52;</div><div class="gsn">muku</div><div class="gsc pub">U+F1C52</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C53;</div><div class="gsn">muti</div><div class="gsc pub">U+F1C53</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C54;</div><div class="gsn">paka</div><div class="gsc pub">U+F1C54</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C55;</div><div class="gsn">pali</div><div class="gsc pub">U+F1C55</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C56;</div><div class="gsn">puka</div><div class="gsc pub">U+F1C56</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C57;</div><div class="gsn">pula</div><div class="gsc pub">U+F1C57</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C58;</div><div class="gsn">taka</div><div class="gsc pub">U+F1C58</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C59;</div><div class="gsn">tama</div><div class="gsc pub">U+F1C59</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5A;</div><div class="gsn">tiki</div><div class="gsc pub">U+F1C5A</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5B;</div><div class="gsn">tiku</div><div class="gsc pub">U+F1C5B</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5C;</div><div class="gsn">tila</div><div class="gsc pub">U+F1C5C</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5D;</div><div class="gsn">tilu</div><div class="gsc pub">U+F1C5D</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5E;</div><div class="gsn">timi</div><div class="gsc pub">U+F1C5E</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C5F;</div><div class="gsn">tipi</div><div class="gsc pub">U+F1C5F</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C60;</div><div class="gsn">titi</div><div class="gsc pub">U+F1C60</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C61;</div><div class="gsn">tu</div><div class="gsc pub">U+F1C61</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C62;</div><div class="gsn">tuki</div><div class="gsc pub">U+F1C62</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C63;</div><div class="gsn">tula</div><div class="gsc pub">U+F1C63</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C64;</div><div class="gsn">tulu</div><div class="gsc pub">U+F1C64</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C65;</div><div class="gsn">uli</div><div class="gsc pub">U+F1C65</div></div><!--
+--><div class="gs"><div class="gsg">&#xF1C66;</div><div class="gsn">upi</div><div class="gsc pub">U+F1C66</div></div><!--
 --></div>
 
 </body>
