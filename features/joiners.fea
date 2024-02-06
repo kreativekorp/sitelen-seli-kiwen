@@ -21,6 +21,7 @@ feature liga {
   sub uF192D uni200D uF192D uni200D uF196E uni200D uF1973 by uFFA4C;  # luka luka tu wan
   sub uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFA4D;  # luka luka wan tu
   sub uF1930 uni200D uF194D uni200D uF193F uni200D uF1960 by uFFBF1;  # ma pi nasin sitelen
+  sub uF193A uni200D uF194D uni200D uF1906 uni200D uF196C by uFFDDE;  # mun pi ante toki
   sub uF1964 uni200D uF194D uni200D uF196C uni200D uF1954 by uFFDEA;  # suno pi toki pona
 
   sub uF190C uni200D uF1967 uni200D uF1905 uni200D uF193D by uFFDE0;  # ijo + tan + anpa + nanpa = jan Itan

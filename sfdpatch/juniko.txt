@@ -1,3 +1,5 @@
 ===FontName: sitelenselikiwenjuniko
 ===FullName: sitelen seli kiwen juniko
 ===FamilyName: sitelen seli kiwen juniko
+===Ascent: 800
+===Descent: 200

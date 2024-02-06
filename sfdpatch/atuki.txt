@@ -1,3 +1,5 @@
 ===FontName: sitelenselikiwenatuki
 ===FullName: sitelen seli kiwen atuki
 ===FamilyName: sitelen seli kiwen atuki
+===Ascent: 800
+===Descent: 200

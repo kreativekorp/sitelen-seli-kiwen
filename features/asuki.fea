@@ -1,9 +1,11 @@
 feature liga {
 
   # Sequences of length 25 (24 + space)
+  sub P a r a n o r m a l C h i c k e n S c r a t c h space by uFFDDB;  # ParanormalChickenScratch (PCS)
   sub p a l i plus p a l i plus a l e plus p o n a plus e p i k u space by uFFDE6;  # pali Pape (Project Babel)
 
   # Sequences of length 24
+  sub P a r a n o r m a l C h i c k e n S c r a t c h by uFFDDB;  # ParanormalChickenScratch (PCS)
   sub p a l i plus p a l i plus a l e plus p o n a plus e p i k u by uFFDE6;  # pali Pape (Project Babel)
 
   # Sequences of length 23 (22 + space)
@@ -84,6 +86,7 @@ feature liga {
   sub l u k a plus l u k a plus w a n plus t u space by uFFA4D;  # luka luka wan tu
   sub l u k a hyphen l u k a hyphen t u hyphen w a n space by uFFA4C;  # luka luka tu wan
   sub l u k a hyphen l u k a hyphen w a n hyphen t u space by uFFA4D;  # luka luka wan tu
+  sub m u n plus p i plus a n t e plus t o k i space by uFFDDE;  # mun pi ante toki
 
   # Sequences of length 16
   sub k e k a n t e s a n t a k a l u by uFFD5F;  # jan Kekan San
@@ -91,6 +94,7 @@ feature liga {
   sub l u k a plus l u k a plus w a n plus t u by uFFA4D;  # luka luka wan tu
   sub l u k a hyphen l u k a hyphen t u hyphen w a n by uFFA4C;  # luka luka tu wan
   sub l u k a hyphen l u k a hyphen w a n hyphen t u by uFFA4D;  # luka luka wan tu
+  sub m u n plus p i plus a n t e plus t o k i by uFFDDE;  # mun pi ante toki
 
   # Sequences of length 16 (15 + space)
   sub k i j e t e s a n t a k a l u space by uF1980;  # kijetesantakalu
@@ -1798,6 +1802,7 @@ feature liga {
 
   # Sequences of length 9 (8 + space)
   sub A k e s i K o n space by uFFD31;  # akesi kon Nalasuni
+  sub C r a f t y P E space by uFFDDC;  # CraftyPE
   sub K e k a n S a n space by uFFDEF;  # jan Kekan San
   sub N a l a s u n i space by uFFD4C;  # akesi kon Nalasuni
   sub S i j e s u w a space by uFFB9E;  # Sijesuwa (CSUR)
@@ -2205,6 +2210,7 @@ feature liga {
 
   # Sequences of length 8
   sub A k e s i K o n by uFFD31;  # akesi kon Nalasuni
+  sub C r a f t y P E by uFFDDC;  # CraftyPE
   sub K e k a n S a n by uFFDEF;  # jan Kekan San
   sub N a l a s u n i by uFFD4C;  # akesi kon Nalasuni
   sub S i j e s u w a by uFFB9E;  # Sijesuwa (CSUR)
@@ -3000,6 +3006,8 @@ feature liga {
   sub A m a n k a space by uFFBFC;  # Amanka (Among Us)
   sub A m e l i n space by uFFD32;  # jan Amelin
   sub A m o n k a space by uFFBFC;  # Amonka (Among Us)
+  sub E w e k e one space by uFFD38;  # soweli Eweke
+  sub E w e k e two space by uFFDDA;  # soweli Eweke
   sub J a l e p u space by uFFD3B;  # jan Alepu
   sub J u n i k o space by uFFB9D;  # Juniko (Unicode)
   sub J u s i s a space by uFFB9F;  # Jusisa (UCSUR)
@@ -3107,6 +3115,9 @@ feature liga {
   sub t a s u n six space by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a s u n seven space by uFFDFB;  # tasun, right part, two ideographs wide
   sub t o k a n a space by uFFB70;  # tokana, default
+  sub t o n s i one space by uF197E;  # tonsi, circle with three spokes
+  sub t o n s i two space by uFFD08;  # tonsi, male and female sign
+  sub t o n s i three space by uFFD1A;  # tonsi, circle with letter T
   sub t u plus w a n space by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n space by uFFA40;  # tu wan, horizontal
   sub u m e s u one space by uFFAF2;  # umesu, podium
@@ -3120,6 +3131,8 @@ feature liga {
   sub A m a n k a by uFFBFC;  # Amanka (Among Us)
   sub A m e l i n by uFFD32;  # jan Amelin
   sub A m o n k a by uFFBFC;  # Amonka (Among Us)
+  sub E w e k e one by uFFD38;  # soweli Eweke
+  sub E w e k e two by uFFDDA;  # soweli Eweke
   sub J a l e p u by uFFD3B;  # jan Alepu
   sub J u n i k o by uFFB9D;  # Juniko (Unicode)
   sub J u s i s a by uFFB9F;  # Jusisa (UCSUR)
@@ -3227,6 +3240,9 @@ feature liga {
   sub t a s u n six by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a s u n seven by uFFDFB;  # tasun, right part, two ideographs wide
   sub t o k a n a by uFFB70;  # tokana, default
+  sub t o n s i one by uF197E;  # tonsi, circle with three spokes
+  sub t o n s i two by uFFD08;  # tonsi, male and female sign
+  sub t o n s i three by uFFD1A;  # tonsi, circle with letter T
   sub t u plus w a n by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n by uFFA40;  # tu wan, horizontal
   sub u m e s u one by uFFAF2;  # umesu, podium
@@ -3254,6 +3270,7 @@ feature liga {
   sub P o m a n space by uFFD53;  # jan Poman
   sub S i w a n space by uFFD56;  # jan Siwan
   sub T e n s i space by uFFD58;  # jan Tensi
+  sub T o k e n space by uFFDDD;  # Token
   sub T o n y u space by uFFD59;  # kala pona Tonyu
   sub T o w a n space by uFFDE9;  # Towan (Toaq)
   sub U s a w i space by uFFD5A;  # jan Usawi
@@ -3295,10 +3312,12 @@ feature liga {
   sub m a asciicircum n i space by uFFD02;  # ma ni, stacked
   sub m e l i one space by uF1933;  # meli, head with hair
   sub m e l i two space by uFFAA1;  # meli, female sign
+  sub m e l i three space by uFFD19;  # meli, circle with letter L
   sub m e s o one space by uFFAA9;  # meso, vertical lines with dot
   sub m e s o two space by uFFAAA;  # meso, ante with dot
   sub m i j e one space by uF1935;  # mije, head and shoulders
   sub m i j e two space by uFFAA2;  # mije, male sign
+  sub m i j e three space by uFFD18;  # mije, circle with letter J
   sub m i s a one space by uFFAD2;  # misa, no foot and no ear
   sub m i s a two space by uFFAD3;  # misa, no foot and short ear
   sub m i s a three space by uFFAD4;  # misa, no foot and long ear
@@ -3338,7 +3357,7 @@ feature liga {
   sub t e k e n space by uFFDB9;  # teken (same as sitelen; full writeup coming soon)
   sub t e n p i space by uFFD5E;  # tonsi tenpi
   sub t e n p o space by uF196B;  # tenpo
-  sub t o n s i space by uF197E;  # tonsi
+  sub t o n s i space by uF197E;  # tonsi, default
   sub t u plus t u space by uFFA3F;  # tu tu, horizontal
   sub t u hyphen t u space by uFFA3F;  # tu tu, horizontal
   sub u m e s u space by uFFAF2;  # umesu, default
@@ -3366,6 +3385,7 @@ feature liga {
   sub P o m a n by uFFD53;  # jan Poman
   sub S i w a n by uFFD56;  # jan Siwan
   sub T e n s i by uFFD58;  # jan Tensi
+  sub T o k e n by uFFDDD;  # Token
   sub T o n y u by uFFD59;  # kala pona Tonyu
   sub T o w a n by uFFDE9;  # Towan (Toaq)
   sub U s a w i by uFFD5A;  # jan Usawi
@@ -3407,10 +3427,12 @@ feature liga {
   sub m a asciicircum n i by uFFD02;  # ma ni, stacked
   sub m e l i one by uF1933;  # meli, head with hair
   sub m e l i two by uFFAA1;  # meli, female sign
+  sub m e l i three by uFFD19;  # meli, circle with letter L
   sub m e s o one by uFFAA9;  # meso, vertical lines with dot
   sub m e s o two by uFFAAA;  # meso, ante with dot
   sub m i j e one by uF1935;  # mije, head and shoulders
   sub m i j e two by uFFAA2;  # mije, male sign
+  sub m i j e three by uFFD18;  # mije, circle with letter J
   sub m i s a one by uFFAD2;  # misa, no foot and no ear
   sub m i s a two by uFFAD3;  # misa, no foot and short ear
   sub m i s a three by uFFAD4;  # misa, no foot and long ear
@@ -3450,7 +3472,7 @@ feature liga {
   sub t e k e n by uFFDB9;  # teken (same as sitelen; full writeup coming soon)
   sub t e n p i by uFFD5E;  # tonsi tenpi
   sub t e n p o by uF196B;  # tenpo
-  sub t o n s i by uF197E;  # tonsi
+  sub t o n s i by uF197E;  # tonsi, default
   sub t u plus t u by uFFA3F;  # tu tu, horizontal
   sub t u hyphen t u by uFFA3F;  # tu tu, horizontal
   sub u m e s u by uFFAF2;  # umesu, default
@@ -3479,6 +3501,7 @@ feature liga {
   sub N l s n space by uFFD4F;  # akesi kon Nalasuni
   sub P a m i space by uFFD52;  # jan Pami
   sub S e k a space by uFFDE7;  # ma Seka
+  sub S e k i space by uFFDDF;  # toki pona chess community
   sub S i s a space by uFFB9E;  # Sisa (CSUR)
   sub T e m i space by uFFD57;  # jan Temi
   sub W a j e space by uFFD5C;  # jan Waje
@@ -3488,6 +3511,10 @@ feature liga {
   sub a n p a space by uF1905;  # anpa
   sub a n t a space by uFFD89;  # anta
   sub a n t e space by uF1906;  # ante
+  sub a p i one space by uFFDBB;  # api, pi noka ala, read as wings
+  sub a p i two space by uFFDBC;  # api, pi noka ala, read as antennae
+  sub a p i three space by uFFDBD;  # api, Menasewian
+  sub a p i four space by uFFDBA;  # api, tawa sinpin
   sub a w e n space by uF1908;  # awen
   sub e l e n space by uFFD8B;  # elen
   sub e n k o space by uFFB43;  # enko, default
@@ -3517,6 +3544,7 @@ feature liga {
   sub k i n one space by uFFB14;  # kin, straight exclamation radical
   sub k i n two space by uFFB15;  # kin, diagonal exclamation radical
   sub k i s a space by uFFB57;  # kisa
+  sub k o l o space by uFFDBE;  # kolo
   sub k o n i space by uFFD92;  # koni
   sub k u l e space by uF191E;  # kule
   sub k u l u space by uFFB5D;  # kulu
@@ -3645,6 +3673,7 @@ feature liga {
   sub N l s n by uFFD4F;  # akesi kon Nalasuni
   sub P a m i by uFFD52;  # jan Pami
   sub S e k a by uFFDE7;  # ma Seka
+  sub S e k i by uFFDDF;  # toki pona chess community
   sub S i s a by uFFB9E;  # Sisa (CSUR)
   sub T e m i by uFFD57;  # jan Temi
   sub W a j e by uFFD5C;  # jan Waje
@@ -3654,6 +3683,10 @@ feature liga {
   sub a n p a by uF1905;  # anpa
   sub a n t a by uFFD89;  # anta
   sub a n t e by uF1906;  # ante
+  sub a p i one by uFFDBB;  # api, pi noka ala, read as wings
+  sub a p i two by uFFDBC;  # api, pi noka ala, read as antennae
+  sub a p i three by uFFDBD;  # api, Menasewian
+  sub a p i four by uFFDBA;  # api, tawa sinpin
   sub a w e n by uF1908;  # awen
   sub e l e n by uFFD8B;  # elen
   sub e n k o by uFFB43;  # enko, default
@@ -3683,6 +3716,7 @@ feature liga {
   sub k i n one by uFFB14;  # kin, straight exclamation radical
   sub k i n two by uFFB15;  # kin, diagonal exclamation radical
   sub k i s a by uFFB57;  # kisa
+  sub k o l o by uFFDBE;  # kolo
   sub k o n i by uFFD92;  # koni
   sub k u l e by uF191E;  # kule
   sub k u l u by uFFB5D;  # kulu
@@ -3809,6 +3843,7 @@ feature liga {
   sub a n a space by uFFDB1;  # ana
   sub a n i space by uFFD88;  # ani
   sub a n u space by uF1907;  # anu
+  sub a p i space by uFFDBB;  # api, default
   sub e k i space by uFFB3A;  # eki, synonym of natu and aka
   sub e n e space by uFFDB2;  # ene, synonym of eni
   sub e n i space by uFFDB2;  # eni, synonym of ene
@@ -3900,6 +3935,7 @@ feature liga {
   sub a n a by uFFDB1;  # ana
   sub a n i by uFFD88;  # ani
   sub a n u by uF1907;  # anu
+  sub a p i by uFFDBB;  # api, default
   sub e k i by uFFB3A;  # eki, synonym of natu and aka
   sub e n e by uFFDB2;  # ene, synonym of eni
   sub e n i by uFFDB2;  # eni, synonym of ene
