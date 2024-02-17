@@ -2622,6 +2622,7 @@ feature liga {
   sub L o s u p a n space by uFFDE8;  # Losupan (Lojban)
   sub N a s u l i n space by uFFB9C;  # Nasulin (Touhou hijack)
   sub P a l e n s i space by uFFD51;  # jan Palensi
+  sub T o n p i t e space by uFFDD9;  # nanpa Tonpite
   sub a k e s i v one space by uFFAFF;  # akesi, six-legged, turned
   sub a k e s i v two space by uFFD64;  # akesi, four-legged, turned
   sub e p i k u l e space by uFFB8B;  # epikule
@@ -2750,6 +2751,8 @@ feature liga {
   sub k o hyphen n a s a space by uFF9CC;  # ko nasa, scaled
   sub k o hyphen s e l i space by uFF9CE;  # ko seli, scaled
   sub k o hyphen w a l o space by uFF9CF;  # ko walo, scaled
+  sub k u l i j o one space by uFFAE1;  # kulijo, lete with emitters
+  sub k u l i j o two space by uFFDBF;  # kulijo, thumbs up
   sub l a n p a n one space by uFFAAF;  # lanpan, with head
   sub l a n p a n two space by uFFAB0;  # lanpan, with hook
   sub l a n p a n three space by uFFAB1;  # lanpan, turned pana
@@ -2764,6 +2767,8 @@ feature liga {
   sub l i n u w i two space by uFFBA5;  # linuwi, synonym of linluwi, len-linja-en with emitters
   sub l i n u w i three space by uFFD6B;  # linuwi, synonym of linluwi, len-linja with emitters
   sub l i n u w i four space by uFFD6C;  # linuwi, synonym of linluwi, connected kulupu
+  sub l i s a n a one space by uFFDC0;  # lisana, tongue
+  sub l i s a n a two space by uFFDC1;  # lisana, uvula
   sub l u k a plus t u space by uFFA44;  # luka tu, horizontal
   sub l u k a hyphen t u space by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u space by uFFBCD;  # luka tu, stacked
@@ -2815,6 +2820,7 @@ feature liga {
   sub L o s u p a n by uFFDE8;  # Losupan (Lojban)
   sub N a s u l i n by uFFB9C;  # Nasulin (Touhou hijack)
   sub P a l e n s i by uFFD51;  # jan Palensi
+  sub T o n p i t e by uFFDD9;  # nanpa Tonpite
   sub a k e s i v one by uFFAFF;  # akesi, six-legged, turned
   sub a k e s i v two by uFFD64;  # akesi, four-legged, turned
   sub e p i k u l e by uFFB8B;  # epikule
@@ -2943,6 +2949,8 @@ feature liga {
   sub k o hyphen n a s a by uFF9CC;  # ko nasa, scaled
   sub k o hyphen s e l i by uFF9CE;  # ko seli, scaled
   sub k o hyphen w a l o by uFF9CF;  # ko walo, scaled
+  sub k u l i j o one by uFFAE1;  # kulijo, lete with emitters
+  sub k u l i j o two by uFFDBF;  # kulijo, thumbs up
   sub l a n p a n one by uFFAAF;  # lanpan, with head
   sub l a n p a n two by uFFAB0;  # lanpan, with hook
   sub l a n p a n three by uFFAB1;  # lanpan, turned pana
@@ -2957,6 +2965,8 @@ feature liga {
   sub l i n u w i two by uFFBA5;  # linuwi, synonym of linluwi, len-linja-en with emitters
   sub l i n u w i three by uFFD6B;  # linuwi, synonym of linluwi, len-linja with emitters
   sub l i n u w i four by uFFD6C;  # linuwi, synonym of linluwi, connected kulupu
+  sub l i s a n a one by uFFDC0;  # lisana, tongue
+  sub l i s a n a two by uFFDC1;  # lisana, uvula
   sub l u k a plus t u by uFFA44;  # luka tu, horizontal
   sub l u k a hyphen t u by uFFA44;  # luka tu, default
   sub l u k a asciicircum t u by uFFBCD;  # luka tu, stacked
@@ -3067,12 +3077,14 @@ feature liga {
   sub k i k o l o space by uFFD8F;  # kikolo
   sub k i k u l o space by uFFD90;  # kikulo
   sub k i p i s i space by uF197B;  # kipisi
-  sub k u l i j o space by uFFAE1;  # kulijo
+  sub k u l i j o space by uFFAE1;  # kulijo, default
   sub k u l u p u space by uF191F;  # kulupu
   sub l a n p a n space by uF1985;  # lanpan, default
   sub l a n s a n space by uFFBAB;  # lansan
+  sub l e n l e n space by uFFDD7;  # len len
   sub l i k u j o space by uFFAE2;  # likujo
   sub l i n u w i space by uFFAC4;  # linuwi, synonym of linluwi, default
+  sub l i s a n a space by uFFDC0;  # lisana, default
   sub m a plus a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e space by uFFD05;  # ma ike, stacked
@@ -3114,10 +3126,13 @@ feature liga {
   sub t a s u n five space by uFFDF9;  # tasun, three ideographs wide
   sub t a s u n six space by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a s u n seven space by uFFDFB;  # tasun, right part, two ideographs wide
+  sub t e n p o one space by uF196B;  # tenpo, clock
+  sub t e n p o two space by uFFBAD;  # tenpo, hourglass
   sub t o k a n a space by uFFB70;  # tokana, default
   sub t o n s i one space by uF197E;  # tonsi, circle with three spokes
   sub t o n s i two space by uFFD08;  # tonsi, male and female sign
   sub t o n s i three space by uFFD1A;  # tonsi, circle with letter T
+  sub t o n s i four space by uFFD1B;  # tonsi, antimony symbol
   sub t u plus w a n space by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n space by uFFA40;  # tu wan, horizontal
   sub u m e s u one space by uFFAF2;  # umesu, podium
@@ -3192,12 +3207,14 @@ feature liga {
   sub k i k o l o by uFFD8F;  # kikolo
   sub k i k u l o by uFFD90;  # kikulo
   sub k i p i s i by uF197B;  # kipisi
-  sub k u l i j o by uFFAE1;  # kulijo
+  sub k u l i j o by uFFAE1;  # kulijo, default
   sub k u l u p u by uF191F;  # kulupu
   sub l a n p a n by uF1985;  # lanpan, default
   sub l a n s a n by uFFBAB;  # lansan
+  sub l e n l e n by uFFDD7;  # len len
   sub l i k u j o by uFFAE2;  # likujo
   sub l i n u w i by uFFAC4;  # linuwi, synonym of linluwi, default
+  sub l i s a n a by uFFDC0;  # lisana, default
   sub m a plus a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e by uFFD05;  # ma ike, stacked
@@ -3239,10 +3256,13 @@ feature liga {
   sub t a s u n five by uFFDF9;  # tasun, three ideographs wide
   sub t a s u n six by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a s u n seven by uFFDFB;  # tasun, right part, two ideographs wide
+  sub t e n p o one by uF196B;  # tenpo, clock
+  sub t e n p o two by uFFBAD;  # tenpo, hourglass
   sub t o k a n a by uFFB70;  # tokana, default
   sub t o n s i one by uF197E;  # tonsi, circle with three spokes
   sub t o n s i two by uFFD08;  # tonsi, male and female sign
   sub t o n s i three by uFFD1A;  # tonsi, circle with letter T
+  sub t o n s i four by uFFD1B;  # tonsi, antimony symbol
   sub t u plus w a n by uFFA40;  # tu wan, horizontal
   sub t u hyphen w a n by uFFA40;  # tu wan, horizontal
   sub u m e s u one by uFFAF2;  # umesu, podium
@@ -3266,6 +3286,7 @@ feature liga {
   sub L i n k u space by uFFBF2;  # kulupu Linku
   sub M a n k a space by uFFBFD;  # Manka (Minecraft)
   sub N u t a n space by uFFBFE;  # Nutan (Newton)
+  sub P e n s a space by uFFDD8;  # jan Pensa
   sub P i n g o space by uFFAFD;  # Pingo
   sub P o m a n space by uFFD53;  # jan Poman
   sub S i w a n space by uFFD56;  # jan Siwan
@@ -3356,7 +3377,7 @@ feature liga {
   sub t a s u n space by uFFDA8;  # tasun
   sub t e k e n space by uFFDB9;  # teken (same as sitelen; full writeup coming soon)
   sub t e n p i space by uFFD5E;  # tonsi tenpi
-  sub t e n p o space by uF196B;  # tenpo
+  sub t e n p o space by uF196B;  # tenpo, default
   sub t o n s i space by uF197E;  # tonsi, default
   sub t u plus t u space by uFFA3F;  # tu tu, horizontal
   sub t u hyphen t u space by uFFA3F;  # tu tu, horizontal
@@ -3381,6 +3402,7 @@ feature liga {
   sub L i n k u by uFFBF2;  # kulupu Linku
   sub M a n k a by uFFBFD;  # Manka (Minecraft)
   sub N u t a n by uFFBFE;  # Nutan (Newton)
+  sub P e n s a by uFFDD8;  # jan Pensa
   sub P i n g o by uFFAFD;  # Pingo
   sub P o m a n by uFFD53;  # jan Poman
   sub S i w a n by uFFD56;  # jan Siwan
@@ -3471,7 +3493,7 @@ feature liga {
   sub t a s u n by uFFDA8;  # tasun
   sub t e k e n by uFFDB9;  # teken (same as sitelen; full writeup coming soon)
   sub t e n p i by uFFD5E;  # tonsi tenpi
-  sub t e n p o by uF196B;  # tenpo
+  sub t e n p o by uF196B;  # tenpo, default
   sub t o n s i by uF197E;  # tonsi, default
   sub t u plus t u by uFFA3F;  # tu tu, horizontal
   sub t u hyphen t u by uFFA3F;  # tu tu, horizontal
