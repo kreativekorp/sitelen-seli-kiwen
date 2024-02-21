@@ -1,11 +1,9 @@
 feature liga {
 
   # Sequences of length 25 (24 + space)
-  sub P a r a n o r m a l C h i c k e n S c r a t c h space by uFFDDB;  # ParanormalChickenScratch (PCS)
   sub p a l i plus p a l i plus a l e plus p o n a plus e p i k u space by uFFDE6;  # pali Pape (Project Babel)
 
   # Sequences of length 24
-  sub P a r a n o r m a l C h i c k e n S c r a t c h by uFFDDB;  # ParanormalChickenScratch (PCS)
   sub p a l i plus p a l i plus a l e plus p o n a plus e p i k u by uFFDE6;  # pali Pape (Project Babel)
 
   # Sequences of length 23 (22 + space)
@@ -1802,7 +1800,6 @@ feature liga {
 
   # Sequences of length 9 (8 + space)
   sub A k e s i K o n space by uFFD31;  # akesi kon Nalasuni
-  sub C r a f t y P E space by uFFDDC;  # CraftyPE
   sub K e k a n S a n space by uFFDEF;  # jan Kekan San
   sub N a l a s u n i space by uFFD4C;  # akesi kon Nalasuni
   sub S i j e s u w a space by uFFB9E;  # Sijesuwa (CSUR)
@@ -2210,7 +2207,6 @@ feature liga {
 
   # Sequences of length 8
   sub A k e s i K o n by uFFD31;  # akesi kon Nalasuni
-  sub C r a f t y P E by uFFDDC;  # CraftyPE
   sub K e k a n S a n by uFFDEF;  # jan Kekan San
   sub N a l a s u n i by uFFD4C;  # akesi kon Nalasuni
   sub S i j e s u w a by uFFB9E;  # Sijesuwa (CSUR)
