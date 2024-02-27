@@ -1,5 +1,17 @@
 feature liga {
 
+  # Sequences of length 10 (9 + space)
+  sub t i t i plus p u l a space by uF1C7F;  # titi pula
+  sub t i t i hyphen p u l a space by uF1C7F;  # titi pula
+  sub t u k i plus t i k i space by uF1C7E;  # tuki tiki
+  sub t u k i hyphen t i k i space by uF1C7E;  # tuki tiki
+
+  # Sequences of length 9
+  sub t i t i plus p u l a by uF1C7F;  # titi pula
+  sub t i t i hyphen p u l a by uF1C7F;  # titi pula
+  sub t u k i plus t i k i by uF1C7E;  # tuki tiki
+  sub t u k i hyphen t i k i by uF1C7E;  # tuki tiki
+
   # Sequences of length 8 (7 + space)
   sub s i t e l e n space by uF1960;  # sitelen
 

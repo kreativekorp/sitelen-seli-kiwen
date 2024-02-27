@@ -54,3 +54,9 @@ uF199A	{	# start of reverse extended glyph
 uF199B	}	# end of reverse extended glyph
 uF199C	..	# interpunct
 uF199D	::	# colon
+
+# compounds of two words
+uF1C7E	tuki-tiki	# tuki tiki
+uF1C7E	tuki+tiki	# tuki tiki
+uF1C7F	titi-pula	# titi pula
+uF1C7F	titi+pula	# titi pula
