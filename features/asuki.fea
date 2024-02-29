@@ -3654,7 +3654,7 @@ feature liga {
   sub N l s n space by uFFD4F;  # akesi kon Nalasuni
   sub P a m i space by uFFD52;  # jan Pami
   sub P o n a space by uFFA19;  # Pona
-  sub P u l a space by uF1C7F;  # Pula
+  sub P u l a space by uF1C71;  # Pula
   sub S e k a space by uFFDE7;  # ma Seka
   sub S e k i space by uFFDDF;  # toki pona chess community
   sub S i s a space by uFFB9E;  # Sisa (CSUR)
@@ -3829,7 +3829,7 @@ feature liga {
   sub N l s n by uFFD4F;  # akesi kon Nalasuni
   sub P a m i by uFFD52;  # jan Pami
   sub P o n a by uFFA19;  # Pona
-  sub P u l a by uF1C7F;  # Pula
+  sub P u l a by uF1C71;  # Pula
   sub S e k a by uFFDE7;  # ma Seka
   sub S e k i by uFFDDF;  # toki pona chess community
   sub S i s a by uFFB9E;  # Sisa (CSUR)

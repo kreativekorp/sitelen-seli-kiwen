@@ -1,16 +1,16 @@
 feature liga {
 
   # Sequences of length 10 (9 + space)
-  sub t i t i plus p u l a space by uF1C7F;  # titi pula
-  sub t i t i hyphen p u l a space by uF1C7F;  # titi pula
-  sub t u k i plus t i k i space by uF1C7E;  # tuki tiki
-  sub t u k i hyphen t i k i space by uF1C7E;  # tuki tiki
+  sub t i t i plus p u l a space by uF1C71;  # titi pula
+  sub t i t i hyphen p u l a space by uF1C71;  # titi pula
+  sub t u k i plus t i k i space by uF1C70;  # tuki tiki
+  sub t u k i hyphen t i k i space by uF1C70;  # tuki tiki
 
   # Sequences of length 9
-  sub t i t i plus p u l a by uF1C7F;  # titi pula
-  sub t i t i hyphen p u l a by uF1C7F;  # titi pula
-  sub t u k i plus t i k i by uF1C7E;  # tuki tiki
-  sub t u k i hyphen t i k i by uF1C7E;  # tuki tiki
+  sub t i t i plus p u l a by uF1C71;  # titi pula
+  sub t i t i hyphen p u l a by uF1C71;  # titi pula
+  sub t u k i plus t i k i by uF1C70;  # tuki tiki
+  sub t u k i hyphen t i k i by uF1C70;  # tuki tiki
 
   # Sequences of length 8 (7 + space)
   sub s i t e l e n space by uF1960;  # sitelen
@@ -123,8 +123,8 @@ feature liga {
   # Sequences of length 2 (1 + space)
   sub parenleft space by uF1997;  # start of extended glyph
   sub parenright space by uF1998;  # end of extended glyph
-  sub bracketleft space by uF1990;  # start of cartouche
-  sub bracketright space by uF1991;  # end of cartouche
+  sub bracketleft space by uF1C7E;  # start of cartouche
+  sub bracketright space by uF1C7F;  # end of cartouche
   sub a space by uF1C40;  # a
   sub i space by uF1C42;  # i
   sub braceleft space by uF199A;  # start of reverse extended glyph
@@ -133,8 +133,8 @@ feature liga {
   # Sequences of length 1
   sub parenleft by uF1997;  # start of extended glyph
   sub parenright by uF1998;  # end of extended glyph
-  sub bracketleft by uF1990;  # start of cartouche
-  sub bracketright by uF1991;  # end of cartouche
+  sub bracketleft by uF1C7E;  # start of cartouche
+  sub bracketright by uF1C7F;  # end of cartouche
   sub a by uF1C40;  # a
   sub i by uF1C42;  # i
   sub braceleft by uF199A;  # start of reverse extended glyph
