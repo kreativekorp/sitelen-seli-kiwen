@@ -18,32 +18,6 @@ else
 	exit 1
 fi
 
-# Find Bits'n'Picas
-if command -v bitsnpicas >/dev/null 2>&1; then
-	BITSNPICAS="bitsnpicas"
-elif test -f BitsNPicas.jar; then
-	BITSNPICAS="java -jar BitsNPicas.jar"
-elif test -f ../BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../BitsNPicas/BitsNPicas.jar"
-elif test -f ../Workspace/BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../Workspace/BitsNPicas/BitsNPicas.jar"
-elif test -f ../../BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../BitsNPicas/BitsNPicas.jar"
-elif test -f ../../Workspace/BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../Workspace/BitsNPicas/BitsNPicas.jar"
-elif test -f ../../../BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../../BitsNPicas/BitsNPicas.jar"
-elif test -f ../../../Workspace/BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../../Workspace/BitsNPicas/BitsNPicas.jar"
-elif test -f ../../../../BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../../../BitsNPicas/BitsNPicas.jar"
-elif test -f ../../../../Workspace/BitsNPicas/BitsNPicas.jar; then
-	BITSNPICAS="java -jar ../../../../Workspace/BitsNPicas/BitsNPicas.jar"
-else
-	echo "Could not find BitsNPicas."
-	exit 1
-fi
-
 # Find ttf2eot
 if command -v ttf2eot >/dev/null 2>&1; then
 	TTF2EOT="ttf2eot"
@@ -52,16 +26,20 @@ else
 	exit 1
 fi
 
+SFDPATCH="python openrelay-tools/tools/sfdpatch.py"
+SITELENPONA="python ../openrelay-tools/tools/sitelenpona.py"
+PYPUAA="python openrelay-tools/tools/pypuaa.py"
+
 # Clean
 rm -f *.sfd-* *_base.* *.ttf *.eot *.zip
 
 # Make patched versions
-python sfdpatch/sfdpatch.py sitelenselikiwen.sfd sfdpatch/asuki.txt > sitelenselikiwenasuki_base.sfd
-python sfdpatch/sfdpatch.py sitelenselikiwen.sfd sfdpatch/atuki.txt > sitelenselikiwenatuki_base.sfd
-python sfdpatch/sfdpatch.py sitelenselikiwen.sfd sfdpatch/juniko.txt > sitelenselikiwenjuniko_base.sfd
-python sfdpatch/sfdpatch.py sitelenselikiwenmono.sfd sfdpatch/monoasuki.txt > sitelenselikiwenmonoasuki_base.sfd
-python sfdpatch/sfdpatch.py sitelenselikiwenmono.sfd sfdpatch/monoatuki.txt > sitelenselikiwenmonoatuki_base.sfd
-python sfdpatch/sfdpatch.py sitelenselikiwenmono.sfd sfdpatch/monojuniko.txt > sitelenselikiwenmonojuniko_base.sfd
+$SFDPATCH sitelenselikiwen.sfd sfdpatch/asuki.txt > sitelenselikiwenasuki_base.sfd
+$SFDPATCH sitelenselikiwen.sfd sfdpatch/atuki.txt > sitelenselikiwenatuki_base.sfd
+$SFDPATCH sitelenselikiwen.sfd sfdpatch/juniko.txt > sitelenselikiwenjuniko_base.sfd
+$SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monoasuki.txt > sitelenselikiwenmonoasuki_base.sfd
+$SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monoatuki.txt > sitelenselikiwenmonoatuki_base.sfd
+$SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monojuniko.txt > sitelenselikiwenmonojuniko_base.sfd
 
 # Generate ttf
 $FONTFORGE -lang=ff -c 'i = 1; while (i < $argc); Open($argv[i]); Generate($argv[i]:r + ".ttf", "", 0); i = i+1; endloop' \
@@ -72,7 +50,7 @@ rm *_base.sfd
 
 # Add OpenType features (FontForge completely fouls this up on its own)
 cd features
-python build.py
+$SITELENPONA -g ../sitelenselikiwen.sfd
 cat languages.fea sequences.fea joiners.fea asuki.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenasuki_base.fea
 cat languages.fea sequences.fea joiners.fea atuki.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenatuki_base.fea
 cat languages.fea sequences.fea joiners.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenjuniko_base.fea
@@ -89,8 +67,7 @@ rm *_base.fea
 rm *_base.ttf
 
 # Inject PUAA table
-$BITSNPICAS injectpuaa \
-	-D unidata/Blocks.txt unidata/UnicodeData.txt \
+$PYPUAA compile -D unidata/Blocks.txt unidata/UnicodeData.txt \
 	-I sitelenselikiwenasuki.ttf sitelenselikiwenatuki.ttf sitelenselikiwenjuniko.ttf \
 	-I sitelenselikiwenmonoasuki.ttf sitelenselikiwenmonoatuki.ttf sitelenselikiwenmonojuniko.ttf
 
