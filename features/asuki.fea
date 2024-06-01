@@ -476,6 +476,7 @@ feature liga {
   sub k i w e n asterisk l e t e space by uFF9BC;  # kiwen lete, scaled
   sub k i w e n asterisk l i l i space by uFF9BD;  # kiwen lili, scaled
   sub k i w e n asterisk l o j e space by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n asterisk p o n a space by uFFD2B;  # kiwen pona, scaled
   sub k i w e n asterisk s e l i space by uFF9C1;  # kiwen seli, scaled
   sub k i w e n asterisk s u n o space by uFF9C2;  # kiwen suno, scaled
   sub k i w e n asterisk w a l o space by uFF9C3;  # kiwen walo, scaled
@@ -485,6 +486,7 @@ feature liga {
   sub k i w e n plus l e t e space by uFF9BC;  # kiwen lete, scaled
   sub k i w e n plus l i l i space by uFF9BD;  # kiwen lili, scaled
   sub k i w e n plus l o j e space by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n plus p o n a space by uFFD2B;  # kiwen pona, scaled
   sub k i w e n plus s e l i space by uFF9C1;  # kiwen seli, scaled
   sub k i w e n plus s u n o space by uFF9C2;  # kiwen suno, scaled
   sub k i w e n plus w a l o space by uFF9C3;  # kiwen walo, scaled
@@ -494,6 +496,7 @@ feature liga {
   sub k i w e n hyphen l e t e space by uFF9BC;  # kiwen lete, scaled
   sub k i w e n hyphen l i l i space by uFF9BD;  # kiwen lili, scaled
   sub k i w e n hyphen l o j e space by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n hyphen p o n a space by uFFD2B;  # kiwen pona, scaled
   sub k i w e n hyphen s e l i space by uFF9C1;  # kiwen seli, scaled
   sub k i w e n hyphen s u n o space by uFF9C2;  # kiwen suno, scaled
   sub k i w e n hyphen w a l o space by uFF9C3;  # kiwen walo, scaled
@@ -645,12 +648,15 @@ feature liga {
   sub p i l i n asterisk n a s a space by uFFA06;  # pilin nasa, scaled
   sub p i l i n asterisk p o n a space by uFFA08;  # pilin pona, scaled
   sub p i l i n asterisk s a m a space by uFFA09;  # pilin sama, scaled
+  sub p i l i n asterisk s e m e space by uFFE05;  # pilin seme, scaled
   sub p i l i n plus n a s a space by uFFA06;  # pilin nasa, scaled
   sub p i l i n plus p o n a space by uFFA08;  # pilin pona, scaled
   sub p i l i n plus s a m a space by uFFA09;  # pilin sama, scaled
+  sub p i l i n plus s e m e space by uFFE05;  # pilin seme, scaled
   sub p i l i n hyphen n a s a space by uFFA06;  # pilin nasa, scaled
   sub p i l i n hyphen p o n a space by uFFA08;  # pilin pona, scaled
   sub p i l i n hyphen s a m a space by uFFA09;  # pilin sama, scaled
+  sub p i l i n hyphen s e m e space by uFFE05;  # pilin seme, scaled
   sub p o n a plus l u k i n space by uFFA12;  # pona lukin, stacked
   sub p o n a hyphen l u k i n space by uFFA12;  # pona lukin, stacked
   sub p o n a asciicircum l u k i n space by uFFA12;  # pona lukin, stacked
@@ -670,6 +676,9 @@ feature liga {
   sub s u p a plus m o n s i space by uFFA2B;  # supa monsi, stacked
   sub s u p a hyphen m o n s i space by uFFA2B;  # supa monsi, stacked
   sub s u p a asciicircum m o n s i space by uFFA2B;  # supa monsi, stacked
+  sub t e n p o plus p o n a space by uFFD2D;  # tenpo pona, stacked
+  sub t e n p o hyphen p o n a space by uFFD2D;  # tenpo pona, stacked
+  sub t e n p o asciicircum p o n a space by uFFD2D;  # tenpo pona, stacked
   sub t o k i asterisk u t a l a space by uFFA34;  # toki utala, scaled
   sub t o k i plus u t a l a space by uFFA34;  # toki utala, scaled
   sub t o k i hyphen u t a l a space by uFFA34;  # toki utala, scaled
@@ -772,6 +781,7 @@ feature liga {
   sub k i w e n asterisk l e t e by uFF9BC;  # kiwen lete, scaled
   sub k i w e n asterisk l i l i by uFF9BD;  # kiwen lili, scaled
   sub k i w e n asterisk l o j e by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n asterisk p o n a by uFFD2B;  # kiwen pona, scaled
   sub k i w e n asterisk s e l i by uFF9C1;  # kiwen seli, scaled
   sub k i w e n asterisk s u n o by uFF9C2;  # kiwen suno, scaled
   sub k i w e n asterisk w a l o by uFF9C3;  # kiwen walo, scaled
@@ -781,6 +791,7 @@ feature liga {
   sub k i w e n plus l e t e by uFF9BC;  # kiwen lete, scaled
   sub k i w e n plus l i l i by uFF9BD;  # kiwen lili, scaled
   sub k i w e n plus l o j e by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n plus p o n a by uFFD2B;  # kiwen pona, scaled
   sub k i w e n plus s e l i by uFF9C1;  # kiwen seli, scaled
   sub k i w e n plus s u n o by uFF9C2;  # kiwen suno, scaled
   sub k i w e n plus w a l o by uFF9C3;  # kiwen walo, scaled
@@ -790,6 +801,7 @@ feature liga {
   sub k i w e n hyphen l e t e by uFF9BC;  # kiwen lete, scaled
   sub k i w e n hyphen l i l i by uFF9BD;  # kiwen lili, scaled
   sub k i w e n hyphen l o j e by uFF9BE;  # kiwen loje, scaled
+  sub k i w e n hyphen p o n a by uFFD2B;  # kiwen pona, scaled
   sub k i w e n hyphen s e l i by uFF9C1;  # kiwen seli, scaled
   sub k i w e n hyphen s u n o by uFF9C2;  # kiwen suno, scaled
   sub k i w e n hyphen w a l o by uFF9C3;  # kiwen walo, scaled
@@ -941,12 +953,15 @@ feature liga {
   sub p i l i n asterisk n a s a by uFFA06;  # pilin nasa, scaled
   sub p i l i n asterisk p o n a by uFFA08;  # pilin pona, scaled
   sub p i l i n asterisk s a m a by uFFA09;  # pilin sama, scaled
+  sub p i l i n asterisk s e m e by uFFE05;  # pilin seme, scaled
   sub p i l i n plus n a s a by uFFA06;  # pilin nasa, scaled
   sub p i l i n plus p o n a by uFFA08;  # pilin pona, scaled
   sub p i l i n plus s a m a by uFFA09;  # pilin sama, scaled
+  sub p i l i n plus s e m e by uFFE05;  # pilin seme, scaled
   sub p i l i n hyphen n a s a by uFFA06;  # pilin nasa, scaled
   sub p i l i n hyphen p o n a by uFFA08;  # pilin pona, scaled
   sub p i l i n hyphen s a m a by uFFA09;  # pilin sama, scaled
+  sub p i l i n hyphen s e m e by uFFE05;  # pilin seme, scaled
   sub p o n a plus l u k i n by uFFA12;  # pona lukin, stacked
   sub p o n a hyphen l u k i n by uFFA12;  # pona lukin, stacked
   sub p o n a asciicircum l u k i n by uFFA12;  # pona lukin, stacked
@@ -966,6 +981,9 @@ feature liga {
   sub s u p a plus m o n s i by uFFA2B;  # supa monsi, stacked
   sub s u p a hyphen m o n s i by uFFA2B;  # supa monsi, stacked
   sub s u p a asciicircum m o n s i by uFFA2B;  # supa monsi, stacked
+  sub t e n p o plus p o n a by uFFD2D;  # tenpo pona, stacked
+  sub t e n p o hyphen p o n a by uFFD2D;  # tenpo pona, stacked
+  sub t e n p o asciicircum p o n a by uFFD2D;  # tenpo pona, stacked
   sub t o k i asterisk u t a l a by uFFA34;  # toki utala, scaled
   sub t o k i plus u t a l a by uFFA34;  # toki utala, scaled
   sub t o k i hyphen u t a l a by uFFA34;  # toki utala, scaled
@@ -1130,26 +1148,34 @@ feature liga {
   sub j a n hyphen u t a l a space by uFF9A5;  # jan utala, scaled
   sub k a l a asterisk l e t e space by uFF9A7;  # kala lete, default, scaled
   sub k a l a asterisk l i l i space by uFF9A8;  # kala lili, default, scaled
+  sub k a l a asterisk p o n a space by uFFE01;  # kala pona, scaled
   sub k a l a plus l e t e space by uFF9A7;  # kala lete, default, default
   sub k a l a plus l i l i space by uFF9A8;  # kala lili, default, default
+  sub k a l a plus p o n a space by uFFE01;  # kala pona, scaled
   sub k a l a hyphen l e t e space by uFF9A7;  # kala lete, default, default
   sub k a l a hyphen l i l i space by uFF9A8;  # kala lili, default, default
+  sub k a l a hyphen p o n a space by uFFE01;  # kala pona, scaled
   sub k a l a asciicircum l e t e space by uFFBB9;  # kala lete, default, stacked
   sub k a l a asciicircum l i l i space by uFFBBB;  # kala lili, default, stacked
+  sub k a m a plus p o n a space by uFFE02;  # kama pona, stacked
   sub k a m a plus s o n a space by uFFDED;  # kama sona
-  sub k a s i plus j e l o space by uFF9AA;  # kesi jelo, stacked
+  sub k a m a hyphen p o n a space by uFFE02;  # kama pona, stacked
+  sub k a m a hyphen s o n a space by uFFE03;  # kama sona, stacked
+  sub k a m a asciicircum p o n a space by uFFE02;  # kama pona, stacked
+  sub k a m a asciicircum s o n a space by uFFE03;  # kama sona, stacked
+  sub k a s i plus j e l o space by uFF9AA;  # kasi jelo, stacked
   sub k a s i plus k u l e space by uFF9AB;  # kasi kule, stacked
   sub k a s i plus l a s o space by uFF9AC;  # kasi laso, stacked
   sub k a s i plus l i l i space by uFF9AD;  # kasi lili, stacked
   sub k a s i plus l o j e space by uFF9AE;  # kasi loje, stacked
   sub k a s i plus w a l o space by uFF9B0;  # kasi walo, stacked
-  sub k a s i hyphen j e l o space by uFF9AA;  # kesi jelo, stacked
+  sub k a s i hyphen j e l o space by uFF9AA;  # kasi jelo, stacked
   sub k a s i hyphen k u l e space by uFF9AB;  # kasi kule, stacked
   sub k a s i hyphen l a s o space by uFF9AC;  # kasi laso, stacked
   sub k a s i hyphen l i l i space by uFF9AD;  # kasi lili, stacked
   sub k a s i hyphen l o j e space by uFF9AE;  # kasi loje, stacked
   sub k a s i hyphen w a l o space by uFF9B0;  # kasi walo, stacked
-  sub k a s i asciicircum j e l o space by uFF9AA;  # kesi jelo, stacked
+  sub k a s i asciicircum j e l o space by uFF9AA;  # kasi jelo, stacked
   sub k a s i asciicircum k u l e space by uFF9AB;  # kasi kule, stacked
   sub k a s i asciicircum l a s o space by uFF9AC;  # kasi laso, stacked
   sub k a s i asciicircum l i l i space by uFF9AD;  # kasi lili, stacked
@@ -1173,8 +1199,11 @@ feature liga {
   sub k i l i hyphen l o j e space by uFF9B4;  # kili loje, scaled
   sub k i l i hyphen s u w i space by uFF9B7;  # kili suwi, scaled
   sub k i l i hyphen w a l o space by uFF9B8;  # kili walo, scaled
+  sub k i w e n asterisk i k e space by uFFD2A;  # kiwen ike, scaled
   sub k i w e n asterisk m u n space by uFF9BF;  # kiwen mun, scaled
+  sub k i w e n plus i k e space by uFFD2A;  # kiwen ike, scaled
   sub k i w e n plus m u n space by uFF9BF;  # kiwen mun, scaled
+  sub k i w e n hyphen i k e space by uFFD2A;  # kiwen ike, scaled
   sub k i w e n hyphen m u n space by uFF9BF;  # kiwen mun, scaled
   sub k o asterisk p i m e j a space by uFF9CD;  # ko pimeja, scaled
   sub k o plus p i m e j a space by uFF9CD;  # ko pimeja, scaled
@@ -1391,12 +1420,21 @@ feature liga {
   sub s u p a asciicircum l u p a space by uFFA29;  # supa lupa, stacked
   sub s u p a asciicircum m o k u space by uFFA2A;  # supa moku, stacked
   sub s u p a asciicircum p a l i space by uFFA2C;  # supa pali, stacked
+  sub t a w a plus p o n a space by uFFE06;  # tawa pona, stacked
+  sub t a w a plus s o n a space by uFFE07;  # tawa sona, stacked
+  sub t a w a hyphen p o n a space by uFFE06;  # tawa pona, stacked
+  sub t a w a hyphen s o n a space by uFFE07;  # tawa sona, stacked
+  sub t a w a asciicircum p o n a space by uFFE06;  # tawa pona, stacked
+  sub t a w a asciicircum s o n a space by uFFE07;  # tawa sona, stacked
   sub t e l o asterisk l e t e space by uFFA2D;  # telo lete, scaled
   sub t e l o asterisk l i l i space by uFFA2E;  # telo lili, scaled
   sub t e l o plus l e t e space by uFFA2D;  # telo lete, scaled
   sub t e l o plus l i l i space by uFFA2E;  # telo lili, scaled
   sub t e l o hyphen l e t e space by uFFA2D;  # telo lete, scaled
   sub t e l o hyphen l i l i space by uFFA2E;  # telo lili, scaled
+  sub t e n p o plus i k e space by uFFD2C;  # tenpo ike, stacked
+  sub t e n p o hyphen i k e space by uFFD2C;  # tenpo ike, stacked
+  sub t e n p o asciicircum i k e space by uFFD2C;  # tenpo ike, stacked
   sub t o k i asterisk p o n a space by uFFA31;  # toki pona, scaled
   sub t o k i asterisk s o n a space by uFFA33;  # toki sona, scaled
   sub t o k i plus p o n a space by uFFA31;  # toki pona, scaled
@@ -1409,6 +1447,7 @@ feature liga {
   sub t o m o asterisk p a l i space by uFFA3A;  # tomo pali, scaled
   sub t o m o asterisk s o n a space by uFFA3B;  # tomo sona, scaled
   sub t o m o asterisk t a w a space by uFFA3C;  # tomo tawa, scaled
+  sub t o m o asterisk t e l o space by uFFE08;  # tomo telo, scaled
   sub t o m o asterisk u n p a space by uFFA3D;  # tomo unpa, scaled
   sub t o m o plus l a p e space by uFFA35;  # tomo lape, scaled
   sub t o m o plus m a n i space by uFFA36;  # tomo mani, scaled
@@ -1416,6 +1455,7 @@ feature liga {
   sub t o m o plus p a l i space by uFFA3A;  # tomo pali, scaled
   sub t o m o plus s o n a space by uFFA3B;  # tomo sona, scaled
   sub t o m o plus t a w a space by uFFA3C;  # tomo tawa, scaled
+  sub t o m o plus t e l o space by uFFE08;  # tomo telo, scaled
   sub t o m o plus u n p a space by uFFA3D;  # tomo unpa, scaled
   sub t o m o hyphen l a p e space by uFFA35;  # tomo lape, scaled
   sub t o m o hyphen m a n i space by uFFA36;  # tomo mani, scaled
@@ -1423,6 +1463,7 @@ feature liga {
   sub t o m o hyphen p a l i space by uFFA3A;  # tomo pali, scaled
   sub t o m o hyphen s o n a space by uFFA3B;  # tomo sona, scaled
   sub t o m o hyphen t a w a space by uFFA3C;  # tomo tawa, scaled
+  sub t o m o hyphen t e l o space by uFFE08;  # tomo telo, scaled
   sub t o m o hyphen u n p a space by uFFA3D;  # tomo unpa, scaled
   sub t o n s i asterisk i k e space by uFFBE5;  # tonsi ike, scaled
   sub t o n s i asterisk s i n space by uFFBE9;  # tonsi sin, scaled
@@ -1573,26 +1614,34 @@ feature liga {
   sub j a n hyphen u t a l a by uFF9A5;  # jan utala, scaled
   sub k a l a asterisk l e t e by uFF9A7;  # kala lete, default, scaled
   sub k a l a asterisk l i l i by uFF9A8;  # kala lili, default, scaled
+  sub k a l a asterisk p o n a by uFFE01;  # kala pona, scaled
   sub k a l a plus l e t e by uFF9A7;  # kala lete, default, default
   sub k a l a plus l i l i by uFF9A8;  # kala lili, default, default
+  sub k a l a plus p o n a by uFFE01;  # kala pona, scaled
   sub k a l a hyphen l e t e by uFF9A7;  # kala lete, default, default
   sub k a l a hyphen l i l i by uFF9A8;  # kala lili, default, default
+  sub k a l a hyphen p o n a by uFFE01;  # kala pona, scaled
   sub k a l a asciicircum l e t e by uFFBB9;  # kala lete, default, stacked
   sub k a l a asciicircum l i l i by uFFBBB;  # kala lili, default, stacked
+  sub k a m a plus p o n a by uFFE02;  # kama pona, stacked
   sub k a m a plus s o n a by uFFDED;  # kama sona
-  sub k a s i plus j e l o by uFF9AA;  # kesi jelo, stacked
+  sub k a m a hyphen p o n a by uFFE02;  # kama pona, stacked
+  sub k a m a hyphen s o n a by uFFE03;  # kama sona, stacked
+  sub k a m a asciicircum p o n a by uFFE02;  # kama pona, stacked
+  sub k a m a asciicircum s o n a by uFFE03;  # kama sona, stacked
+  sub k a s i plus j e l o by uFF9AA;  # kasi jelo, stacked
   sub k a s i plus k u l e by uFF9AB;  # kasi kule, stacked
   sub k a s i plus l a s o by uFF9AC;  # kasi laso, stacked
   sub k a s i plus l i l i by uFF9AD;  # kasi lili, stacked
   sub k a s i plus l o j e by uFF9AE;  # kasi loje, stacked
   sub k a s i plus w a l o by uFF9B0;  # kasi walo, stacked
-  sub k a s i hyphen j e l o by uFF9AA;  # kesi jelo, stacked
+  sub k a s i hyphen j e l o by uFF9AA;  # kasi jelo, stacked
   sub k a s i hyphen k u l e by uFF9AB;  # kasi kule, stacked
   sub k a s i hyphen l a s o by uFF9AC;  # kasi laso, stacked
   sub k a s i hyphen l i l i by uFF9AD;  # kasi lili, stacked
   sub k a s i hyphen l o j e by uFF9AE;  # kasi loje, stacked
   sub k a s i hyphen w a l o by uFF9B0;  # kasi walo, stacked
-  sub k a s i asciicircum j e l o by uFF9AA;  # kesi jelo, stacked
+  sub k a s i asciicircum j e l o by uFF9AA;  # kasi jelo, stacked
   sub k a s i asciicircum k u l e by uFF9AB;  # kasi kule, stacked
   sub k a s i asciicircum l a s o by uFF9AC;  # kasi laso, stacked
   sub k a s i asciicircum l i l i by uFF9AD;  # kasi lili, stacked
@@ -1616,8 +1665,11 @@ feature liga {
   sub k i l i hyphen l o j e by uFF9B4;  # kili loje, scaled
   sub k i l i hyphen s u w i by uFF9B7;  # kili suwi, scaled
   sub k i l i hyphen w a l o by uFF9B8;  # kili walo, scaled
+  sub k i w e n asterisk i k e by uFFD2A;  # kiwen ike, scaled
   sub k i w e n asterisk m u n by uFF9BF;  # kiwen mun, scaled
+  sub k i w e n plus i k e by uFFD2A;  # kiwen ike, scaled
   sub k i w e n plus m u n by uFF9BF;  # kiwen mun, scaled
+  sub k i w e n hyphen i k e by uFFD2A;  # kiwen ike, scaled
   sub k i w e n hyphen m u n by uFF9BF;  # kiwen mun, scaled
   sub k o asterisk p i m e j a by uFF9CD;  # ko pimeja, scaled
   sub k o plus p i m e j a by uFF9CD;  # ko pimeja, scaled
@@ -1834,12 +1886,21 @@ feature liga {
   sub s u p a asciicircum l u p a by uFFA29;  # supa lupa, stacked
   sub s u p a asciicircum m o k u by uFFA2A;  # supa moku, stacked
   sub s u p a asciicircum p a l i by uFFA2C;  # supa pali, stacked
+  sub t a w a plus p o n a by uFFE06;  # tawa pona, stacked
+  sub t a w a plus s o n a by uFFE07;  # tawa sona, stacked
+  sub t a w a hyphen p o n a by uFFE06;  # tawa pona, stacked
+  sub t a w a hyphen s o n a by uFFE07;  # tawa sona, stacked
+  sub t a w a asciicircum p o n a by uFFE06;  # tawa pona, stacked
+  sub t a w a asciicircum s o n a by uFFE07;  # tawa sona, stacked
   sub t e l o asterisk l e t e by uFFA2D;  # telo lete, scaled
   sub t e l o asterisk l i l i by uFFA2E;  # telo lili, scaled
   sub t e l o plus l e t e by uFFA2D;  # telo lete, scaled
   sub t e l o plus l i l i by uFFA2E;  # telo lili, scaled
   sub t e l o hyphen l e t e by uFFA2D;  # telo lete, scaled
   sub t e l o hyphen l i l i by uFFA2E;  # telo lili, scaled
+  sub t e n p o plus i k e by uFFD2C;  # tenpo ike, stacked
+  sub t e n p o hyphen i k e by uFFD2C;  # tenpo ike, stacked
+  sub t e n p o asciicircum i k e by uFFD2C;  # tenpo ike, stacked
   sub t o k i asterisk p o n a by uFFA31;  # toki pona, scaled
   sub t o k i asterisk s o n a by uFFA33;  # toki sona, scaled
   sub t o k i plus p o n a by uFFA31;  # toki pona, scaled
@@ -1852,6 +1913,7 @@ feature liga {
   sub t o m o asterisk p a l i by uFFA3A;  # tomo pali, scaled
   sub t o m o asterisk s o n a by uFFA3B;  # tomo sona, scaled
   sub t o m o asterisk t a w a by uFFA3C;  # tomo tawa, scaled
+  sub t o m o asterisk t e l o by uFFE08;  # tomo telo, scaled
   sub t o m o asterisk u n p a by uFFA3D;  # tomo unpa, scaled
   sub t o m o plus l a p e by uFFA35;  # tomo lape, scaled
   sub t o m o plus m a n i by uFFA36;  # tomo mani, scaled
@@ -1859,6 +1921,7 @@ feature liga {
   sub t o m o plus p a l i by uFFA3A;  # tomo pali, scaled
   sub t o m o plus s o n a by uFFA3B;  # tomo sona, scaled
   sub t o m o plus t a w a by uFFA3C;  # tomo tawa, scaled
+  sub t o m o plus t e l o by uFFE08;  # tomo telo, scaled
   sub t o m o plus u n p a by uFFA3D;  # tomo unpa, scaled
   sub t o m o hyphen l a p e by uFFA35;  # tomo lape, scaled
   sub t o m o hyphen m a n i by uFFA36;  # tomo mani, scaled
@@ -1866,6 +1929,7 @@ feature liga {
   sub t o m o hyphen p a l i by uFFA3A;  # tomo pali, scaled
   sub t o m o hyphen s o n a by uFFA3B;  # tomo sona, scaled
   sub t o m o hyphen t a w a by uFFA3C;  # tomo tawa, scaled
+  sub t o m o hyphen t e l o by uFFE08;  # tomo telo, scaled
   sub t o m o hyphen u n p a by uFFA3D;  # tomo unpa, scaled
   sub t o n s i asterisk i k e by uFFBE5;  # tonsi ike, scaled
   sub t o n s i asterisk s i n by uFFBE9;  # tonsi sin, scaled
@@ -2186,6 +2250,9 @@ feature liga {
   sub j a n hyphen t o k i space by uFF9A3;  # jan toki, scaled
   sub j a n hyphen u n p a space by uFF9A4;  # jan unpa, scaled
   sub j a n hyphen w a w a space by uFF9A6;  # jan wawa, scaled
+  sub k a l a asterisk i k e space by uFFE00;  # kala ike, scaled
+  sub k a l a plus i k e space by uFFE00;  # kala ike, scaled
+  sub k a l a hyphen i k e space by uFFE00;  # kala ike, scaled
   sub k a l a m A R R space by uFFAFE;  # kalamARR
   sub k o k o l i k o space by uFFD91;  # kokoliko
   sub k o k o s i l a space by uF1984;  # kokosila, default
@@ -2602,6 +2669,9 @@ feature liga {
   sub j a n hyphen t o k i by uFF9A3;  # jan toki, scaled
   sub j a n hyphen u n p a by uFF9A4;  # jan unpa, scaled
   sub j a n hyphen w a w a by uFF9A6;  # jan wawa, scaled
+  sub k a l a asterisk i k e by uFFE00;  # kala ike, scaled
+  sub k a l a plus i k e by uFFE00;  # kala ike, scaled
+  sub k a l a hyphen i k e by uFFE00;  # kala ike, scaled
   sub k a l a m A R R by uFFAFE;  # kalamARR
   sub k o k o l i k o by uFFD91;  # kokoliko
   sub k o k o s i l a by uF1984;  # kokosila, default
@@ -2716,6 +2786,7 @@ feature liga {
   sub A n t e p a n space by uFFD34;  # jan Antepan
   sub F a i r f a x space by uFFDDB;  # Fairfax
   sub J o n a t a n space by uFFD3D;  # jan Jonatan
+  sub K o l i s i n space by uFFEA1;  # namako Kolisin
   sub L o s u p a n space by uFFDE8;  # Losupan (Lojban)
   sub N a s u l i n space by uFFB9C;  # Nasulin (Touhou hijack)
   sub P a l e n s i space by uFFD51;  # jan Palensi
@@ -2813,6 +2884,9 @@ feature liga {
   sub k a n k u l i space by uFFDE1;  # kankuli (scrunkly)
   sub k a p e s i one space by uFFAC1;  # kapesi, triangle with ma above
   sub k a p e s i two space by uFFAC2;  # kapesi, triangle with horizontal and vertical
+  sub k a s i plus k o space by uFFE04;  # kasi ko, stacked
+  sub k a s i hyphen k o space by uFFE04;  # kasi ko, stacked
+  sub k a s i asciicircum k o space by uFFE04;  # kasi ko, stacked
   sub k e p e k e n space by uF1919;  # kepeken, synonym of kepen
   sub k i j o s i n space by uFFBA1;  # kijosin
   sub k i l i plus m a space by uFFB95;  # kulupu Kilima
@@ -2920,6 +2994,7 @@ feature liga {
   sub A n t e p a n by uFFD34;  # jan Antepan
   sub F a i r f a x by uFFDDB;  # Fairfax
   sub J o n a t a n by uFFD3D;  # jan Jonatan
+  sub K o l i s i n by uFFEA1;  # namako Kolisin
   sub L o s u p a n by uFFDE8;  # Losupan (Lojban)
   sub N a s u l i n by uFFB9C;  # Nasulin (Touhou hijack)
   sub P a l e n s i by uFFD51;  # jan Palensi
@@ -3017,6 +3092,9 @@ feature liga {
   sub k a n k u l i by uFFDE1;  # kankuli (scrunkly)
   sub k a p e s i one by uFFAC1;  # kapesi, triangle with ma above
   sub k a p e s i two by uFFAC2;  # kapesi, triangle with horizontal and vertical
+  sub k a s i plus k o by uFFE04;  # kasi ko, stacked
+  sub k a s i hyphen k o by uFFE04;  # kasi ko, stacked
+  sub k a s i asciicircum k o by uFFE04;  # kasi ko, stacked
   sub k e p e k e n by uF1919;  # kepeken, synonym of kepen
   sub k i j o s i n by uFFBA1;  # kijosin
   sub k i l i plus m a by uFFB95;  # kulupu Kilima
@@ -3195,6 +3273,7 @@ feature liga {
   sub l i k u j o space by uFFAE2;  # likujo
   sub l i n u w i space by uFFAC4;  # linuwi, synonym of linluwi, default
   sub l i s a n a space by uFFDC0;  # lisana, default
+  sub l o k o s o space by uFFDD1;  # leko lokoso
   sub m a plus a l e space by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i space by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e space by uFFD05;  # ma ike, stacked
@@ -3329,6 +3408,7 @@ feature liga {
   sub l i k u j o by uFFAE2;  # likujo
   sub l i n u w i by uFFAC4;  # linuwi, synonym of linluwi, default
   sub l i s a n a by uFFDC0;  # lisana, default
+  sub l o k o s o by uFFDD1;  # leko lokoso
   sub m a plus a l e by uFF9EC;  # ma ale, synonym of ma ali, stacked
   sub m a plus a l i by uFF9EC;  # ma ali, synonym of ma ale, stacked
   sub m a plus i k e by uFFD05;  # ma ike, stacked
@@ -3394,6 +3474,7 @@ feature liga {
   sub A s u t o space by uFFB91;  # jan waso Asuto
   sub E s i l e space by uFFD37;  # jan Esile
   sub E w e k e space by uFFD38;  # soweli Eweke
+  sub I l a j e space by uFFEA0;  # soweli kijetesantakalu Ilaje
   sub I p a w i space by uFFD39;  # jan Ipawi
   sub I s e j a space by uFFD3A;  # jan Iseja
   sub J a s u n space by uFFD3C;  # jan Jasun
@@ -3401,10 +3482,14 @@ feature liga {
   sub K i j a n space by uFFD41;  # Kijan
   sub L i n k u space by uFFBF2;  # kulupu Linku
   sub M a n k a space by uFFBFD;  # Manka (Minecraft)
+  sub N i t o one space by uFFDD2;  # ijo Nito, ko with tail
+  sub N i t o two space by uFFDD3;  # ijo Nito, ko-headed jan
   sub N u t a n space by uFFBFE;  # Nutan (Newton)
   sub P e n s a space by uFFDD8;  # jan Pensa
   sub P i n g o space by uFFAFD;  # Pingo
   sub P o m a n space by uFFD53;  # jan Poman
+  sub S a m i n space by uFFDD4;  # kala Samin
+  sub S a t u n space by uFFDD5;  # mun Satun
   sub S i w a n space by uFFD56;  # jan Siwan
   sub T e n s i space by uFFD58;  # jan Tensi
   sub T o k e n space by uFFDDD;  # Token
@@ -3455,6 +3540,8 @@ feature liga {
   sub m i j e one space by uF1935;  # mije, head and shoulders
   sub m i j e two space by uFFAA2;  # mije, male sign
   sub m i j e three space by uFFD18;  # mije, circle with letter J
+  sub m i k o one space by uFFE51;  # miko, egg
+  sub m i k o two space by uFFE52;  # miko, tardigrade
   sub m i s a one space by uFFAD2;  # misa, no foot and no ear
   sub m i s a two space by uFFAD3;  # misa, no foot and short ear
   sub m i s a three space by uFFAD4;  # misa, no foot and long ear
@@ -3465,6 +3552,8 @@ feature liga {
   sub m o l i two space by uFFD68;  # moli, X eyes and mouth
   sub m o n s i space by uF1938;  # monsi
   sub m o t a n space by uFFD4B;  # motan
+  sub m u s i one space by uF193B;  # musi, curved ends
+  sub m u s i two space by uFFD2E;  # musi, straight ends
   sub m u t e one space by uF193C;  # mute, three lines
   sub m u t e two space by uFFD69;  # mute, four hands
   sub n a n p a space by uF193D;  # nanpa
@@ -3517,6 +3606,7 @@ feature liga {
   sub A s u t o by uFFB91;  # jan waso Asuto
   sub E s i l e by uFFD37;  # jan Esile
   sub E w e k e by uFFD38;  # soweli Eweke
+  sub I l a j e by uFFEA0;  # soweli kijetesantakalu Ilaje
   sub I p a w i by uFFD39;  # jan Ipawi
   sub I s e j a by uFFD3A;  # jan Iseja
   sub J a s u n by uFFD3C;  # jan Jasun
@@ -3524,10 +3614,14 @@ feature liga {
   sub K i j a n by uFFD41;  # Kijan
   sub L i n k u by uFFBF2;  # kulupu Linku
   sub M a n k a by uFFBFD;  # Manka (Minecraft)
+  sub N i t o one by uFFDD2;  # ijo Nito, ko with tail
+  sub N i t o two by uFFDD3;  # ijo Nito, ko-headed jan
   sub N u t a n by uFFBFE;  # Nutan (Newton)
   sub P e n s a by uFFDD8;  # jan Pensa
   sub P i n g o by uFFAFD;  # Pingo
   sub P o m a n by uFFD53;  # jan Poman
+  sub S a m i n by uFFDD4;  # kala Samin
+  sub S a t u n by uFFDD5;  # mun Satun
   sub S i w a n by uFFD56;  # jan Siwan
   sub T e n s i by uFFD58;  # jan Tensi
   sub T o k e n by uFFDDD;  # Token
@@ -3578,6 +3672,8 @@ feature liga {
   sub m i j e one by uF1935;  # mije, head and shoulders
   sub m i j e two by uFFAA2;  # mije, male sign
   sub m i j e three by uFFD18;  # mije, circle with letter J
+  sub m i k o one by uFFE51;  # miko, egg
+  sub m i k o two by uFFE52;  # miko, tardigrade
   sub m i s a one by uFFAD2;  # misa, no foot and no ear
   sub m i s a two by uFFAD3;  # misa, no foot and short ear
   sub m i s a three by uFFAD4;  # misa, no foot and long ear
@@ -3588,6 +3684,8 @@ feature liga {
   sub m o l i two by uFFD68;  # moli, X eyes and mouth
   sub m o n s i by uF1938;  # monsi
   sub m o t a n by uFFD4B;  # motan
+  sub m u s i one by uF193B;  # musi, curved ends
+  sub m u s i two by uFFD2E;  # musi, straight ends
   sub m u t e one by uF193C;  # mute, three lines
   sub m u t e two by uFFD69;  # mute, four hands
   sub n a n p a by uF193D;  # nanpa
@@ -3637,6 +3735,7 @@ feature liga {
   # Sequences of length 5 (4 + space)
   sub A n s u space by uFFD33;  # jan Ansu
   sub E n k i space by uFFDEE;  # kije Enki
+  sub J e s i space by uFFDD0;  # akesi Jesi
   sub K a l u space by uFFDD6;  # jan Kalu
   sub K e l i space by uFFDE2;  # waso Keli
   sub K e m u space by uFFD3F;  # jan Kemu
@@ -3651,6 +3750,7 @@ feature liga {
   sub M i l a space by uFFD49;  # jan Mila
   sub N i k o space by uFFD4E;  # jan Niko
   sub N i l i space by uFFB98;  # jan Nili Koloto
+  sub N i t o space by uFFDD2;  # ijo Nito, default
   sub N l s n space by uFFD4F;  # akesi kon Nalasuni
   sub P a m i space by uFFD52;  # jan Pami
   sub P o n a space by uFFA19;  # Pona
@@ -3693,6 +3793,7 @@ feature liga {
   sub k a n a space by uFFD8E;  # kana
   sub k a p a space by uFFB51;  # kapa
   sub k a s i space by uF1917;  # kasi
+  sub k e p a space by uFFE50;  # kepa
   sub k e s e space by uFFADF;  # kese
   sub k i k i space by uFFAC3;  # kiki, default
   sub k i l i space by uF191A;  # lili
@@ -3722,11 +3823,12 @@ feature liga {
   sub m e l i space by uF1933;  # meli, default
   sub m e s o space by uF1982;  # meso, default
   sub m i j e space by uF1935;  # mije, default
+  sub m i k o space by uFFE51;  # miko, default
   sub m i s a space by uFFAD2;  # misa, default
   sub m o k u space by uF1936;  # moku
   sub m o l i space by uF1937;  # moli, default
   sub m o n o space by uFFB97;  # mono
-  sub m u s i space by uF193B;  # musi
+  sub m u s i space by uF193B;  # musi, default
   sub m u t e space by uF193C;  # mute, default
   sub n a n o space by uFFD4D;  # nano
   sub n a s a space by uF193E;  # nasa
@@ -3796,6 +3898,7 @@ feature liga {
   sub t o n a space by uFFBAE;  # tona
   sub t o p o space by uFFDB5;  # topo
   sub t u l i space by uFFAEB;  # tuli
+  sub t u w a space by uFFE54;  # tuwa
   sub u n p a space by uF196F;  # unpa
   sub u t a one space by uF1970;  # uta, dotted
   sub u t a two space by uFFAA5;  # uta, dotless
@@ -3812,6 +3915,7 @@ feature liga {
   # Sequences of length 4
   sub A n s u by uFFD33;  # jan Ansu
   sub E n k i by uFFDEE;  # kije Enki
+  sub J e s i by uFFDD0;  # akesi Jesi
   sub K a l u by uFFDD6;  # jan Kalu
   sub K e l i by uFFDE2;  # waso Keli
   sub K e m u by uFFD3F;  # jan Kemu
@@ -3826,6 +3930,7 @@ feature liga {
   sub M i l a by uFFD49;  # jan Mila
   sub N i k o by uFFD4E;  # jan Niko
   sub N i l i by uFFB98;  # jan Nili Koloto
+  sub N i t o by uFFDD2;  # ijo Nito, default
   sub N l s n by uFFD4F;  # akesi kon Nalasuni
   sub P a m i by uFFD52;  # jan Pami
   sub P o n a by uFFA19;  # Pona
@@ -3868,6 +3973,7 @@ feature liga {
   sub k a n a by uFFD8E;  # kana
   sub k a p a by uFFB51;  # kapa
   sub k a s i by uF1917;  # kasi
+  sub k e p a by uFFE50;  # kepa
   sub k e s e by uFFADF;  # kese
   sub k i k i by uFFAC3;  # kiki, default
   sub k i l i by uF191A;  # lili
@@ -3897,11 +4003,12 @@ feature liga {
   sub m e l i by uF1933;  # meli, default
   sub m e s o by uF1982;  # meso, default
   sub m i j e by uF1935;  # mije, default
+  sub m i k o by uFFE51;  # miko, default
   sub m i s a by uFFAD2;  # misa, default
   sub m o k u by uF1936;  # moku
   sub m o l i by uF1937;  # moli, default
   sub m o n o by uFFB97;  # mono
-  sub m u s i by uF193B;  # musi
+  sub m u s i by uF193B;  # musi, default
   sub m u t e by uF193C;  # mute, default
   sub n a n o by uFFD4D;  # nano
   sub n a s a by uF193E;  # nasa
@@ -3971,6 +4078,7 @@ feature liga {
   sub t o n a by uFFBAE;  # tona
   sub t o p o by uFFDB5;  # topo
   sub t u l i by uFFAEB;  # tuli
+  sub t u w a by uFFE54;  # tuwa
   sub u n p a by uF196F;  # unpa
   sub u t a one by uF1970;  # uta, dotted
   sub u t a two by uFFAA5;  # uta, dotless
@@ -4061,6 +4169,8 @@ feature liga {
   sub s i n space by uF195D;  # sin
   sub s u one space by uFFB2F;  # su, reserved word
   sub s u two space by uFFB3D;  # su, question marker
+  sub t a one space by uFFDA7;  # ta (particle)
+  sub t a two space by uFFE53;  # ta (content word)
   sub t a a space by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a n space by uF1967;  # tan
   sub t e n space by uF196B;  # ten, default
@@ -4153,6 +4263,8 @@ feature liga {
   sub s i n by uF195D;  # sin
   sub s u one by uFFB2F;  # su, reserved word
   sub s u two by uFFB3D;  # su, question marker
+  sub t a one by uFFDA7;  # ta (particle)
+  sub t a two by uFFE53;  # ta (content word)
   sub t a a by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a n by uF1967;  # tan
   sub t e n by uF196B;  # ten, default
@@ -4180,6 +4292,7 @@ feature liga {
   sub a five space by uFFD62;  # a, interrobang
   sub e n space by uF190A;  # en
   sub i backslash space by uFFDF1;  # silapa, middle part
+  sub j a space by uFFD2F;  # ja
   sub j e space by uFFB4E;  # je, default
   sub j o space by uF1913;  # jo
   sub j u space by uFFB2C;  # ju
@@ -4206,7 +4319,7 @@ feature liga {
   sub p o space by uFFAE7;  # po
   sub p u space by uF1955;  # pu
   sub s u space by uFFB2F;  # su, default
-  sub t a space by uFFDA7;  # ta
+  sub t a space by uFFDA7;  # ta (particle)
   sub t e space by uFFAF0;  # te
   sub t o space by uFFAF1;  # to, default
   sub t u space by uF196E;  # tu
@@ -4226,6 +4339,7 @@ feature liga {
   sub a five by uFFD62;  # a, interrobang
   sub e n by uF190A;  # en
   sub i backslash by uFFDF1;  # silapa, middle part
+  sub j a by uFFD2F;  # ja
   sub j e by uFFB4E;  # je, default
   sub j o by uF1913;  # jo
   sub j u by uFFB2C;  # ju
@@ -4252,7 +4366,7 @@ feature liga {
   sub p o by uFFAE7;  # po
   sub p u by uF1955;  # pu
   sub s u by uFFB2F;  # su, default
-  sub t a by uFFDA7;  # ta
+  sub t a by uFFDA7;  # ta (particle)
   sub t e by uFFAF0;  # te
   sub t o by uFFAF1;  # to, default
   sub t u by uF196E;  # tu

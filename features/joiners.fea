@@ -249,11 +249,15 @@ feature liga {
   sub uF1911 uni200D uFFAA3 by uFFBB7;  # jan olin, pilin with emitters, scaled
   sub uF1911 uni200D uFFAA4 by uFFBB8;  # jan sewi, secularized, scaled
   sub uF1911 uni200D uFFD75 by uFF997;  # jan olin, doubled pilin, scaled
+  sub uF1914 uni200D uF190D by uFFE00;  # kala ike, scaled
   sub uF1914 uni200D uF1926 by uFF9A7;  # kala lete, default, default
   sub uF1914 uni200D uF1928 by uFF9A8;  # kala lili, default, default
+  sub uF1914 uni200D uF1954 by uFFE01;  # kala pona, scaled
   sub uF1915 uni200D uF193B by uFF9A9;  # kalama musi, stacked
-  sub uF1916 uni200D uF1961 by uFFDED;  # kama sona
-  sub uF1917 uni200D uF1912 by uFF9AA;  # kesi jelo, stacked
+  sub uF1916 uni200D uF1954 by uFFE02;  # kama pona, stacked
+  sub uF1916 uni200D uF1961 by uFFE03;  # kama sona, stacked
+  sub uF1917 uni200D uF1912 by uFF9AA;  # kasi jelo, stacked
+  sub uF1917 uni200D uF191C by uFFE04;  # kasi ko, stacked
   sub uF1917 uni200D uF191E by uFF9AB;  # kasi kule, stacked
   sub uF1917 uni200D uF1923 by uFF9AC;  # kasi laso, stacked
   sub uF1917 uni200D uF1928 by uFF9AD;  # kasi lili, stacked
@@ -268,6 +272,7 @@ feature liga {
   sub uF191A uni200D uF194F by uFF9B6;  # kili pimeja, scaled
   sub uF191A uni200D uF1966 by uFF9B7;  # kili suwi, scaled
   sub uF191A uni200D uF1972 by uFF9B8;  # kili walo, scaled
+  sub uF191B uni200D uF190D by uFFD2A;  # kiwen ike, scaled
   sub uF191B uni200D uF1912 by uFF9B9;  # kiwen jelo, scaled
   sub uF191B uni200D uF1917 by uFF9BA;  # kiwen kasi, scaled
   sub uF191B uni200D uF1923 by uFF9BB;  # kiwen laso, scaled
@@ -276,6 +281,7 @@ feature liga {
   sub uF191B uni200D uF192B by uFF9BE;  # kiwen loje, scaled
   sub uF191B uni200D uF193A by uFF9BF;  # kiwen mun, scaled
   sub uF191B uni200D uF194F by uFF9C0;  # kiwen pimeja, scaled
+  sub uF191B uni200D uF1954 by uFFD2B;  # kiwen pona, scaled
   sub uF191B uni200D uF1957 by uFF9C1;  # kiwen seli, scaled
   sub uF191B uni200D uF1964 by uFF9C2;  # kiwen suno, scaled
   sub uF191B uni200D uF1972 by uFF9C3;  # kiwen walo, scaled
@@ -414,6 +420,7 @@ feature liga {
   sub uF194E uni200D uF1948 by uFFA07;  # pilin pakala, scaled
   sub uF194E uni200D uF1954 by uFFA08;  # pilin pona, scaled
   sub uF194E uni200D uF1956 by uFFA09;  # pilin sama, scaled
+  sub uF194E uni200D uF1959 by uFFE05;  # pilin seme, scaled
   sub uF194F uni200D uF1912 by uFFD09;  # pimeja jelo, combined
   sub uF194F uni200D uF1923 by uFFD0A;  # pimeja laso, combined
   sub uF194F uni200D uF192B by uFFD0B;  # pimeja loje, combined
@@ -455,10 +462,14 @@ feature liga {
   sub uF1965 uni200D uF1936 by uFFA2A;  # supa moku, stacked
   sub uF1965 uni200D uF1938 by uFFA2B;  # supa monsi, stacked
   sub uF1965 uni200D uF1949 by uFFA2C;  # supa pali, stacked
+  sub uF1969 uni200D uF1954 by uFFE06;  # tawa pona, stacked
+  sub uF1969 uni200D uF1961 by uFFE07;  # tawa sona, stacked
   sub uF196A uni200D uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uni200D uF1928 by uFFA2E;  # telo lili, scaled
   sub uF196A uni200D uF1960 by uFFD0C;  # telo sitelen, scaled
+  sub uF196B uni200D uF190D by uFFD2C;  # tenpo ike, stacked
   sub uF196B uni200D uF1941 by uFFD03;  # tenpo ni, stacked
+  sub uF196B uni200D uF1954 by uFFD2D;  # tenpo pona, stacked
   sub uF196C uni200D uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uni200D uF190D by uFFA30;  # toki ike, scaled
   sub uF196C uni200D uF1954 by uFFA31;  # toki pona, scaled
@@ -473,6 +484,7 @@ feature liga {
   sub uF196D uni200D uF1949 by uFFA3A;  # tomo pali, scaled
   sub uF196D uni200D uF1961 by uFFA3B;  # tomo sona, scaled
   sub uF196D uni200D uF1969 by uFFA3C;  # tomo tawa, scaled
+  sub uF196D uni200D uF196A by uFFE08;  # tomo telo, scaled
   sub uF196D uni200D uF196F by uFFA3D;  # tomo unpa, scaled
   sub uF196D uni200D uF1971 by uFFA3E;  # tomo utala, scaled
   sub uF196D uni200D uF197D by uFFA38;  # tomo monsuta, scaled
@@ -743,10 +755,15 @@ feature liga {
   sub uF1911 uF1996 uFFD75 by uFF997;  # jan olin, doubled pilin, scaled
   sub uF1914 uF1995 uF1926 by uFFBB9;  # kala lete, default, stacked
   sub uF1914 uF1995 uF1928 by uFFBBB;  # kala lili, default, stacked
+  sub uF1914 uF1996 uF190D by uFFE00;  # kala ike, scaled
   sub uF1914 uF1996 uF1926 by uFF9A7;  # kala lete, default, scaled
   sub uF1914 uF1996 uF1928 by uFF9A8;  # kala lili, default, scaled
+  sub uF1914 uF1996 uF1954 by uFFE01;  # kala pona, scaled
   sub uF1915 uF1995 uF193B by uFF9A9;  # kalama musi, stacked
-  sub uF1917 uF1995 uF1912 by uFF9AA;  # kesi jelo, stacked
+  sub uF1916 uF1995 uF1954 by uFFE02;  # kama pona, stacked
+  sub uF1916 uF1995 uF1961 by uFFE03;  # kama sona, stacked
+  sub uF1917 uF1995 uF1912 by uFF9AA;  # kasi jelo, stacked
+  sub uF1917 uF1995 uF191C by uFFE04;  # kasi ko, stacked
   sub uF1917 uF1995 uF191E by uFF9AB;  # kasi kule, stacked
   sub uF1917 uF1995 uF1923 by uFF9AC;  # kasi laso, stacked
   sub uF1917 uF1995 uF1928 by uFF9AD;  # kasi lili, stacked
@@ -761,6 +778,7 @@ feature liga {
   sub uF191A uF1996 uF194F by uFF9B6;  # kili pimeja, scaled
   sub uF191A uF1996 uF1966 by uFF9B7;  # kili suwi, scaled
   sub uF191A uF1996 uF1972 by uFF9B8;  # kili walo, scaled
+  sub uF191B uF1996 uF190D by uFFD2A;  # kiwen ike, scaled
   sub uF191B uF1996 uF1912 by uFF9B9;  # kiwen jelo, scaled
   sub uF191B uF1996 uF1917 by uFF9BA;  # kiwen kasi, scaled
   sub uF191B uF1996 uF1923 by uFF9BB;  # kiwen laso, scaled
@@ -769,6 +787,7 @@ feature liga {
   sub uF191B uF1996 uF192B by uFF9BE;  # kiwen loje, scaled
   sub uF191B uF1996 uF193A by uFF9BF;  # kiwen mun, scaled
   sub uF191B uF1996 uF194F by uFF9C0;  # kiwen pimeja, scaled
+  sub uF191B uF1996 uF1954 by uFFD2B;  # kiwen pona, scaled
   sub uF191B uF1996 uF1957 by uFF9C1;  # kiwen seli, scaled
   sub uF191B uF1996 uF1964 by uFF9C2;  # kiwen suno, scaled
   sub uF191B uF1996 uF1972 by uFF9C3;  # kiwen walo, scaled
@@ -912,6 +931,7 @@ feature liga {
   sub uF194E uF1996 uF1948 by uFFA07;  # pilin pakala, scaled
   sub uF194E uF1996 uF1954 by uFFA08;  # pilin pona, scaled
   sub uF194E uF1996 uF1956 by uFFA09;  # pilin sama, scaled
+  sub uF194E uF1996 uF1959 by uFFE05;  # pilin seme, scaled
   sub uF1953 uF1996 uF191D by uFFA0A;  # poki kon, scaled
   sub uF1953 uF1996 uF1925 by uFFA0B;  # poki len, scaled
   sub uF1953 uF1996 uF1926 by uFFA0C;  # poki lete, scaled
@@ -950,10 +970,14 @@ feature liga {
   sub uF1965 uF1995 uF1936 by uFFA2A;  # supa moku, stacked
   sub uF1965 uF1995 uF1938 by uFFA2B;  # supa monsi, stacked
   sub uF1965 uF1995 uF1949 by uFFA2C;  # supa pali, stacked
+  sub uF1969 uF1995 uF1954 by uFFE06;  # tawa pona, stacked
+  sub uF1969 uF1995 uF1961 by uFFE07;  # tawa sona, stacked
   sub uF196A uF1996 uF1926 by uFFA2D;  # telo lete, scaled
   sub uF196A uF1996 uF1928 by uFFA2E;  # telo lili, scaled
   sub uF196A uF1996 uF1960 by uFFD0C;  # telo sitelen, scaled
+  sub uF196B uF1995 uF190D by uFFD2C;  # tenpo ike, stacked
   sub uF196B uF1995 uF1941 by uFFD03;  # tenpo ni, stacked
+  sub uF196B uF1995 uF1954 by uFFD2D;  # tenpo pona, stacked
   sub uF196C uF1996 uF1902 by uFFA2F;  # toki ala, scaled
   sub uF196C uF1996 uF190D by uFFA30;  # toki ike, scaled
   sub uF196C uF1996 uF1954 by uFFA31;  # toki pona, scaled
@@ -968,6 +992,7 @@ feature liga {
   sub uF196D uF1996 uF1949 by uFFA3A;  # tomo pali, scaled
   sub uF196D uF1996 uF1961 by uFFA3B;  # tomo sona, scaled
   sub uF196D uF1996 uF1969 by uFFA3C;  # tomo tawa, scaled
+  sub uF196D uF1996 uF196A by uFFE08;  # tomo telo, scaled
   sub uF196D uF1996 uF196F by uFFA3D;  # tomo unpa, scaled
   sub uF196D uF1996 uF1971 by uFFA3E;  # tomo utala, scaled
   sub uF196D uF1996 uF197D by uFFA38;  # tomo monsuta, scaled
