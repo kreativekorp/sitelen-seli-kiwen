@@ -3742,7 +3742,6 @@ feature liga {
   sub K e p i space by uFFD40;  # jan Kepi (Kirby)
   sub K i t a space by uFFDE4;  # jan Kita
   sub K o k o space by uFFD42;  # jan Koko
-  sub L e w i space by uFFD43;  # jan Lewi
   sub L u k e space by uFFD44;  # jan Luke
   sub L u n a space by uFFD45;  # jan Luna
   sub M a k i space by uFFD46;  # jan Maki
@@ -3922,7 +3921,6 @@ feature liga {
   sub K e p i by uFFD40;  # jan Kepi (Kirby)
   sub K i t a by uFFDE4;  # jan Kita
   sub K o k o by uFFD42;  # jan Koko
-  sub L e w i by uFFD43;  # jan Lewi
   sub L u k e by uFFD44;  # jan Luke
   sub L u n a by uFFD45;  # jan Luna
   sub M a k i by uFFD46;  # jan Maki
