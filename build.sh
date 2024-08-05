@@ -51,9 +51,9 @@ rm *_base.sfd
 # Add OpenType features (FontForge completely fouls this up on its own)
 cd features
 $SITELENPONA -g ../sitelenselikiwen.sfd
-cat languages.fea sequences.fea joiners.fea asuki.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenasuki_base.fea
-cat languages.fea sequences.fea joiners.fea atuki.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenatuki_base.fea
-cat languages.fea sequences.fea joiners.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenjuniko_base.fea
+cat languages.fea sequences.fea joiners.fea asuki.fea variants.fea extendable.fea extensions.fea vertical.fea > ../sitelenselikiwenasuki_base.fea
+cat languages.fea sequences.fea joiners.fea atuki.fea variants.fea extendable.fea extensions.fea vertical.fea > ../sitelenselikiwenatuki_base.fea
+cat languages.fea sequences.fea joiners.fea variants.fea extendable.fea extensions.fea vertical.fea > ../sitelenselikiwenjuniko_base.fea
 cd ..
 
 $FONTTOOLS feaLib -o sitelenselikiwenasuki.ttf sitelenselikiwenasuki_base.fea sitelenselikiwenasuki_base.ttf
