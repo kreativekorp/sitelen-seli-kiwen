@@ -199,6 +199,7 @@ feature liga {
   sub uF190C uni200D uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190C uni200D uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190C uni200D uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
+  sub uF190C uni200D uFFEA6 by uFFEA7;  # ijo Stella
   sub uF190D uni200D uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uni200D uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uni200D uF192E by uFF97E;  # ike lukin, stacked
@@ -524,6 +525,8 @@ feature liga {
   sub uFFAA2 uni200D uF1975 by uFFBE3;  # mije wawa, male sign, scaled
   sub uFFAA2 uni200D uF197E by uFFBE1;  # mije tonsi, male sign, scaled
   sub uFFAA2 uni200D uFFAA1 by uFFD08;  # mije meli, male and female sign, combined
+  sub uFFE68 uni200D uF195D by uFFE6A;  # lan sin, default
+  sub uFFE69 uni200D uF195D by uFFE6B;  # lan sin, ka
 
   sub germandbls uni200D uF1980 by uFFBEF;  # sharp s + kijetesantakalu
   sub s uni200D uF1922 by uFFB8D;  # s + lape = slape
@@ -703,6 +706,7 @@ feature liga {
   sub uF190C uF1996 uFFD63 by uFF901;  # ijo akesi, scaled
   sub uF190C uF1996 uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190C uF1996 uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
+  sub uF190C uF1996 uFFEA6 by uFFEA7;  # ijo Stella
   sub uF190D uF1995 uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uF1995 uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uF1995 uF192E by uFF97E;  # ike lukin, stacked

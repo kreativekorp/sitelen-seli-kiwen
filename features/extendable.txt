@@ -80,3 +80,19 @@ uFFB82	uFFB83	------	------	------	------	# wi
 uFFB86	uFFB87	uFFB88	uFFB89	------	------	# sowoli
 uFFBA1	uFFBA2	uFFBA3	uFFBA4	------	------	# kijosin
 uFFBA5	uFFBA6	uFFBA7	uFFBA8	------	------	# linluwi, with emitters
+
+# rules for glyphs that can be automatically cartouched
+allow all
+deny U+0300-036F
+deny U+200B-200F
+deny U+2028-202E
+deny U+2060-206F
+deny U+FE00-FE0F
+deny uF199E
+deny uF199F
+deny uFFA50
+deny uFFA51
+deny uFFA51.busted
+deny uFFAB9
+deny uFFABA
+deny ^.+[.]stacked$
