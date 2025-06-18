@@ -1,6 +1,7 @@
 feature liga {
 
   # Sequences of length 5, using zero width joiners
+  sub uF191F uni200D uF1949 uni200D uF194D uni200D uF1960 uni200D uF1954 by uFFEAE;  # kulupu pali pi sitelen pona (Sitelen Pona Publishers and Typographers Association)
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF196E uni200D uF196E by uFFBC9;  # luka luka luka tu tu
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF196E uni200D uF1973 by uFFBCA;  # luka luka luka tu wan
   sub uF192D uni200D uF192D uni200D uF192D uni200D uF1973 uni200D uF196E by uFFBCC;  # luka luka luka wan tu
@@ -200,6 +201,7 @@ feature liga {
   sub uF190C uni200D uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190C uni200D uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
   sub uF190C uni200D uFFEA6 by uFFEA7;  # ijo Stella
+  sub uF190C uni200D uFFEAB by uFFEAC;  # ijo vivi
   sub uF190D uni200D uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uni200D uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uni200D uF192E by uFF97E;  # ike lukin, stacked
@@ -457,6 +459,7 @@ feature liga {
   sub uF1961 uni200D uF196C by uFFA25;  # sona toki, scaled
   sub uF1961 uni200D uF1971 by uFFA26;  # sona utala, scaled
   sub uF1962 uni200D uF1980 by uFFD29;  # soweli kijetesantakalu, stacked
+  sub uF1964 uni200D uF1956 by uFFE0C;  # suno sama, scaled
   sub uF1965 uni200D uF1922 by uFFA27;  # supa lape, stacked
   sub uF1965 uni200D uF1924 by uFFA28;  # supa lawa, stacked
   sub uF1965 uni200D uF192F by uFFA29;  # supa lupa, stacked
@@ -707,6 +710,7 @@ feature liga {
   sub uF190C uF1996 uFFD68 by uFF938;  # ijo moli, scaled
   sub uF190C uF1996 uFFD75 by uFF948;  # ijo olin, doubled pilin, scaled
   sub uF190C uF1996 uFFEA6 by uFFEA7;  # ijo Stella
+  sub uF190C uF1996 uFFEAB by uFFEAC;  # ijo vivi
   sub uF190D uF1995 uF1902 by uFF97C;  # ike ala, stacked
   sub uF190D uF1995 uF1928 by uFF97D;  # ike lili, stacked
   sub uF190D uF1995 uF192E by uFF97E;  # ike lukin, stacked
@@ -968,6 +972,7 @@ feature liga {
   sub uF1961 uF1996 uF196C by uFFA25;  # sona toki, scaled
   sub uF1961 uF1996 uF1971 by uFFA26;  # sona utala, scaled
   sub uF1962 uF1995 uF1980 by uFFD29;  # soweli kijetesantakalu, stacked
+  sub uF1964 uF1996 uF1956 by uFFE0C;  # suno sama, scaled
   sub uF1965 uF1995 uF1922 by uFFA27;  # supa lape, stacked
   sub uF1965 uF1995 uF1924 by uFFA28;  # supa lawa, stacked
   sub uF1965 uF1995 uF192F by uFFA29;  # supa lupa, stacked

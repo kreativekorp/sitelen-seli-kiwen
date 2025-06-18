@@ -1,5 +1,8 @@
 feature liga {
 
+  # Sequences of length 27
+  sub k u l u p u plus p a l i plus p i plus s i t e l e n plus p o n a by uFFEAE;  # kulupu pali pi sitelen pona (Sitelen Pona Publishers and Typographers Association)
+
   # Sequences of length 24
   sub p a l i plus p a l i plus a l e plus p o n a plus e p i k u by uFFDE6;  # pali Pape (Project Babel)
 
@@ -7,7 +10,7 @@ feature liga {
   sub k i j e t e s a n t a k a l u plus s o w e l i by uFFD28;  # kijetesantakalu soweli, stacked
   sub k i j e t e s a n t a k a l u hyphen s o w e l i by uFFD28;  # kijetesantakalu soweli, stacked
   sub k i j e t e s a n t a k a l u asciicircum s o w e l i by uFFD28;  # kijetesantakalu soweli, stacked
-  sub l i p u plus W e s i plus p i plus t o k i plus p o n a by uFFBF3;  # lipu Wesi pi toki pona
+  sub l i p u plus W e s i plus p i plus t o k i plus p o n a by uFFBF3;  # lipu Wesi pi toki pona (r/tokipona)
   sub s o w e l i plus k i j e t e s a n t a k a l u by uFFD29;  # soweli kijetesantakalu, stacked
   sub s o w e l i hyphen k i j e t e s a n t a k a l u by uFFD29;  # soweli kijetesantakalu, stacked
   sub s o w e l i asciicircum k i j e t e s a n t a k a l u by uFFD29;  # soweli kijetesantakalu, stacked
@@ -205,6 +208,7 @@ feature liga {
 
   # Sequences of length 10
   sub J u s i j e s u w a by uFFB9F;  # Jusijesuwa (UCSUR)
+  sub W i k i p e s i j a by uFFEAD;  # Wikipesija (toki pona Wikipedia)
   sub i j o asterisk S t e l l a by uFFEA7;  # ijo Stella
   sub i j o asterisk a k e s i one by uFF901;  # ijo akesi, scaled
   sub i j o asterisk a k e s i two by uFF901;  # ijo akesi, scaled
@@ -904,6 +908,9 @@ feature liga {
   sub s o n a hyphen l i l i by uFFA1F;  # sona lili, scaled
   sub s o n a hyphen p o n a by uFFA22;  # sona pona, scaled
   sub s o n a hyphen t o k i by uFFA25;  # sona toki, scaled
+  sub s u n o asterisk s a m a by uFFE0C;  # suno sama, scaled
+  sub s u n o plus s a m a by uFFE0C;  # suno sama, scaled
+  sub s u n o hyphen s a m a by uFFE0C;  # suno sama, scaled
   sub s u p a plus l a p e by uFFA27;  # supa lape, stacked
   sub s u p a plus l a w a by uFFA28;  # supa lawa, stacked
   sub s u p a plus l u p a by uFFA29;  # supa lupa, stacked
@@ -1050,6 +1057,7 @@ feature liga {
   sub i j o asterisk u n p a by uFF973;  # ijo unpa, scaled
   sub i j o asterisk u t a one by uFF974;  # ijo uta, dotted, scaled
   sub i j o asterisk u t a two by uFFBB5;  # ijo uta, dotless, scaled
+  sub i j o asterisk v i v i by uFFEAC;  # ijo vivi
   sub i j o asterisk w a l o by uFF976;  # ijo walo, scaled
   sub i j o asterisk w a s o by uFF978;  # ijo waso, scaled
   sub i j o asterisk w a w a by uFF979;  # ijo wawa, scaled
@@ -1122,6 +1130,7 @@ feature liga {
   sub i j o plus u n p a by uFF973;  # ijo unpa, scaled
   sub i j o plus u t a one by uFF974;  # ijo uta, dotted, scaled
   sub i j o plus u t a two by uFFBB5;  # ijo uta, dotless, scaled
+  sub i j o plus v i v i by uFFEAC;  # ijo vivi
   sub i j o plus w a l o by uFF976;  # ijo walo, scaled
   sub i j o plus w a s o by uFF978;  # ijo waso, scaled
   sub i j o plus w a w a by uFF979;  # ijo wawa, scaled
@@ -1194,6 +1203,7 @@ feature liga {
   sub i j o hyphen u n p a by uFF973;  # ijo unpa, scaled
   sub i j o hyphen u t a one by uFF974;  # ijo uta, dotted, scaled
   sub i j o hyphen u t a two by uFFBB5;  # ijo uta, dotless, scaled
+  sub i j o hyphen v i v i by uFFEAC;  # ijo vivi
   sub i j o hyphen w a l o by uFF976;  # ijo walo, scaled
   sub i j o hyphen w a s o by uFF978;  # ijo waso, scaled
   sub i j o hyphen w a w a by uFF979;  # ijo wawa, scaled
@@ -1512,6 +1522,8 @@ feature liga {
   sub k i j e t e two by uFFDC8;  # kijete, clipping of kijetesantakalu, armadillo
   sub k i j o s i n by uFFBA1;  # kijosin
   sub k i l i plus m a by uFFB95;  # kulupu Kilima
+  sub k i p i s i one by uF197B;  # kipisi, percent sign
+  sub k i p i s i two by uFFE0B;  # kipisi, scissors
   sub k o asterisk j a k i by uFF9C4;  # ko jaki, scaled
   sub k o asterisk j e l o by uFF9C5;  # ko jelo, scaled
   sub k o asterisk k a s i by uFF9C6;  # ko kasi, scaled
@@ -1604,6 +1616,8 @@ feature liga {
   sub s o n a asterisk m a by uFFA20;  # sona ma, scaled
   sub s o n a plus m a by uFFA20;  # sona ma, scaled
   sub s o n a hyphen m a by uFFA20;  # sona ma, scaled
+  sub s o w e l i one by uF1962;  # soweli, pu
+  sub s o w e l i two by uFFE09;  # soweli, unicorn
   sub t a a a s u n by uFFDF9;  # tasun, three ideographs wide
   sub t o k a n a one by uFFB70;  # tokana, magnifying glass
   sub t o k a n a two by uFFDA9;  # tokana, rotated ante with dot
@@ -1683,7 +1697,7 @@ feature liga {
   sub k i k o l o by uFFD8F;  # kikolo
   sub k i k u l o by uFFD90;  # kikulo
   sub k i n u t e by uFFE5A;  # kinute
-  sub k i p i s i by uF197B;  # kipisi
+  sub k i p i s i by uF197B;  # kipisi, default
   sub k u l a s o by uFFDCA;  # kulaso (green laso, glaso)
   sub k u l i j o by uFFAE1;  # kulijo, default
   sub k u l u p u by uF191F;  # kulupu
@@ -1728,7 +1742,7 @@ feature liga {
   sub s i p i j e by uFFDA2;  # sipije
   sub s i w a l a by uFFDA4;  # siwala
   sub s o k e l i by uFFE65;  # sokeli
-  sub s o w e l i by uF1962;  # soweli
+  sub s o w e l i by uF1962;  # soweli, default
   sub s o w o l i by uFFB86;  # sowoli
   sub s u l a s o by uFFDCB;  # sulaso (cyan laso, slaso); same glyph as kewe
   sub t a a s u n by uFFDF8;  # tasun, two ideographs wide
@@ -1739,6 +1753,7 @@ feature liga {
   sub t a s u n five by uFFDF9;  # tasun, three ideographs wide
   sub t a s u n six by uFFDFA;  # tasun, left part, two ideographs wide
   sub t a s u n seven by uFFDFB;  # tasun, right part, two ideographs wide
+  sub t a w a k e by uFFE6D;  # tawake
   sub t e n p o one by uF196B;  # tenpo, clock
   sub t e n p o two by uFFBAD;  # tenpo, hourglass
   sub t o k a n a by uFFB70;  # tokana, default
@@ -1888,11 +1903,14 @@ feature liga {
   sub t o n s i by uF197E;  # tonsi, default
   sub t u plus t u by uFFA3F;  # tu tu, horizontal
   sub t u hyphen t u by uFFA3F;  # tu tu, horizontal
-  sub t u l i one by uFFAEB;  # tuli, three sticks
+  sub t u l i one by uFFAEB;  # tuli, three vertical harpoons
   sub t u l i two by uFFE63;  # tuli, Arabic numeral
+  sub t u l i three by uFFE6C;  # tuli, three horizontal lines
   sub u m e s u by uFFAF2;  # umesu, default
   sub u s a w i by uFFAF6;  # usawi
   sub u t a l a by uF1971;  # utala
+  sub v i v i one by uFFEAB;  # ijo vivi
+  sub v i v i two by uFFEAC;  # ijo vivi
   sub w a k e n by uFFBAA;  # waken
   sub w i l e one by uF1977;  # wile, curved w
   sub w i l e two by uFFAA6;  # wile, turned pilin
@@ -1900,6 +1918,9 @@ feature liga {
   # Sequences of length 4
   sub A n s u by uFFD33;  # jan Ansu
   sub A n t e by uFFEA3;  # mute Ante
+  sub E k o one by uFFB92;  # ilo Eko
+  sub E k o two by uFFEA9;  # waso Eko, waso lukin
+  sub E k o three by uFFEAA;  # waso Eko, soweli lukin
   sub E n k i by uFFDEE;  # kije Enki
   sub I p a n by uFFEA8;  # waso musi Ipan
   sub J e s i by uFFDD0;  # akesi Jesi
@@ -2043,8 +2064,9 @@ feature liga {
   sub s a j a by uFFDB0;  # saja
   sub s a m a by uF1956;  # sama
   sub s a m u by uFFAC9;  # samu
-  sub s a n one by uFFAEB;  # san, three sticks
+  sub s a n one by uFFAEB;  # san, three vertical harpoons
   sub s a n two by uFFE63;  # san, Arabic numeral
+  sub s a n three by uFFE6C;  # san, three horizontal lines
   sub s e l i by uF1957;  # seli
   sub s e l o by uF1958;  # selo
   sub s e m e by uF1959;  # seme
@@ -2080,6 +2102,7 @@ feature liga {
   sub u n p a by uF196F;  # unpa
   sub u t a one by uF1970;  # uta, dotted
   sub u t a two by uFFAA5;  # uta, dotless
+  sub v i v i by uFFEAB;  # ijo vivi
   sub w a l o by uF1972;  # walo
   sub w a s o by uF1974;  # waso
   sub w a w a by uF1975;  # wawa
@@ -2168,8 +2191,9 @@ feature liga {
   sub s a n by uFFAEB;  # san, default
   sub s i backslash by uFFDF0;  # silapa, top part
   sub s i n by uF195D;  # sin
-  sub s u one by uFFB2F;  # su, reserved word
-  sub s u two by uFFB3D;  # su, question marker
+  sub s u zero by uFFB3D;  # su, question marker
+  sub s u one by uFFB2F;  # su, Oz
+  sub s u two by uFFE0A;  # su, unicorn
   sub t a one by uFFDA7;  # ta (particle)
   sub t a two by uFFE53;  # ta (content word)
   sub t a a by uFFDFA;  # tasun, left part, two ideographs wide
