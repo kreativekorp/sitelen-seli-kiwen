@@ -3,3 +3,12 @@
 ===FamilyName: sitelen seli kiwen mono juniko
 ===Ascent: 800
 ===Descent: 200
+
+@@@SortByCodePoint
+
+@@@SitelenPonaCartouche exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash
+@@@SitelenPonaCartouche zero one two three four five six seven eight nine colon semicolon less equal greater question
+@@@SitelenPonaCartouche at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z bracketleft backslash bracketright asciicircum underscore
+@@@SitelenPonaCartouche grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft bar braceright asciitilde
+@@@SitelenPonaCartouche degree uni3001 uni3001.vs2 uni3002 uni3002.vs2 uni300C uni300D uni300E uni300F uni309B uni309C uniFF9E uniFF9F
+@@@SitelenPonaCartouche /^(uF19[0-8][0-9A-F]|uF199[CD]|uF19[A-F][0-9A-F]|uF1C[4-6][0-9A-F]|uF1C7[0-9A-D]|uF1C[89][0-9A-F])([.]rand[0-9]+)?$/

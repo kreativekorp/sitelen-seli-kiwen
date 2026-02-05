@@ -1,0 +1,14 @@
+@commonMark = [gravecomb acutecomb uni0302 tildecomb uni0304 uni0306 uni0307 uni0308 uni030A uni030B uni030C uni030D uni030F uni0311 uni0327 uni0328];
+@sitelenPonaMark = [uF1992 uF1994 uF1999 uF199E uFFEF0 uFFEF1 uFFEF2 uFFEF3 uFFEF4 uFFEF5 uFFEF6];
+
+@BASE = [];
+@LIGATURE = [];
+@MARK = [
+  @commonMark
+  @sitelenPonaMark
+];
+@COMPONENT = [];
+
+table GDEF {
+  GlyphClassDef @BASE, @LIGATURE, @MARK, @COMPONENT;
+} GDEF;

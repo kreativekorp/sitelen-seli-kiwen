@@ -4,6 +4,6 @@ languagesystem grek dflt;
 languagesystem cyrl dflt;
 
 include (latin.fea);
-include (spascii.fea);
-include (spbase.fea);
+include (tpascii.fea);
+include (spmono.fea);
 include (marks.fea);

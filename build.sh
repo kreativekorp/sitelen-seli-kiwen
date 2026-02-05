@@ -27,7 +27,7 @@ else
 fi
 
 SFDPATCH="python openrelay-tools/tools/sfdpatch.py"
-SITELENPONA="python ../openrelay-tools/tools/sitelenpona.py"
+SITELENPANA="python ../openrelay-tools/tools/sitelenpana.py"
 BLOCKS="python openrelay-tools/tools/blocks.py"
 UNIDATA="python openrelay-tools/tools/unicodedata.py"
 PUAABOOK="python openrelay-tools/tools/puaabook.py"
@@ -44,38 +44,39 @@ $SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monoasuki.txt > sitelenselikiwenmono
 $SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monoatuki.txt > sitelenselikiwenmonoatuki_base.sfd
 $SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monojuniko.txt > sitelenselikiwenmonojuniko_base.sfd
 
+# Generate fea
+cd features
+$SITELENPANA -f ../sitelenselikiwenasuki_base.sfd -i sitelenpona.txt -a spascii.fea -o spbase.fea
+$SITELENPANA -f ../sitelenselikiwenatuki_base.sfd -i titipula.txt -a tpascii.fea -o /dev/null
+$SITELENPANA -f ../sitelenselikiwenmonoasuki_base.sfd -i sitelenpona.txt -a /dev/null -o spmono.fea
+$SITELENPANA -f ../sitelenselikiwenmonoatuki_base.sfd -i titipula.txt -a /dev/null -o /dev/null
+cd ..
+
 # Generate ttf
 $FONTFORGE -lang=ff -c 'i = 1; while (i < $argc); Open($argv[i]); Generate($argv[i]:r + ".ttf", "", 0); i = i+1; endloop' \
 	sitelenselikiwenasuki_base.sfd sitelenselikiwenatuki_base.sfd sitelenselikiwenjuniko_base.sfd \
 	sitelenselikiwenmonoasuki_base.sfd sitelenselikiwenmonoatuki_base.sfd sitelenselikiwenmonojuniko_base.sfd
 
+# Add OpenType features
+$FONTTOOLS feaLib -o sitelenselikiwenasuki.ttf features/asuki.fea sitelenselikiwenasuki_base.ttf
+$FONTTOOLS feaLib -o sitelenselikiwenatuki.ttf features/atuki.fea sitelenselikiwenatuki_base.ttf
+$FONTTOOLS feaLib -o sitelenselikiwenjuniko.ttf features/juniko.fea sitelenselikiwenjuniko_base.ttf
+$FONTTOOLS feaLib -o sitelenselikiwenmonoasuki.ttf features/monoasuki.fea sitelenselikiwenmonoasuki_base.ttf
+$FONTTOOLS feaLib -o sitelenselikiwenmonoatuki.ttf features/monoatuki.fea sitelenselikiwenmonoatuki_base.ttf
+$FONTTOOLS feaLib -o sitelenselikiwenmonojuniko.ttf features/monojuniko.fea sitelenselikiwenmonojuniko_base.ttf
+
+# Clean up
 rm *_base.sfd
-
-# Add OpenType features (FontForge completely fouls this up on its own)
-cd features
-$SITELENPONA -s -g ../sitelenselikiwenmono.sfd
-cat languages.fea sequences.fea joiners.fea asuki.fea aargh.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenmonoasuki_base.fea
-cat languages.fea sequences.fea joiners.fea atuki.fea aargh.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenmonoatuki_base.fea
-cat languages.fea sequences.fea joiners.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenmonojuniko_base.fea
-$SITELENPONA -s -g ../sitelenselikiwen.sfd
-cat languages.fea sequences.fea joiners.fea asuki.fea aargh.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenasuki_base.fea
-cat languages.fea sequences.fea joiners.fea atuki.fea aargh.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenatuki_base.fea
-cat languages.fea sequences.fea joiners.fea variants.fea extendable.fea extensions.fea > ../sitelenselikiwenjuniko_base.fea
-cd ..
-
-$FONTTOOLS feaLib -o sitelenselikiwenasuki.ttf sitelenselikiwenasuki_base.fea sitelenselikiwenasuki_base.ttf
-$FONTTOOLS feaLib -o sitelenselikiwenatuki.ttf sitelenselikiwenatuki_base.fea sitelenselikiwenatuki_base.ttf
-$FONTTOOLS feaLib -o sitelenselikiwenjuniko.ttf sitelenselikiwenjuniko_base.fea sitelenselikiwenjuniko_base.ttf
-$FONTTOOLS feaLib -o sitelenselikiwenmonoasuki.ttf sitelenselikiwenmonoasuki_base.fea sitelenselikiwenmonoasuki_base.ttf
-$FONTTOOLS feaLib -o sitelenselikiwenmonoatuki.ttf sitelenselikiwenmonoatuki_base.fea sitelenselikiwenmonoatuki_base.ttf
-$FONTTOOLS feaLib -o sitelenselikiwenmonojuniko.ttf sitelenselikiwenmonojuniko_base.fea sitelenselikiwenmonojuniko_base.ttf
-
-rm *_base.fea
+rm features/spascii.fea
+rm features/spbase.fea
+rm features/spmono.fea
+rm features/tpascii.fea
 rm *_base.ttf
 
 # Inject PUAA table
-$BLOCKS ktt --mathematical-symbols-appendix --modifier-tone-letter-presentation-forms > Blocks.txt
-$UNIDATA ktt --mathematical-symbols-appendix --modifier-tone-letter-presentation-forms > UnicodeData.txt
+PUAAFLAGS="ktt --mathematical-symbols-appendix --modifier-tone-letter-presentation-forms"
+$BLOCKS $PUAAFLAGS > Blocks.txt
+$UNIDATA $PUAAFLAGS > UnicodeData.txt
 $PUAABOOK -D Blocks.txt UnicodeData.txt -I sitelenselikiwenjuniko.ttf -O pua.html
 $PYPUAA compile -D Blocks.txt UnicodeData.txt \
 	-I sitelenselikiwenasuki.ttf sitelenselikiwenatuki.ttf sitelenselikiwenjuniko.ttf \
