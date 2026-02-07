@@ -1,4 +1,5 @@
 *.bak
 *.pyc
 install.sh
+linku_*.json
 tmp.*

@@ -46,9 +46,9 @@ $SFDPATCH sitelenselikiwenmono.sfd sfdpatch/monojuniko.txt > sitelenselikiwenmon
 
 # Generate fea
 cd features
-$SITELENPANA -f ../sitelenselikiwenasuki_base.sfd -i sitelenpona.txt -a spascii.fea -o spbase.fea
+$SITELENPANA -f ../sitelenselikiwenasuki_base.sfd -i sitelenpona.txt -a spascii.fea -o spbase.fea -g ../glyphs.html -e sitelenselikiwenjuniko.eot -t sitelenselikiwenjuniko.ttf
 $SITELENPANA -f ../sitelenselikiwenatuki_base.sfd -i titipula.txt -a tpascii.fea -o /dev/null
-$SITELENPANA -f ../sitelenselikiwenmonoasuki_base.sfd -i sitelenpona.txt -a /dev/null -o spmono.fea
+$SITELENPANA -f ../sitelenselikiwenmonoasuki_base.sfd -i sitelenpona.txt -a /dev/null -o spmono.fea -g ../glyphsmono.html -e sitelenselikiwenmonojuniko.eot -t sitelenselikiwenmonojuniko.ttf
 $SITELENPANA -f ../sitelenselikiwenmonoatuki_base.sfd -i titipula.txt -a /dev/null -o /dev/null
 cd ..
 
@@ -90,6 +90,17 @@ $TTF2EOT < sitelenselikiwenjuniko.ttf > sitelenselikiwenjuniko.eot
 $TTF2EOT < sitelenselikiwenmonoasuki.ttf > sitelenselikiwenmonoasuki.eot
 $TTF2EOT < sitelenselikiwenmonoatuki.ttf > sitelenselikiwenmonoatuki.eot
 $TTF2EOT < sitelenselikiwenmonojuniko.ttf > sitelenselikiwenmonojuniko.eot
+
+# Update HTML documentation
+sed '/<!-- START GLYPH LIST -->/q' sitelenselikiwen.html > sitelenselikiwen_tmp.html
+sed '/<!-- START GLYPH LIST -->/q' sitelenselikiwenmono.html > sitelenselikiwenmono_tmp.html
+sed '1,/<body>/d;/<\/body>/,$d' glyphs.html >> sitelenselikiwen_tmp.html
+sed '1,/<body>/d;/<\/body>/,$d' glyphsmono.html >> sitelenselikiwenmono_tmp.html
+sed -n '/<!-- END GLYPH LIST -->/,$p' sitelenselikiwen.html >> sitelenselikiwen_tmp.html
+sed -n '/<!-- END GLYPH LIST -->/,$p' sitelenselikiwenmono.html >> sitelenselikiwenmono_tmp.html
+mv sitelenselikiwen_tmp.html sitelenselikiwen.html
+mv sitelenselikiwenmono_tmp.html sitelenselikiwenmono.html
+rm glyphs.html glyphsmono.html
 
 # Create zip
 zip sitelenselikiwen.zip OFL.txt pua.html \
