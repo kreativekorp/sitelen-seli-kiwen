@@ -1,0 +1,8 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem grek dflt;
+languagesystem cyrl dflt;
+
+include (latin.fea);
+include (spmononocjk.fea);
+include (marks.fea);
