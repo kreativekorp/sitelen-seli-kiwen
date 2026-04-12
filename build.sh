@@ -32,9 +32,11 @@ BLOCKS="python openrelay-tools/tools/blocks.py"
 UNIDATA="python openrelay-tools/tools/unicodedata.py"
 PUAABOOK="python openrelay-tools/tools/puaabook.py"
 PYPUAA="python openrelay-tools/tools/pypuaa.py"
+TTFHACK="python openrelay-tools/tools/ttfhack.py"
 
 # Clean
 rm -f *.sfd-* *_base.* *.ttf *.eot *.zip
+rm -f BoundsHack/*.ttf
 
 # Make patched versions
 $SFDPATCH sitelenselikiwen.sfd sfdpatch/asuki.txt > sitelenselikiwenasuki_base.sfd
@@ -107,6 +109,16 @@ $TTF2EOT < sitelenselikiwenmonoatuki.ttf > sitelenselikiwenmonoatuki.eot
 $TTF2EOT < sitelenselikiwenmonojuniko.ttf > sitelenselikiwenmonojuniko.eot
 $TTF2EOT < sitelenselikiwenmonojuniko-nocjk.ttf > sitelenselikiwenmonojuniko-nocjk.eot
 
+# Create bounds hacked version
+$TTFHACK if=sitelenselikiwenasuki.ttf yMax=1150 of=BoundsHack/sitelenselikiwenasuki.ttf
+$TTFHACK if=sitelenselikiwenatuki.ttf yMax=1150 of=BoundsHack/sitelenselikiwenatuki.ttf
+$TTFHACK if=sitelenselikiwenjuniko.ttf yMax=1150 of=BoundsHack/sitelenselikiwenjuniko.ttf
+$TTFHACK if=sitelenselikiwenjuniko-nocjk.ttf yMax=1150 of=BoundsHack/sitelenselikiwenjuniko-nocjk.ttf
+$TTFHACK if=sitelenselikiwenmonoasuki.ttf yMax=1150 of=BoundsHack/sitelenselikiwenmonoasuki.ttf
+$TTFHACK if=sitelenselikiwenmonoatuki.ttf yMax=1150 of=BoundsHack/sitelenselikiwenmonoatuki.ttf
+$TTFHACK if=sitelenselikiwenmonojuniko.ttf yMax=1150 of=BoundsHack/sitelenselikiwenmonojuniko.ttf
+$TTFHACK if=sitelenselikiwenmonojuniko-nocjk.ttf yMax=1150 of=BoundsHack/sitelenselikiwenmonojuniko-nocjk.ttf
+
 # Update HTML documentation
 sed '/<!-- START GLYPH LIST -->/q' sitelenselikiwen.html > sitelenselikiwen_tmp.html
 sed '/<!-- START GLYPH LIST -->/q' sitelenselikiwenmono.html > sitelenselikiwenmono_tmp.html
@@ -119,7 +131,7 @@ mv sitelenselikiwenmono_tmp.html sitelenselikiwenmono.html
 rm glyphs.html glyphsmono.html
 
 # Create zip
-zip sitelenselikiwen.zip OFL.txt pua.html \
+zip sitelenselikiwen.zip OFL.txt \
 	sitelenselikiwen.html sitelenselikiwenmono.html \
 	sitelenselikiwenasuki.ttf sitelenselikiwenasuki.eot \
 	sitelenselikiwenatuki.ttf sitelenselikiwenatuki.eot \
@@ -128,4 +140,5 @@ zip sitelenselikiwen.zip OFL.txt pua.html \
 	sitelenselikiwenmonoasuki.ttf sitelenselikiwenmonoasuki.eot \
 	sitelenselikiwenmonoatuki.ttf sitelenselikiwenmonoatuki.eot \
 	sitelenselikiwenmonojuniko.ttf sitelenselikiwenmonojuniko.eot \
-	sitelenselikiwenmonojuniko-nocjk.ttf sitelenselikiwenmonojuniko-nocjk.eot
+	sitelenselikiwenmonojuniko-nocjk.ttf sitelenselikiwenmonojuniko-nocjk.eot \
+	BoundsHack/* pua.html
