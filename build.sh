@@ -50,7 +50,7 @@ $SFDPATCH sitelenselikiwenmonojuniko_base.sfd sfdpatch/nocjk.txt > sitelenseliki
 
 # Generate fea
 cd features
-grep -E -v "uni(30|4E|51)" sitelenpona.txt > sitelenpona-nocjk.txt
+grep -E -v "uni(30|4E|51|FF)" sitelenpona.txt > sitelenpona-nocjk.txt
 $SITELENPANA -f ../sitelenselikiwenjuniko_nocjk_base.sfd -i sitelenpona-nocjk.txt -a /dev/null -o spnocjk.fea
 $SITELENPANA -f ../sitelenselikiwenasuki_base.sfd -i sitelenpona.txt -a spascii.fea -o spbase.fea -g ../glyphs.html -e sitelenselikiwenjuniko.eot -t sitelenselikiwenjuniko.ttf
 $SITELENPANA -f ../sitelenselikiwenatuki_base.sfd -i titipula.txt -a tpascii.fea -o /dev/null
