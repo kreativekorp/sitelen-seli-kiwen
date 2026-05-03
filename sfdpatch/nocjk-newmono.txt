@@ -1,0 +1,7 @@
+===FontName: sitelenselikiwenmonoCJKala
+===FullName: sitelen seli kiwen mono CJK ala
+===FamilyName: sitelen seli kiwen mono CJK ala
+
+@@@RemoveChar /^uni(2F|[3-9][0-9A-F])[0-9A-F][0-9A-F]([.].+)?$/
+@@@RemoveChar /^uniFF[0-9A-E][0-9A-F]([.].+)?$/
+@@@RemoveChar /^uFFF[6-9A-E][0-9A-F]([.].+)?$/
