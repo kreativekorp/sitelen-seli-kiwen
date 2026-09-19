@@ -27,7 +27,7 @@ else
 fi
 
 SFDPATCH="python openrelay-tools/tools/sfdpatch.py"
-SITELENPANA="python ../openrelay-tools/tools/sitelenpana.py"
+SITELENPANA="python openrelay-tools/tools/sitelenpana.py"
 BLOCKS="python openrelay-tools/tools/blocks.py"
 UNIDATA="python openrelay-tools/tools/unicodedata.py"
 PUAABOOK="python openrelay-tools/tools/puaabook.py"
@@ -51,15 +51,37 @@ $SFDPATCH sitelenselikiwenmonojuniko_base.sfd sfdpatch/nocjk-newmono.txt > sitel
 $SFDPATCH sitelenselikiwenmonojuniko_base.sfd sfdpatch/nocjk-samename.txt > sitelenselikiwenmono_nocjk_samename_base.sfd
 
 # Generate fea
-cd features
-grep -E -v "uni(30|4E|51|FF)" sitelenpona.txt > sitelenpona-nocjk.txt
-$SITELENPANA -f ../sitelenselikiwen_nocjk_newname_base.sfd -i sitelenpona-nocjk.txt -a /dev/null -o spnocjk.fea
-$SITELENPANA -f ../sitelenselikiwenasuki_base.sfd -i sitelenpona.txt -a spascii.fea -o spbase.fea -g ../glyphs.html -e sitelenselikiwenjuniko.eot -t sitelenselikiwenjuniko.ttf
-$SITELENPANA -f ../sitelenselikiwenatuki_base.sfd -i titipula.txt -a tpascii.fea -o /dev/null
-$SITELENPANA -f ../sitelenselikiwenmono_nocjk_newname_base.sfd -i sitelenpona-nocjk.txt -a /dev/null -o spmononocjk.fea
-$SITELENPANA -f ../sitelenselikiwenmonoasuki_base.sfd -i sitelenpona.txt -a /dev/null -o spmono.fea -g ../glyphsmono.html -e sitelenselikiwenmonojuniko.eot -t sitelenselikiwenmonojuniko.ttf
-$SITELENPANA -f ../sitelenselikiwenmonoatuki_base.sfd -i titipula.txt -a /dev/null -o /dev/null
-cd ..
+grep -E -v "uni(30|4E|51|FF)" features/sitelenpona.txt > features/sitelenpona-nocjk.txt
+
+$SITELENPANA -f sitelenselikiwen_nocjk_newname_base.sfd \
+             -i features/sitelenpona-nocjk.txt \
+             -o features/sitelenpona-nocjk.fea
+
+$SITELENPANA -f sitelenselikiwenasuki_base.sfd \
+             -i features/sitelenpona.txt \
+             -a features/sitelenpona-ascii.fea \
+             -o features/sitelenpona-unicode.fea \
+             -g glyphs.html -e sitelenselikiwenjuniko.eot -t sitelenselikiwenjuniko.ttf
+
+$SITELENPANA -f sitelenselikiwenatuki_base.sfd \
+             -i features/sitelenpona.txt \
+             -l features/titipula.txt \
+             -a features/titipula-ascii.fea
+
+$SITELENPANA -f sitelenselikiwenmono_nocjk_newname_base.sfd \
+             -i features/sitelenpona-nocjk.txt \
+             -o features/sitelenpona-mono-nocjk.fea
+
+$SITELENPANA -f sitelenselikiwenmonoasuki_base.sfd \
+             -i features/sitelenpona.txt \
+             -a features/sitelenpona-mono-ascii.fea \
+             -o features/sitelenpona-mono-unicode.fea \
+             -g glyphsmono.html -e sitelenselikiwenmonojuniko.eot -t sitelenselikiwenmonojuniko.ttf
+
+$SITELENPANA -f sitelenselikiwenmonoatuki_base.sfd \
+             -i features/sitelenpona.txt \
+             -l features/titipula.txt \
+             -a features/titipula-mono-ascii.fea
 
 # Generate ttf
 $FONTFORGE -lang=ff -c 'i = 1; while (i < $argc); Open($argv[i]); Generate($argv[i]:r + ".ttf", "", 0); i = i+1; endloop' \
@@ -89,12 +111,14 @@ $FONTTOOLS feaLib -o sitelenselikiwenmono-nocjk-samename.ttf features/mononocjk.
 # Clean up
 rm *_base.sfd
 rm features/sitelenpona-nocjk.txt
-rm features/spascii.fea
-rm features/spbase.fea
-rm features/spmono.fea
-rm features/spmononocjk.fea
-rm features/spnocjk.fea
-rm features/tpascii.fea
+rm features/sitelenpona-ascii.fea
+rm features/sitelenpona-nocjk.fea
+rm features/sitelenpona-unicode.fea
+rm features/sitelenpona-mono-ascii.fea
+rm features/sitelenpona-mono-nocjk.fea
+rm features/sitelenpona-mono-unicode.fea
+rm features/titipula-ascii.fea
+rm features/titipula-mono-ascii.fea
 rm *_base.ttf
 
 # Convert to eot
